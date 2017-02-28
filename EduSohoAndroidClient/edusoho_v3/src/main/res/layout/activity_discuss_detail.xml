@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl_back"
+        android:background="@color/disabled1_hint_color"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/head_register_height">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="@dimen/iv_register"
+            android:layout_height="@dimen/iv_register"
+            android:layout_centerVertical="true"
+            android:scaleType="center"
+            android:src="@drawable/action_icon_back" />
+
+        <TextView
+            android:text="问答"
+            android:id="@+id/tv_title"
+            android:layout_centerInParent="true"
+            android:textColor="@color/primary_font_color"
+            android:textSize="@dimen/font_xl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_alignParentBottom="true"
+            android:background="@color/disabled_hint_color"
+            android:layout_width="match_parent"
+            android:layout_height="2px"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_below="@id/rl_back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/chat_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </FrameLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

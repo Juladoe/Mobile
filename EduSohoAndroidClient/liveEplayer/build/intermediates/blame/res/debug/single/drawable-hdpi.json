@@ -1,0 +1,646 @@
+[
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\video_logo.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\video_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-hdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\e_ciya.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\e_ciya.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-hdpi\\abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-hdpi\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-hdpi\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_laoshihao_10004.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_laoshihao_10004.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\e_moshu.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\e_moshu.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\scrubber_control_selector_holo.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\scrubber_control_selector_holo.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_hongxin_10003.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_hongxin_10003.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-hdpi\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\loading04.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\loading04.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_guzhang_10007.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_guzhang_10007.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\loading05.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\loading05.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_xinkule_10003.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_xinkule_10003.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ppt_bg_bg.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\ppt_bg_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_laoshihao_10003.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_laoshihao_10003.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-hdpi\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_list_focused_holo.9.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-hdpi\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\e_xingxing.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\e_xingxing.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\e_shangxin.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\e_shangxin.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-hdpi\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-hdpi\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\e_yaoguai.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\e_yaoguai.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\e_daku.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\e_daku.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_xianhua_10002.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_xianhua_10002.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-hdpi\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-hdpi\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_hongxin_10004.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_hongxin_10004.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-hdpi\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_xinkule_10004.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_xinkule_10004.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_hongxin_10001.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_hongxin_10001.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_runhoutang_10004.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_runhoutang_10004.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_xinkule_10001.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_xinkule_10001.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bg_list_icon2.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\bg_list_icon2.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_runhoutang_10007.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_runhoutang_10007.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pad_vote_cancel.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\pad_vote_cancel.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_list_pressed_holo_dark.9.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-hdpi\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\loading02.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\loading02.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pad_discuss1.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\pad_discuss1.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\e_buding.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\e_buding.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_xianhua_10008.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_xianhua_10008.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\loading07.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\loading07.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_popup_background_mtrl_mult.9.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-hdpi\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pad_speak1.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\pad_speak1.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_runhoutang_10010.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_runhoutang_10010.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bq_textbg_change1.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\bq_textbg_change1.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-hdpi\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_hongxin_10006.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_hongxin_10006.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\e_daxiao.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\e_daxiao.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pad_discuss.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\pad_discuss.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\loading08.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\loading08.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bg_list_icon1.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\bg_list_icon1.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\loading01.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\loading01.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_runhoutang_10006.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_runhoutang_10006.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\player_next.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\player_next.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_xianhua_10004.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_xianhua_10004.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pad_player_pre.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\pad_player_pre.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-hdpi\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_jiayou_10001.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_jiayou_10001.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-hdpi\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_xinkule_10008.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_xinkule_10008.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_xinkule_10002.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_xinkule_10002.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-hdpi\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_xianhua_10001.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_xianhua_10001.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-hdpi\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_laoshihao_10005.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_laoshihao_10005.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_list_longpressed_holo.9.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-hdpi\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_laoshihao_10002.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_laoshihao_10002.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_runhoutang_10003.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_runhoutang_10003.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_ganxie_10003.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_ganxie_10003.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-hdpi\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\chaopian.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\chaopian.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_xinkule_10005.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_xinkule_10005.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\handle.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\handle.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\player_play.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\player_play.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_guzhang_10006.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_guzhang_10006.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_guzhang_10003.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_guzhang_10003.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\tearch_icon_shape.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\tearch_icon_shape.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\grid_item_bg.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\grid_item_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_laoshihao_10008.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_laoshihao_10008.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\e_qinqin.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\e_qinqin.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-hdpi\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-hdpi\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pad_player_pause.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\pad_player_pause.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_guzhang_10002.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_guzhang_10002.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-hdpi\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_xianhua_10006.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_xianhua_10006.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pad_player_play.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\pad_player_play.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_laoshihao_10009.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_laoshihao_10009.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_runhoutang_10009.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_runhoutang_10009.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-hdpi\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-hdpi\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_ganxie_10002.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_ganxie_10002.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_guzhang_10001.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_guzhang_10001.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_xinkule_10009.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_xinkule_10009.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_hongxin_10009.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_hongxin_10009.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_text_cursor_mtrl_alpha.9.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-hdpi\\abc_text_cursor_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_xianhua_10007.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_xianhua_10007.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pad_vote_enter.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\pad_vote_enter.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\e_jingya.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\e_jingya.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\e_tianshi.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\e_tianshi.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-hdpi\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pad_speak.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\pad_speak.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\e_weixiao.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\e_weixiao.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-hdpi\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\zanting_new.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\zanting_new.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-hdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_xianhua_10005.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_xianhua_10005.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_ganxie_10004.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_ganxie_10004.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_ganxie_10001.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_ganxie_10001.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\changpianbj.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\changpianbj.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_xinkule_10007.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_xinkule_10007.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\video_bg.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\video_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_hongxin_10007.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_hongxin_10007.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pad_player_next.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\pad_player_next.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bq_textbg_change2.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\bq_textbg_change2.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_list_pressed_holo_light.9.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-hdpi\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_runhoutang_10001.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_runhoutang_10001.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_guzhang_10005.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_guzhang_10005.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-hdpi\\abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\loading10.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\loading10.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_laoshihao_10001.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_laoshihao_10001.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_laoshihao_10007.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_laoshihao_10007.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_xianhua_10003.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_xianhua_10003.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_jiayou_10002.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_jiayou_10002.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_laoshihao_10010.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_laoshihao_10010.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\e_jiyan.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\e_jiyan.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\e_daidai.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\e_daidai.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\eplay_title_left.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\eplay_title_left.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\e_shuaku.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\e_shuaku.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_runhoutang_10002.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_runhoutang_10002.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-hdpi\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_btn_rating_star_off_mtrl_alpha.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-hdpi\\abc_btn_rating_star_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_guzhang_10004.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_guzhang_10004.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_xinkule_10006.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_xinkule_10006.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_btn_rating_star_on_mtrl_alpha.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-hdpi\\abc_btn_rating_star_on_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_laoshihao_10006.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_laoshihao_10006.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ic_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-hdpi\\abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\loading06.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\loading06.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\loading03.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\loading03.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\audio_play_2.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\audio_play_2.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_hongxin_10008.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_hongxin_10008.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_hongxin_10002.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_hongxin_10002.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-hdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\loading09.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\loading09.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bq_zhan.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\bq_zhan.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_runhoutang_10005.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_runhoutang_10005.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_xinkule_10010.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_xinkule_10010.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\e_tushe.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\e_tushe.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_hongxin_10005.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_hongxin_10005.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\audio_play.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\audio_play.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\player_pre.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\player_pre.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_runhoutang_10008.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_runhoutang_10008.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\item_back.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\item_back.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\vertical_line.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\vertical_line.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\player_pause.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\player_pause.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pad_scrubber_control_selector_holo.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\pad_scrubber_control_selector_holo.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\a_xianhua_10009.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\a_xianhua_10009.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ic_clear_mtrl_alpha.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-hdpi\\abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable-hdpi\\abc_ic_menu_cut_mtrl_alpha.png"
+    }
+]

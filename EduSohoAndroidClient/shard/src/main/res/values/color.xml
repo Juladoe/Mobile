@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="system_light_text">#4d4d4d</color>
+    <color name="base_black_87">#dd000000</color>
+    <color name="base_black_35">#35000000</color>
+    <color name="base_black_50">#000000</color>
+</resources>

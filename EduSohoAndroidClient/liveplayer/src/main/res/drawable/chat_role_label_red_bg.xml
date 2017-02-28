@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <corners android:radius="3dp"/>
+
+    <stroke
+        android:width="1px"
+        android:color="@color/live_chat_role_label_red_bg"
+        />
+
+    <gradient
+        android:centerColor="@color/live_chat_role_label_red_bg"
+        android:endColor="@color/live_chat_role_label_red_bg"
+        android:startColor="@color/live_chat_role_label_red_bg" />
+
+</shape>

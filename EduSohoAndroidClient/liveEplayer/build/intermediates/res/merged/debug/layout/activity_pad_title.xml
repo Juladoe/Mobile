@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/pad_top_title_height"
+                android:background="@color/eplayer_title_bg"
+                android:id="@+id/rl_top_title"
+        >
+    <LinearLayout android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="5dp"
+                  android:layout_marginLeft="@dimen/title_margin_left_right"
+                  android:layout_centerVertical="true"
+                  android:layout_alignParentLeft="true"
+                  android:id="@+id/li_top_title_left">
+    <TextView android:layout_width="@dimen/pad_tv_top_title_left_width"
+              android:layout_height="@dimen/pad_tv_top_title_left_height"
+              android:background="@drawable/eplay_title_left"
+
+              android:id="@+id/top_title_left"
+            />
+    </LinearLayout>
+
+
+
+    <TextView android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_centerInParent="true"
+              android:id="@+id/top_title_title"
+              android:text="直播"
+              android:textSize="@dimen/title1_textsize"
+              android:textColor="@color/white"
+              android:layout_toRightOf="@id/li_top_title_left"
+              android:singleLine="true"
+              android:layout_marginLeft="15dp"
+              android:layout_marginRight="15dp"
+              android:gravity="center"
+            />
+
+
+</RelativeLayout>
+

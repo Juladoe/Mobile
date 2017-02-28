@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DevInfor>
+
+    <ShareSDK AppKey="41f51eeb5d88" />
+    <!-- 修改成你在sharesdk后台注册的应用的appkey"-->
+
+    <!-- ShareByAppClient标识是否使用微博客户端分享，默认是false -->
+    <Wechat Id="1" SortId="1" AppId="wx2cf6b4bfd6e5ac26"
+        AppSecret="d4624c36b6795d1d99dcf0547af5443d" BypassApproval="false" Enable="true" />
+
+    <WechatMoments Id="2" SortId="2" AppId="wx2cf6b4bfd6e5ac26"
+        AppSecret="d4624c36b6795d1d99dcf0547af5443d" BypassApproval="true" Enable="true" />
+
+    <WechatFavorite Id="3" SortId="3" AppId="wx2cf6b4bfd6e5ac26"
+        AppSecret="d4624c36b6795d1d99dcf0547af5443d" Enable="true" />
+
+    <!--demo站-->   <SinaWeibo Id="4" SortId="4" AppKey="642124384" AppSecret="a9028caca78e15e5fe4f55bb412069ee"
+        RedirectUrl="http://www.kaoshi60.cn" ShareByAppClient="true" Enable="true" />
+
+    <!-- ShareByAppClient标识是否使用微博客户端分享，默认是false -->
+
+    <!-- ShareByAppClient标识是否使用微博客户端分享，默认是false -->
+    <QQ Id="7" SortId="7" AppId="1104996260"  ShareByAppClient="true"
+        Enable="true" />
+
+</DevInfor>

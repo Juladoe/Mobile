@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/check_c_false" android:state_activated="true"/>
+    <!-- 按下状态 -->
+    <item android:drawable="@drawable/check_c_pressed" android:state_checked="true" />
+
+    <item android:drawable="@drawable/check_c_lock" android:state_selected="true" />
+    <!-- 普通无焦点状态 -->
+    <item android:drawable="@drawable/check_c" />
+
+</selector>

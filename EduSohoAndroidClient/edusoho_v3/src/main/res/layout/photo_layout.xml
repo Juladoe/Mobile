@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@color/image_view_bg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.edusoho.kuozhi.v3.view.photo.HackyViewPager
+        android:id="@+id/images_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/images_label"
+        android:padding="8dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/base_black_35"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:paddingTop="29dp"
+    android:paddingBottom="19dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/testpaper_card_label"
+        android:textColor="@color/system_light_text"
+        android:textSize="@dimen/sys_normal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.edusoho.kuozhi.v3.view.FixHeightGridView
+        android:listSelector="@color/transparent"
+        android:layout_marginTop="24dp"
+        android:id="@+id/testpaper_card_gridview"
+        android:columnWidth="32dp"
+        android:stretchMode="columnWidth"
+        android:horizontalSpacing="10dp"
+        android:verticalSpacing="10dp"
+        android:numColumns="auto_fit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_host">http://trymob.edusoho.cn</string>
+    <string name="app_domain">trymob.edusoho.cn</string>
+    <string name="app_name">test</string>
+    <string name="api_version">2.1.0</string>
+    <string name="apk_version">3.0.0</string>
+    <string name="apk_code">13</string>
+    <string name="splash_num">0</string>
+    <string name="splash_padding">0</string>
+
+    <!-- default school -->
+    <string name="school_name">edusoho</string>
+    <string name="school_url">http://trymob.edusoho.cn/mapi_v2</string>
+    <string name="school_host">http://trymob.edusoho.cn</string>
+    <string name="school_logo"></string>
+</resources>

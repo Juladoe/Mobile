@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval" >
+
+    <!-- shape的颜色，支持渐变 -->
+    <gradient
+        android:angle="270"
+        android:centerColor="@color/viewpager_index_bg_gradinet"
+        android:centerY="0.45"
+        android:endColor="@color/viewpager_index_bg_gradinet"
+        android:startColor="@color/viewpager_index_bg_gradinet" />
+
+</shape>

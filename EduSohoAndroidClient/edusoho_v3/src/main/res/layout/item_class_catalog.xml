@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:paddingTop="@dimen/view_register_margin"
+        android:paddingBottom="@dimen/view_register_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_class"
+            android:scaleType="centerCrop"
+            android:layout_width="@dimen/class_catalog_iv_weight"
+            android:layout_height="@dimen/class_catalog_iv_height"
+            android:src="@drawable/oval_white_bg"
+            android:layout_marginRight="@dimen/common_maring0"/>
+
+        <RelativeLayout
+            android:layout_marginRight="@dimen/class_margin_right"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:text="教你排好女朋友--基础人像外拍实战"
+                android:textSize="@dimen/font_l"
+                android:textColor="@color/primary_font_color"
+                android:layout_marginRight="@dimen/class_margin_right"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_below="@id/tv_title"
+                android:layout_marginTop="@dimen/common_margin1"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text=""
+                    android:id="@+id/tv_free_price"
+                    android:textSize="@dimen/font_xs"
+                    android:textColor="@color/secondary_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/tv_people_num"
+                    android:text=""
+                    android:textSize="@dimen/font_xs"
+                    android:layout_marginLeft="@dimen/common_margin"
+                    android:textColor="@color/secondary_font_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:background="@color/disabled_hint_color"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+</RelativeLayout>

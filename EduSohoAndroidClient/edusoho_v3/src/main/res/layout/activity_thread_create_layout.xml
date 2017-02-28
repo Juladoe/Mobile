@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:focusable="true"
+        android:id="@+id/tc_title"
+        android:hint="标题"
+        android:textSize="17sp"
+        android:padding="16dp"
+        android:textColorHint="#CCCCCC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:background="@null"
+        android:id="@+id/tc_conten"
+        android:hint="问题内容"
+        android:textColorHint="#CCCCCC"
+        android:gravity="top|left"
+        android:textSize="14sp"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical">
+
+    <GridView
+        android:id="@+id/shard_gridview"
+        android:layout_width="500dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:columnWidth="@dimen/shard_item_width"
+        android:horizontalSpacing="3dp"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="auto_fit"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="3dp" />
+
+    <TextView
+        android:id="@+id/shard_cancelBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shard_cancelbtn_bg"
+        android:gravity="center"
+        android:padding="@dimen/base_size"
+        android:text="@string/shard_cancel"
+        android:textColor="@color/base_black_87"
+        android:textSize="@dimen/base_large_size" />
+</LinearLayout>

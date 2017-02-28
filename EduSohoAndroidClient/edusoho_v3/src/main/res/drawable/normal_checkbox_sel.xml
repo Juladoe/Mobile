@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 按下状态 -->
+    <item android:drawable="@drawable/lesson_resouce_checkbox_normal" android:state_checked="false" />
+
+    <!-- 普通无焦点状态 -->
+    <item android:drawable="@drawable/lesson_resouce_checkbox_sel" android:state_checked="true" />
+
+</selector>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <!-- 是否是圆角 -->
+            <corners android:radius="12dp" />
+            <stroke
+                android:width="2px"
+                android:color="@color/set_check_bg_stroke_pressed" />
+            <size
+                android:height="24dp"
+                android:width="40dp" />
+            <!-- shape的颜色，支持渐变 -->
+            <solid android:color="@color/set_check_bg_stroke_pressed" />
+        </shape>
+    </item>
+    <item
+        android:left="16dp"
+        android:bottom="1px"
+        android:right="1px"
+        android:top="1px">
+        <shape>
+            <corners android:radius="12dp" />
+            <stroke
+                android:width="1px"
+                android:color="@color/set_check_bg_stroke_pressed" />
+            <size
+                android:height="24dp"
+                android:width="24dp" />
+            <solid android:color="@android:color/white" />
+        </shape>
+    </item>
+</layer-list>

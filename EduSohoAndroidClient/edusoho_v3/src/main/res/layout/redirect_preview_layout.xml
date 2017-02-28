@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:padding="8dp"
+    android:background="@drawable/material_dlg_bg">
+
+    <TextView
+        android:id="@+id/popup_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="8dp"
+        android:singleLine="true"
+        android:textColor="@color/material_title"
+        android:textSize="@dimen/material_title" />
+
+    <ImageView
+        android:layout_margin="8dp"
+        android:id="@+id/popup_icon"
+        android:scaleType="centerCrop"
+        android:layout_below="@id/popup_title"
+        android:src="@drawable/defaultpic"
+        android:layout_width="@dimen/head_icon_large"
+        android:layout_height="@dimen/head_icon_large" />
+
+    <TextView
+        android:id="@+id/popup_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/popup_icon"
+        android:layout_toRightOf="@id/popup_icon"
+        android:maxLines="3"
+        android:layout_marginRight="8dp"
+        android:textColor="@color/material_content"
+        android:textSize="@dimen/material_content" />
+
+    <LinearLayout
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/popup_icon"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/popup_cancel_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp"
+            android:tag="left"
+            android:text="取 消"
+            android:textColor="@color/material_cancel_btn"
+            android:textSize="@dimen/material_btn" />
+
+        <TextView
+            android:id="@+id/popup_ok_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp"
+            android:tag="right"
+            android:text="确 定"
+            android:textColor="@color/material_ok_btn"
+            android:textSize="@dimen/material_btn" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <layer-list>
+
+            <item android:bottom="1dp">
+                <shape>
+                    <solid android:color="@color/shallow_found_bg" />
+                </shape>
+            </item>
+            <item android:left="24dp">
+                <shape>
+                    <solid android:color="@color/shallow_found_bg" />
+                </shape>
+            </item>
+            <item android:bottom="1dp" android:left="1dp">
+                <shape>
+                    <solid android:color="@color/white" />
+                </shape>
+            </item>
+
+        </layer-list>
+    </item>
+    <item android:state_window_focused="false">
+        <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <item android:bottom="1dp">
+                <shape>
+                    <solid android:color="@color/shallow_found_bg" />
+                </shape>
+            </item>
+            <item android:left="0dp">
+                <shape>
+                    <solid android:color="@color/shallow_found_bg" />
+                </shape>
+            </item>
+            <item android:bottom="1dp" android:left="1dp">
+                <shape>
+                    <solid android:color="@color/white" />
+                </shape>
+            </item>
+
+        </layer-list>
+    </item>
+</selector>

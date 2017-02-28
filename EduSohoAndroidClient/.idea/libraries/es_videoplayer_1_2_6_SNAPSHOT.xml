@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="es-videoplayer-1.2.6-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/edusoho_v3/build/intermediates/exploded-aar/com.edusoho.videoplayer/es-videoplayer/1.2.6-SNAPSHOT/jars/classes.jar!/" />
+      <root url="jar://$PROJECT_DIR$/edusoho_v3/build/intermediates/exploded-aar/com.edusoho.videoplayer/es-videoplayer/1.2.6-SNAPSHOT/jars/libs/zip4j_1.3.1.jar!/" />
+      <root url="file://$PROJECT_DIR$/edusoho_v3/build/intermediates/exploded-aar/com.edusoho.videoplayer/es-videoplayer/1.2.6-SNAPSHOT/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <com.edusoho.kuozhi.v3.view.EduSohoCompoundButton
+        android:id="@+id/ecb_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="-8dp"
+        android:background="@drawable/found_compound_btn"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_study"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:background="@drawable/left_btn_press"
+            android:button="@null"
+            android:gravity="center"
+            android:paddingBottom="2dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:paddingTop="2dp"
+            android:text="@string/study"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/small_font_size" />
+
+        <RadioButton
+            android:id="@+id/rb_discuss"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:background="@drawable/right_btn_press"
+            android:button="@null"
+            android:gravity="center"
+            android:paddingBottom="2dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:paddingTop="2dp"
+            android:text="@string/discuss"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/small_font_size" />
+    </com.edusoho.kuozhi.v3.view.EduSohoCompoundButton>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/civ_badge_view"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:layout_toRightOf="@+id/ecb_switch"
+        android:src="@color/badge_red"
+        android:visibility="invisible" />
+
+</RelativeLayout>

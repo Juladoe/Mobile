@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <extensions.PagerSlidingTabStrip
+        android:id="@+id/my_thread_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        app:pst_dividerPadding="8dp"
+        app:dividerColor="@color/material_grey"
+        app:underlineColor="@color/material_grey"
+        app:underlineHeight="1dp"
+        app:indicatorHeight="3dp"
+        app:pst_textSize="@dimen/small_font_size">
+
+    </extensions.PagerSlidingTabStrip>
+
+    <com.edusoho.kuozhi.v3.view.EduSohoViewPager
+        android:id="@+id/my_thread_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.edusoho.kuozhi.v3.view.EduSohoViewPager>
+</LinearLayout>

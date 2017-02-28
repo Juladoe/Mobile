@@ -1,0 +1,52 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion '22.0.1'
+
+    defaultConfig {
+        applicationId "com.edusoho"
+        minSdkVersion 16
+        targetSdkVersion 21
+        manifestPlaceholders = [wxpkg: "com.edusoho.kuozhi", startActivity:"com.edusoho.kuozhi.CustomStartActivity"]
+    }
+
+    //签名
+    signingConfigs {
+        debugConfig {
+            storeFile file("key/com.edusoho.kaoshi60.jks")
+            storePassword "10001000"
+            keyAlias "cn"
+            keyPassword "10001000"
+        }
+    }
+
+    productFlavors {
+        kaoshi60 {
+            signingConfig signingConfigs.debugConfig
+            applicationId "com.edusoho.kaoshi60"
+            manifestPlaceholders = [wxpkg: "com.edusoho.kaoshi60", startActivity:"com.edusoho.kuozhi.CustomStartActivity"]
+
+        }
+    }
+
+    sourceSets {
+        kaoshi60 {
+            java.srcDirs = ['src/kaoshi60/java']
+            res.srcDirs = ['src/kaoshi60/res']
+            assets.srcDirs = ['src/kaoshi60/assets']
+        }
+    }
+
+    buildTypes {
+        debug {
+            zipAlignEnabled true
+            minifyEnabled false
+            signingConfig signingConfigs.debugConfig
+        }
+    }
+}
+
+dependencies {
+    compile project(':edusoho_v3')
+}

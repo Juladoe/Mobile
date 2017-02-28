@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 是否是圆角 -->
+    <corners android:radius="0dip" />
+
+    <stroke
+        android:color="@color/base_black_35"
+        android:width="1px"
+        />
+    <!-- shape的颜色，支持渐变 -->
+    <gradient
+        android:angle="270"
+        android:centerColor="@android:color/white"
+        android:centerY="0.45"
+        android:endColor="@android:color/white"
+        android:startColor="@android:color/white" />
+
+</shape>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@color/base_black_87"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:src="@drawable/icon_warn_fill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textColor="@color/base_gray"
+        android:layout_marginTop="8dp"
+        android:text="服务器或者网络的问题无法加载视频，请查看手机网络或Wi-Fi设置，是否已接入互联网"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

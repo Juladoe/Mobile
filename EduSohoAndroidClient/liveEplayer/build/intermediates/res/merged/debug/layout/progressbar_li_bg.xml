@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!--进度条-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+
+              android:gravity="center"
+              android:id="@+id/li_progressbar_bg"
+              android:visibility="gone">
+
+
+        <com.soooner.EplayerPluginLibary.widget.MyProgressBar
+                android:id="@+id/myprogressbar"
+                style="?android:attr/progressBarStyleLarge"
+                android:indeterminateDrawable="@anim/progress_loading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+
+
+
+</LinearLayout>

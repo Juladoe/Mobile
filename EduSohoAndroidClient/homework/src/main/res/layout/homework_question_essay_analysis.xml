@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@drawable/hw_question_analysis_bg"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textSize="@dimen/base_size"
+        android:layout_marginTop="16dp"
+        android:padding="9dp"
+        android:id="@+id/hw_question_right_anwer"
+        android:text="正确答案:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textSize="@dimen/base_size"
+        android:layout_marginTop="16dp"
+        android:padding="9dp"
+        android:id="@+id/hw_question_teachersay"
+        android:text="老师评语:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textSize="@dimen/base_size"
+        android:padding="9dp"
+        android:id="@+id/hw_question_analysis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

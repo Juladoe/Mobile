@@ -1,0 +1,46 @@
+定制app步骤（假如定制app名称为tcmmooc）
+
+1.src下创建一个定制app文件目录(tcmmooc),包含对应定制资源（assets，java，res）
+2.assets目录里需要包含对应的分享配置文件ShareSDK.xml，文件中的配置改为对应app的相关配置
+3.java目录下需要新增一个WXEntryActivity类，该类包名为com.edusoho.tcmmooc.wxapi.WXEntryActivity
+    其中的com.edusoho.tcmmooc的tcmmooc为对应的app名称
+4. res下对应需要修改的app资源，包括icon，splash， app_splash
+5.string.xml文件中的app_code， channel_name均改为app名称
+
+6.build.gradle 中需要加入定制app的配置
+    signingConfigs里需要新增一个签名
+
+    tcmmooc {
+        storeFile file("key/com.edusoho.tcmmooc.jks")
+        storePassword "10001000"
+        keyAlias "cn"
+        keyPassword "10001000"
+    }
+
+    storeFile的格式为com.edusoho.app名称
+
+    productFlavors里需要新增一个渠道
+
+    tcmmooc {
+        signingConfig signingConfigs.tcmmooc
+        applicationId "com.edusoho.tcmmooc"
+        manifestPlaceholders = [wxpkg: "com.edusoho.tcmmooc"]
+    }
+    其中signingConfig为刚新增的签名配置，
+    applicationId统一为此格式 com.edusoho.app名称
+    manifestPlaceholders中指定AndroidManifest.xml中的微信分享包名，改为上面的applicationId名称就可以
+
+
+打包步骤
+
+单独打包一个定制app
+如app名称为tcmmooc
+切换到custom目录下执行gradle assembleTcmmoocRelease 就可以
+
+打包所有定制app
+切换到custom目录下执行gradle assembleRelease 就可以
+
+html5包有定制的项目有：
+itgege ：
+
+

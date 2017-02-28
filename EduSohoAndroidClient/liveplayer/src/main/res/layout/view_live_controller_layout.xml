@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <FrameLayout
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/live_controller_bottom_bg"
+        android:padding="8dp">
+
+        <CheckBox
+            android:id="@+id/cb_controller_screen"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:button="@null"
+            android:drawableRight="@drawable/screen_btn_sel" />
+    </FrameLayout>
+</FrameLayout>

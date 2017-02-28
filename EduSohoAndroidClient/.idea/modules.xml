@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/EduSohoAndroidClient.iml" filepath="$PROJECT_DIR$/EduSohoAndroidClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bdvideoplayer/bdvideoplayer.iml" filepath="$PROJECT_DIR$/bdvideoplayer/bdvideoplayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commonLib/commonLib.iml" filepath="$PROJECT_DIR$/commonLib/commonLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commonUtils/commonUtils.iml" filepath="$PROJECT_DIR$/commonUtils/commonUtils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edusoho_v3/edusoho_v3.iml" filepath="$PROJECT_DIR$/edusoho_v3/edusoho_v3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/homework/homework.iml" filepath="$PROJECT_DIR$/homework/homework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kuozhiv2/kuozhiv2.iml" filepath="$PROJECT_DIR$/kuozhiv2/kuozhiv2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/liveplayer/liveplayer.iml" filepath="$PROJECT_DIR$/liveplayer/liveplayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multi-image-selector/multi-image-selector.iml" filepath="$PROJECT_DIR$/multi-image-selector/multi-image-selector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shard/shard.iml" filepath="$PROJECT_DIR$/shard/shard.iml" />
+    </modules>
+  </component>
+</project>

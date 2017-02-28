@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingRight="16dp"
+    android:paddingBottom="8dp"
+    android:paddingTop="8dp">
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/message_time_bg"
+        android:clickable="true"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/x_small_font_size"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/tv_avatar"
+        android:layout_width="@dimen/head_icon_small"
+        android:layout_height="@dimen/head_icon_small"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tv_time"
+        android:layout_marginLeft="8dp"
+        android:src="@drawable/default_avatar" />
+
+    <TextView
+        android:id="@+id/tv_nickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_time"
+        android:layout_toLeftOf="@id/tv_avatar"
+        android:layout_marginBottom="3dp"
+        android:lineSpacingExtra="0dp"
+        android:text="nickname"
+        android:layout_marginRight="4dp"
+        android:textSize="@dimen/x_small_font_size"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:clickable="true"
+        android:id="@+id/tv_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_nickname"
+        android:layout_toLeftOf="@id/tv_avatar">
+
+        <com.edusoho.kuozhi.imserver.ui.view.ChatImageView
+            android:focusableInTouchMode="false"
+            android:id="@+id/iv_msg_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_time"
+            android:layout_toLeftOf="@id/tv_avatar"
+            android:maxHeight="150dp"
+            android:maxWidth="150dp"
+            android:minHeight="48dp"
+            android:minWidth="48dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/message_image_default"
+            app:BackgroundRes="right" />
+    </FrameLayout>
+
+    <com.edusoho.kuozhi.imserver.ui.view.MessageStatusView
+        android:id="@+id/tv_error_status"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:paddingTop="0dp"
+        android:paddingBottom="12dp"
+        android:paddingRight="12dp"
+        android:paddingLeft="0dp"
+        android:layout_alignTop="@id/tv_container"
+        android:layout_toLeftOf="@id/tv_container"
+        android:clickable="true"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+
+</RelativeLayout>

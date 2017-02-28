@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+             android:id="@+id/fl_all">
+
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/all_activity_layout"
+            android:background="@color/eplayer_activity_bg"
+
+            >
+        <include layout="@layout/activity_pad_title"/>
+
+
+        <RelativeLayout android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="@dimen/pad_space_margin"
+                        android:layout_marginTop="@dimen/pad_space_margin"
+                        android:layout_marginRight="@dimen/pad_space_margin"
+                        android:id="@+id/rl_content_all"
+                        android:visibility="invisible"
+                >
+            <View android:layout_width="fill_parent"
+                  android:layout_height="fill_parent"
+                   android:background="@color/eplayer_activity_bg"
+                   android:id="@+id/view_barrier"
+                   android:visibility="invisible" />
+
+
+            <LinearLayout android:layout_width="@dimen/pad_li_drawpaddview_width"
+                          android:layout_height="@dimen/pad_li_drawpaddview_height"
+                          android:orientation="horizontal"
+                          android:id="@+id/li_drawpaddview"
+                          android:background="@drawable/ppt_bg_bg"
+                    >
+
+
+                <!--画板、PPT、word-->
+                <com.soooner.widget.DrawPadView
+                        android:id="@+id/draw_Pad_View"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+
+                        />
+            </LinearLayout>
+            <!--直播状态及在线人数-->
+            <LinearLayout android:layout_width="@dimen/pad_li_drawpaddview_width"
+                          android:layout_height="@dimen/pad_li_line_line_num_height"
+                          android:layout_marginTop="@dimen/pad_li_drawpaddview_height"
+                          android:orientation="horizontal"
+                          android:gravity="center_vertical"
+                          android:background="@drawable/online_bg"
+                          android:id="@+id/li_line_line_num"
+                    >
+
+
+                <TextView android:layout_width="130dp"
+                          android:layout_height="wrap_content"
+                          android:id="@+id/tv_middle_state"
+                          android:text="正在播放中"
+                          android:textSize="@dimen/title3_textsize"
+                          android:textColor="@color/black"
+                          android:gravity="center"
+
+                        />
+                <ImageView android:layout_width="1dp"
+                           android:layout_height="26dp"
+                           android:background="@drawable/vertical_line"
+                        />
+                <TextView android:layout_width="fill_parent"
+                          android:layout_height="fill_parent"
+                          android:id="@+id/tv_online_num"
+                          android:text="在线人数：0"
+                          android:textSize="@dimen/title3_textsize"
+                          android:textColor="@color/black"
+                          android:gravity="center_vertical|left"
+                          android:layout_marginLeft="18dp"
+                        />
+
+
+            </LinearLayout>
+
+
+                <HorizontalScrollView
+                        android:layout_width="@dimen/pad_li_drawpaddview_width"
+                        android:layout_height="fill_parent"
+                        android:scrollbars="none"
+                         android:fillViewport="true"
+                         android:layout_marginTop="844px"
+                         android:layout_marginBottom="10px"
+                         android:id="@+id/hs_gridview">
+                    <FrameLayout android:layout_width="fill_parent"
+                                 android:layout_height="fill_parent">
+
+                    <com.soooner.EplayerPluginLibary.widget.LineGridView
+                            android:id="@+id/gridview"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1"
+                            android:numColumns="5"
+                            android:verticalSpacing="6dp"
+                            android:horizontalSpacing="0dp"
+                            android:gravity="center"
+                            android:cacheColorHint="#00000000"
+                            android:descendantFocusability="blocksDescendants"
+                            android:listSelector="#00000000"
+                            android:stretchMode="columnWidth"
+                            android:overScrollMode="never"
+                            />
+                    </FrameLayout>
+
+                </HorizontalScrollView>
+
+
+            <!--视频头像和播放音乐时图像-->
+
+            <com.soooner.EplayerPluginLibary.widget.MyVideoView
+                    android:layout_width="@dimen/pad_fl_video_width"
+                    android:layout_height="@dimen/pad_fl_video_height"
+                    android:id="@+id/fl_myvideoview"
+                    android:visibility="visible"
+                    android:background="@drawable/zanting_new"
+                    android:layout_alignParentRight="true"
+                    />
+
+
+            <!--回看老师信息-->
+            <LinearLayout
+                    android:layout_width="@dimen/pad_fl_video_width"
+                    android:layout_height="@dimen/pad_li_teacher_area_height"
+                    android:orientation="vertical"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="@dimen/pad_li_teacher_area_margin_top"
+                    android:id="@+id/li_teacher_area"
+                    android:background="@drawable/li_tearch_area_bg"
+                    android:visibility="invisible"
+                    android:paddingLeft="@dimen/pad_li_teacher_area_title_margin_left"
+                    android:paddingRight="@dimen/pad_li_teacher_area_title_margin_left"
+                    >
+
+                <LinearLayout android:layout_width="fill_parent"
+                              android:layout_height="@dimen/pad_li_teacher_area_title_height"
+                              android:id="@+id/li_teacher_area_title"
+                              android:orientation="horizontal"
+                             android:gravity="center_vertical">
+
+                    <ImageView android:layout_width="@dimen/img_teacher_area_title_height"
+                               android:layout_height="@dimen/img_teacher_area_title_height"
+                               android:background="@drawable/tearch_icon_shape"
+
+                               android:id="@+id/img_teacher_area_title"
+                               android:scaleType="fitCenter"
+                               android:padding="5dp"
+
+                            />
+
+
+                    <TextView android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:textColor="@color/pad_teacher_area_tv_color"
+                              android:textSize="@dimen/title2_textsize"
+                              android:id="@+id/tv_teacher_name"
+                              android:maxLines="2"
+                              android:layout_marginLeft="5dp"/>
+
+                </LinearLayout>
+                <View android:layout_width="fill_parent"
+                      android:layout_height="1dp"
+                      android:background="@color/pad_teacher_area_diver_color"/>
+                <TextView android:layout_width="fill_parent"
+                          android:layout_height="fill_parent"
+                          android:gravity="center_vertical|left"
+                          android:textColor="@color/pad_teacher_area_tv_color"
+                          android:textSize="@dimen/title4_textsize"
+                          android:id="@+id/tv_teacher_time"
+                          android:singleLine="true"/>
+
+            </LinearLayout>
+
+            <!--聊天区-->
+            <LinearLayout
+                    android:layout_width="@dimen/pad_fl_video_width"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="@dimen/pad_fl_video_height"
+                    android:id="@+id/li_chat_area"
+                    >
+
+
+                <LinearLayout android:layout_width="fill_parent"
+                              android:layout_height="@dimen/pad_li_chat_title_height"
+                              android:gravity="center_vertical"
+                              android:orientation="horizontal"
+                              android:id="@+id/li_chat_title"
+                        >
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="直播讨论区"
+                              android:textColor="@color/black"
+                              android:textSize="@dimen/title1_textsize"
+                              android:layout_marginLeft="@dimen/list_item_padding_left_right"/>
+
+
+                </LinearLayout>
+
+                <View android:layout_width="fill_parent" android:layout_height="1dp"
+                      android:background="@color/eplayer_list_item_separator"/>
+
+                <ListView android:layout_width="fill_parent"
+                          android:layout_height="fill_parent"
+                          android:id="@+id/listview"
+                          android:divider="@color/eplayer_list_item_separator"
+                          android:dividerHeight="1dp"
+                          android:fadingEdge="none"
+                          android:cacheColorHint="#00000000"
+                          android:listSelector="#00000000"
+                          android:overScrollMode="never"
+                        />
+
+
+            </LinearLayout>
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+    <com.soooner.EplayerPluginLibary.widget.PlayerControllerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/playerControllerView"
+        android:layout_alignParentBottom="true"
+        />
+    <!--发言-->
+
+    <com.soooner.EplayerPluginLibary.widget.MyChatView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mychatview"
+        android:layout_alignParentBottom="true"
+        />
+
+
+
+    <!--加入房间等信息没有返回时的进度条-->
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:id="@+id/li_load"
+            android:visibility="gone"
+            android:background="@color/transparent_black">
+
+
+        <com.soooner.EplayerPluginLibary.widget.MyProgressBar
+                android:id="@+id/li_load_myprogressbar"
+                style="?android:attr/progressBarStyleLarge"
+                android:indeterminateDrawable="@anim/progress_loading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+    </LinearLayout>
+
+    <com.soooner.EplayerPluginLibary.widget.VoteControllerView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/voteControllerView"
+            android:visibility="gone"
+            />
+
+</RelativeLayout>

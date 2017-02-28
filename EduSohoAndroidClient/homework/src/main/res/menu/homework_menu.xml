@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/testpaper_menu_card"
+        android:id="@+id/homework_menu_card"
+        app:showAsAction="ifRoom"
+        android:title="@string/testpaper_menu_card"
+        android:orderInCategory="100" />
+</menu>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/study_process_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/grey_bg">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/float_button"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/green_solid_circle"
+        android:gravity="center"
+        android:text="问"
+        android:textColor="@color/white"
+        android:textSize="@dimen/xx_large_font_size" />
+
+    <FrameLayout
+        android:id="@+id/study_dynamics_loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_width="@dimen/xxx_large_font_size"
+            android:layout_height="@dimen/xxx_large_font_size"
+            android:layout_gravity="center"
+            android:indeterminateDrawable="@drawable/load" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/progress"
+            android:layout_gravity="center"
+            android:layout_marginTop="36dp"
+            android:text="加载中..."
+            android:textSize="@dimen/base_large_size" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/error_tip"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="课程未开启或已关闭，请联系管理员"
+        android:textSize="@dimen/medium_font_size"
+        android:visibility="gone" />
+
+</RelativeLayout>

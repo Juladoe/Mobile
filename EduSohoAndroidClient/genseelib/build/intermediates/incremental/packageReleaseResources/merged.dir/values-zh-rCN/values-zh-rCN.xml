@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="authk">认证K值</string>
+    <string name="bianhao">房间号</string>
+    <string name="live_player_type">live</string>
+    <string name="publish_mode">发布端</string>
+    <string name="roomnickname">房间昵称</string>
+    <string name="roompassword">房间密码</string>
+    <string name="training_type">training</string>
+    <string name="vod_player_type">vod</string>
+    <string name="watch_mode">观看端</string>
+    <string name="webcast_type">webcast</string>
+    <string name="zhandian">站点账号</string>
+    <string name="zhandianpassword">站点密码</string>
+    <string name="zhandianwangzhi">域名</string>
+</resources>

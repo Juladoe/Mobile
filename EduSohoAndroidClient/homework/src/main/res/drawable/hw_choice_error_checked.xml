@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape>
+            <corners android:radius="2dp"/>
+            <size android:height="30dp" android:width="80dp" />
+            <stroke android:width="1px" android:color="@color/error" />
+            <!-- shape的颜色，支持渐变 -->
+            <gradient
+                android:centerColor="@color/error"
+                android:endColor="@color/error"
+                android:startColor="@color/error" />
+        </shape>
+    </item>
+
+    <item
+        android:top="5dp"
+        android:bottom="5dp"
+        android:left="20dp"
+        android:right="20dp"
+        >
+
+        <bitmap android:gravity="center" android:src="@drawable/hw_question_choice_error_pressed">
+
+        </bitmap>
+    </item>
+
+</layer-list>

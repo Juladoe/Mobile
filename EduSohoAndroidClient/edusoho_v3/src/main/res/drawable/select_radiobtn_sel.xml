@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 按下状态 -->
+    <item android:drawable="@drawable/download_success" android:state_checked="true"/>
+
+    <!-- 普通无焦点状态 -->
+    <item android:drawable="@drawable/radiobtn_normal" />
+
+</selector>

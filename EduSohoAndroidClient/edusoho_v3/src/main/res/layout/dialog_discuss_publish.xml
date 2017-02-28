@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <com.edusoho.kuozhi.v3.view.EduSohoNewIconView
+        android:id="@+id/tv_topic"
+        android:text="话题"
+        android:gravity="center"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/shape_discuss_topic"
+        android:textColor="@color/disabled2_hint_color"
+        android:textSize="@dimen/font_s"
+        android:visibility="visible"/>
+
+    <com.edusoho.kuozhi.v3.view.EduSohoNewIconView
+        android:id="@+id/tv_question"
+        android:text="问题"
+        android:gravity="center"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/shape_inclass_back"
+        android:textColor="@color/disabled2_hint_color"
+        android:textSize="@dimen/font_s"
+        android:visibility="visible"/>
+
+    <com.edusoho.kuozhi.v3.view.EduSohoNewIconView
+        android:id="@+id/tv_close"
+        android:text="@string/discuss_close"
+        android:gravity="center"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/shape_discuss_cancel"
+        android:textColor="@color/disabled2_hint_color"
+        android:textSize="@dimen/font_s"
+        android:visibility="visible"/>
+
+</RelativeLayout>

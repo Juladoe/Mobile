@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/system_bg">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/qr_layout_label"
+        android:gravity="center_vertical"
+        android:padding="6dp"
+        android:text="扫一扫进入"
+        android:textColor="@color/qr_logo_text"
+        android:textSize="@dimen/base_size" />
+
+    <TextView
+        android:id="@+id/qr_other_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="30dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="8dp"
+        android:text="其他方式进入"
+        android:textColor="@color/qr_other_btn"
+        android:textSize="@dimen/base_size" />
+
+    <LinearLayout
+        android:id="@+id/qr_logo_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="16dp"
+            android:drawableTop="@drawable/qr_logo"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="扫描网校二维码"
+            android:textColor="@color/qr_logo_text" />
+
+        <Button
+            android:id="@+id/qr_search_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/qr_logo_layout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="72dp"
+            android:layout_marginRight="72dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/qr_search_btn_sel"
+            android:paddingBottom="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="8dp"
+            android:text="开始扫描"
+            android:textColor="@color/qr_search_btn_text"
+            android:textSize="@dimen/base_large_size" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\blank_bg_green.jpg",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\blank_bg_green.jpg"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\blank_bg_black.jpg",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\blank_bg_black.jpg"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\blank_bg_white.jpg",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\liveEplayer\\src\\main\\res\\drawable-hdpi\\blank_bg_white.jpg"
+    }
+]

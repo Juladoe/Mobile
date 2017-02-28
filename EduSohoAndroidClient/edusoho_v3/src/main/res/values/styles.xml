@@ -1,0 +1,346 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <style name="PopWindowAnimationShow">
+        <item name="android:windowEnterAnimation">@anim/popwindow_open</item>
+        <item name="android:windowExitAnimation">@anim/popwindow_hide</item>
+    </style>
+
+    <style name="MyTab">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textSize">@dimen/font_l</item>
+        <item name="android:textColor">@color/secondary_font_color</item>
+    </style>
+
+    <style name="MyTabLine">
+        <item name="android:layout_width">35dp</item>
+        <item name="android:layout_height">3dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:background">@color/primary_color</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="DialogWindowAnimation">
+        <item name="android:windowEnterAnimation">@anim/dialog_window_enter</item>
+        <item name="android:windowExitAnimation">@anim/dialog_window_exit</item>
+    </style>
+
+    <style name="DialogWindowAnimationAlpha">
+        <item name="android:windowEnterAnimation">@anim/dialog_window_enter_a</item>
+        <item name="android:windowExitAnimation">@anim/dialog_window_exit_a</item>
+    </style>
+
+    <style name="DialogFullscreen">
+        <!--<item name="android:windowFullscreen">true</item>-->
+        <item name="android:windowNoTitle">false</item>
+    </style>
+
+    <style name="CategoryListPopWindowAnimationShow">
+        <item name="android:windowEnterAnimation">@anim/category_list_popwindow_open</item>
+        <item name="android:windowExitAnimation">@anim/category_list_popwindow_hide</item>
+    </style>
+
+    <style name="SplashTheme" parent="AppBaseTheme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="edusohoTheme" parent="EdusohoAppTheme">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="startTheme" parent="@style/EdusohoAppTheme">
+        <item name="android:textColor">@color/system_text</item>
+        <item name="windowActionBar">true</item>
+    </style>
+
+    <style name="StarStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:text">@string/font_news</item>
+    </style>
+
+    <style name="loadDlgTheme" parent="android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style>
+
+    <style name="courseRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/course_ratingbar</item>
+        <item name="android:width">27px</item>
+        <item name="android:height">@dimen/rating_height</item>
+        <item name="android:minHeight">27px</item>
+        <item name="android:maxHeight">64px</item>
+        <item name="android:minWidth">27px</item>
+        <item name="android:maxWidth">64px</item>
+    </style>
+
+    <style name="courseLargeRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/course_big_ratingbar</item>
+        <item name="android:height">@dimen/big_rating_height</item>
+        <item name="android:minHeight">32px</item>
+        <item name="android:maxHeight">128px</item>
+    </style>
+
+    <style name="lessonLearnRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/lesson_learn_ratingbar</item>
+    </style>
+
+    <style name="EdusohoAppTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:actionMenuTextAppearance">@style/EdusohoActionBarMenuTextStyle</item>
+        <item name="actionMenuTextAppearance">@style/EdusohoActionBarMenuTextStyle</item>
+        <item name="actionMenuTextColor">@android:color/white</item>
+        <item name="android:actionMenuTextColor">@android:color/white</item>
+        <item name="titleTextStyle">@style/CustomTitleTextStyle</item>
+        <item name="android:actionBarStyle">@style/EdusohoActionBarStyle</item>
+        <item name="actionBarStyle">@style/EdusohoActionBarStyle</item>
+        <item name="homeAsUpIndicator">@drawable/action_bar_back</item>
+        <item name="android:homeAsUpIndicator">@drawable/action_bar_back</item>
+        <item name="android:windowAnimationStyle">@style/SlideToWindowAnimTheme</item>
+        <item name="actionBarSize">@dimen/action_bar_height</item>
+        <item name="android:actionBarSize">@dimen/action_bar_height</item>
+        <item name="colorAccent">@color/underline_color</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_fb</item>
+        <item name="windowActionBar">true</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="windowNoTitle">false</item>
+        <item name="android:windowTitleSize">0px</item>
+    </style>
+
+    <style name="EdusohoActivityAnim">
+        <item name="android:activityOpenEnterAnimation">@anim/activity_open_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/activity_open_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/activity_open_exit</item>
+        <item name="android:activityCloseExitAnimation">@anim/activity_open_enter</item>
+    </style>
+
+    <style name="SlideToWindowAnimTheme">
+        <item name="android:activityOpenEnterAnimation">@anim/in_from_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/out_from_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/in_from_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/out_from_right</item>
+    </style>
+
+    <style name="EdusohoActionBarMenuTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Menu">
+        <item name="android:textSize">@dimen/base_large_size</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="EdusohoActionBarStyle" parent="@style/Widget.AppCompat.Light.ActionBar">
+        <item name="android:indeterminateProgressStyle">@style/EdusohoIndeterminateProgress</item>
+        <item name="android:background">@color/primary_color</item>
+        <item name="background">@color/primary_color</item>
+        <item name="android:titleTextStyle">@style/EdusohoActionBarTextStyle</item>
+        <item name="titleTextStyle">@style/EdusohoActionBarTextStyle</item>
+        <item name="android:displayOptions">showCustom|showHome</item>
+        <item name="displayOptions">showCustom|showHome</item>
+    </style>
+
+    <style name="EdusohoIndeterminateProgress" parent="@android:style/Widget.ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/action_bar_load</item>
+        <item name="android:minWidth">24dp</item>
+        <item name="android:maxWidth">24dp</item>
+        <item name="android:minHeight">24dp</item>
+        <item name="android:maxHeight">24dp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <style name="TitleIndeterminateProgress" parent="@android:style/Widget.ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/action_bar_load</item>
+        <item name="android:minWidth">18dp</item>
+        <item name="android:maxWidth">18dp</item>
+        <item name="android:minHeight">18dp</item>
+        <item name="android:maxHeight">18dp</item>
+    </style>
+
+    <style name="EdusohoActionBarTextStyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/large_font_size</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="CustomTitleTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/course_content_head</item>
+    </style>
+
+    <style name="schLoaingStyle" parent="@android:style/Widget.ProgressBar.Large">
+        <item name="android:indeterminateDrawable">@null</item>
+        <item name="android:maxWidth">322px</item>
+    </style>
+
+    <style name="SearchDialogTheme">
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowBackground">@color/search_popwindow_bg</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="PopDialogTheme" parent="android:Theme.Dialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowAnimationStyle">@style/AnimBottom</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="PopDialogTheme2" parent="android:Theme.Dialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowAnimationStyle">@style/AnimBottom</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="PopDialogTheme3" parent="android:Theme.Dialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="AnimBottom" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/fragment_enter</item>
+        <item name="android:windowExitAnimation">@anim/fragment_exit</item>
+    </style>
+
+    <style name="AppThemeNoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_fb</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textSize">@dimen/base_large_size</item>
+        <item name="actionBarSize">@dimen/action_bar_height</item>
+        <item name="android:windowAnimationStyle">@style/SlideToWindowAnimTheme</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="VideoPlayerActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textSize">@dimen/base_large_size</item>
+        <item name="actionBarSize">@dimen/action_bar_height</item>
+        <item name="android:windowAnimationStyle">@style/SlideToWindowAnimTheme</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="DownLoadTheme" parent="@style/AppThemeNoActionBar">
+        <item name="android:actionMenuTextColor">@color/primary_color</item>
+        <item name="android:actionMenuTextAppearance">@style/DownLoadActionBarMenu</item>
+        <item name="actionMenuTextAppearance">@style/DownLoadActionBarMenu</item>
+        <item name="actionMenuTextColor">@color/primary_color</item>
+    </style>
+
+    <style name="DownLoadActionBarMenu" parent="@android:style/TextAppearance.Holo.Large">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/base_large_size</item>
+    </style>
+
+    <style name="AppViewPaperTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowAnimationStyle">@style/EdusohoActivityAnim</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="edittext_style">
+        <item name="android:singleLine">true</item>
+        <item name="android:alpha">0.56</item>
+        <item name="android:background">@null</item>
+        <item name="android:textColor">@color/grey_alpha</item>
+        <item name="android:textSize">@dimen/medium_font_size</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="WindowZoomAnimation">
+        <item name="android:windowEnterAnimation">@anim/window_zoom_open</item>
+        <item name="android:windowExitAnimation">@anim/window_zoom_exit</item>
+    </style>
+
+    <style name="ESLiveActivityTheme" parent="@style/EdusohoAppTheme">
+        <item name="android:actionBarStyle">@style/ESLiveActionBarStyle</item>
+        <item name="actionBarStyle">@style/ESLiveActionBarStyle</item>
+    </style>
+
+    <style name="ESLiveActionBarStyle" parent="@style/Widget.AppCompat.Light.ActionBar">
+        <item name="android:indeterminateProgressStyle">@style/EdusohoIndeterminateProgress</item>
+        <item name="android:background">@drawable/action_bar_bg_mark</item>
+        <item name="background">@drawable/action_bar_bg_mark</item>
+        <item name="android:titleTextStyle">@style/EdusohoActionBarTextStyle</item>
+        <item name="titleTextStyle">@style/EdusohoActionBarTextStyle</item>
+        <item name="android:displayOptions">showCustom|showHome</item>
+        <item name="displayOptions">showCustom|showHome</item>
+    </style>
+
+    <style name="RegisterDialogStyle">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="BottomLine">
+        <item name="android:background">@color/disabled_hint_color</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+
+    <style name="DiscussDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/trans_color</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="dialog_big_image" parent="DiscussDialog">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+</resources>

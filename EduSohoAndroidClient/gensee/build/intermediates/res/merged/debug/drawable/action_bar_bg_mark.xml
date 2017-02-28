@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape>
+            <!-- shape的颜色，支持渐变 -->
+            <gradient
+                android:angle="270"
+                android:endColor="#11000000"
+                android:centerColor="#88000000"
+                android:startColor="#000000" />
+        </shape>
+    </item>
+
+</layer-list>

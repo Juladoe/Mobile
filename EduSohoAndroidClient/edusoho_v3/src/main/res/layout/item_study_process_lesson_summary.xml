@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/process_lesson_summary_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp">
+
+
+        <ImageView
+            android:id="@+id/study_process_lesson_summary_image"
+            android:layout_width="140dp"
+            android:layout_height="80dp" />
+
+        <TextView
+            android:id="@+id/study_process_lesson_summary_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_toRightOf="@id/study_process_lesson_summary_image"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="@color/font_1"
+            android:textSize="@dimen/large_font_size" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/study_process_lesson_summary_image"
+            android:layout_toRightOf="@id/study_process_lesson_summary_image">
+
+            <TextView
+                android:id="@+id/study_process_lesson_summary_teacher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/font_2"
+                android:layout_marginLeft="12dp" />
+
+
+            <TextView
+                android:id="@+id/study_process_lesson_teacher_tag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="12dp"
+                android:layout_toRightOf="@id/study_process_lesson_summary_teacher"
+                android:background="@drawable/role_teacher_bg"
+                android:paddingBottom="1dp"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:paddingTop="1dp"
+                android:text="老师"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/x_small_font_size" />
+
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/study_process_lesson_summary_image"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/study_process_lesson_summary_image"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:id="@+id/study_process_lesson_summary_introduction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/study_process_lesson_summary_title"
+                android:layout_toRightOf="@id/study_process_lesson_summary_image"
+                android:ellipsize="end"
+                android:lineSpacingMultiplier="1.2"
+                android:maxLines="3"
+                android:textColor="@color/font_3" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey_feedback1" />
+
+</LinearLayout>

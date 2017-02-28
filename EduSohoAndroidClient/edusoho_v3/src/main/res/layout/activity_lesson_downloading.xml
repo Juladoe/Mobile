@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ExpandableListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/el_download"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:groupIndicator="@null"
+        android:dividerHeight="0dp"
+        android:childDivider="@android:color/white"
+        android:layout_above="@+id/line" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:id="@+id/line"
+        android:layout_above="@+id/ll_download"
+        android:layout_height="2px"
+        android:src="@drawable/login_line_bg" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/ll_download">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:layout_weight="1"
+            android:text="@string/select_all"
+            android:gravity="center"
+            android:textColor="@color/green_alpha"
+            android:clickable="true"
+            android:textSize="@dimen/medium_font_size"
+            android:id="@+id/tv_select_all" />
+
+        <ImageView
+            android:layout_width="2px"
+            android:layout_height="16dp"
+            android:src="@drawable/login_line_bg"
+            android:layout_gravity="center_vertical" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:layout_weight="1"
+            android:text="缓存"
+            android:gravity="center"
+            android:textColor="@color/green_alpha"
+            android:clickable="true"
+            android:textSize="@dimen/medium_font_size"
+            android:id="@+id/tv_download" />
+
+    </LinearLayout>
+</RelativeLayout>

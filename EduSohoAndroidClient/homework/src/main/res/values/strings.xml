@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">homework</string>
+    <string name="hw_card_submit">确认提交</string>
+    <string name="exercise_label">练习</string>
+    <string name="homework_label">作业</string>
+
+</resources>

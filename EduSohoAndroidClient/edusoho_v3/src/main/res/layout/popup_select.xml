@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/material_dlg_bg"
+    android:padding="8dp"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:background="@drawable/course_info_bg"
+        android:textColor="@color/popup_color"
+        android:textSize="@dimen/base_large_size"
+        android:gravity="left|center"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:text="退出课程学习"
+        android:id="@+id/popup_title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:visibility="visible"
+        android:textColor="@color/popup_color"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:layout_below="@id/popup_title"
+        android:id="@+id/popup_select_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RadioGroup
+        android:layout_below="@id/popup_select_label"
+        android:id="@+id/popup_select"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        </RadioGroup>
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_below="@id/popup_select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@color/material_cancel_btn"
+            android:id="@+id/popup_cancel_btn"
+            android:textSize="@dimen/material_btn"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:tag="left"
+            android:text="取消"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textSize="@dimen/material_btn"
+            android:tag="right"
+            android:textColor="@color/material_ok_btn"
+            android:id="@+id/popup_ok_btn"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="退出学习"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/lesson_menu_list"
+        android:orderInCategory="100"
+        yourapp:showAsAction="ifRoom"
+        android:icon="@drawable/lesson_menu_list"
+        android:title="列表"></item>
+</menu>

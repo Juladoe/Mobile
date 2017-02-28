@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/head_register_height">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="@dimen/iv_register"
+            android:layout_height="@dimen/iv_register"
+            android:layout_centerVertical="true"
+            android:scaleType="center"
+            android:src="@drawable/action_icon_back" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/view_register_margin"
+        android:text="@string/reg_account_reg"
+        android:textColor="@color/primary_font_color"
+        android:textSize="@dimen/base_x_large_size" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/view_register_margin"
+        android:layout_marginRight="@dimen/view_register_margin"
+        android:layout_marginTop="@dimen/rl_register_margingTop">
+
+        <ImageView
+            android:id="@+id/iv_clear_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:visibility="invisible"
+            android:src="@drawable/clear_content"
+            android:layout_centerVertical="true"
+            android:scaleType="center"/>
+
+        <EditText
+            android:id="@+id/et_phone_num"
+            style="@style/edittext_style"
+            android:hint="@string/reg_phone_hint"
+            android:textSize="@dimen/x_medium_font_size"
+            android:maxLength="11"
+            android:layout_toLeftOf="@id/iv_clear_phone"
+            android:textColor="@color/primary_font_color"
+            android:textColorHint="@color/grey_hint"/>
+        <View
+            android:background="@color/register_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view_register_height"
+            android:layout_marginTop="@dimen/rl_register_margin"
+            android:layout_below="@id/et_phone_num"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_graphic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/view_register_margin"
+        android:layout_marginRight="@dimen/view_register_margin"
+        android:layout_marginLeft="@dimen/view_register_margin"
+        android:visibility="gone"
+        >
+
+        <TextView
+            android:id="@+id/tv_change"
+            android:text="换一换"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textColor="@color/primary"
+            android:textSize="@dimen/x_medium_font_size"
+            android:layout_marginLeft="3dp"
+            android:layout_alignParentRight="true"/>
+
+        <ImageView
+            android:id="@+id/iv_graphic"
+            android:scaleType="fitXY"
+            android:layout_width="@dimen/complete_iv_width"
+            android:layout_height="@dimen/complete_iv_height"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/tv_change"/>
+
+        <ImageView
+            android:id="@+id/iv_clear_code"
+            android:layout_toLeftOf="@id/iv_graphic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/sys_small_normal"
+            android:layout_marginRight="@dimen/sys_small_normal"
+            android:visibility="invisible"
+            android:src="@drawable/clear_content"/>
+
+        <EditText
+            android:id="@+id/et_graphic_code"
+            style="@style/edittext_style"
+            android:hint="@string/img_code_input"
+            android:textSize="@dimen/x_medium_font_size"
+            android:textColor="@color/primary_font_color"
+            android:textColorHint="@color/grey_hint"
+            android:layout_toLeftOf="@id/iv_clear_code"
+            android:maxLength="5"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view_register_height"
+            android:layout_marginTop="@dimen/rl_register_margin"
+            android:layout_below="@id/et_graphic_code"
+            android:background="@color/register_view" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_next"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginBottom="@dimen/login_widget_margin_bottom"
+        android:layout_marginLeft="@dimen/view_register_margin"
+        android:layout_marginRight="@dimen/view_register_margin"
+        android:layout_marginTop="@dimen/rl_register_margin"
+        android:alpha="0.6"
+        android:background="@color/primary_color"
+        android:gravity="center"
+        android:text="@string/register_next"
+        android:textColor="@color/disabled2_hint_color"
+        android:textSize="@dimen/font_xl" />
+
+</LinearLayout>

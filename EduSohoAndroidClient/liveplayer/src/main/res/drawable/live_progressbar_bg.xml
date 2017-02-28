@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 是否是圆角 -->
+    <corners android:radius="8px" />
+    <stroke
+        android:width="1px"
+        android:color="@color/progressbar_bg" />
+    <!-- shape的颜色，支持渐变 -->
+    <gradient
+        android:centerColor="@color/progressbar_bg"
+        android:endColor="@color/progressbar_bg"
+        android:startColor="@color/progressbar_bg" />
+
+</shape>

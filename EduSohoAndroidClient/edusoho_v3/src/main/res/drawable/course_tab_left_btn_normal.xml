@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 是否是圆角 -->
+    <corners
+        android:bottomLeftRadius="5dp"
+        android:topLeftRadius="5dp" />
+
+    <stroke
+        android:width="1px"
+        android:color="@color/course_tab_stroke"
+
+        />
+    <!-- shape的颜色，支持渐变 -->
+    <gradient
+        android:angle="270"
+        android:centerColor="@color/course_tab_gradient"
+        android:centerY="0.45"
+        android:endColor="@color/course_tab_gradient"
+        android:startColor="@color/course_tab_gradient" />
+
+</shape>

@@ -1,0 +1,83 @@
+apply plugin: 'com.android.application'
+apply plugin: 'im.fir.plugin.gradle'
+apply plugin: 'com.antfortune.freeline'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion '22.0.1'
+
+    defaultConfig {
+        applicationId "com.edusoho"
+        minSdkVersion 16
+        targetSdkVersion 21
+        versionName "3.9.3"
+        versionCode 46
+
+        ndk {
+            abiFilters "armeabi-v7a"
+        }
+        multiDexEnabled true
+    }
+
+    productFlavors {
+        edusoho {
+            applicationId "com.edusoho.kuozhi"
+        }
+    }
+
+    freeline {
+        hack true
+        productFlavor 'edusoho'
+    }
+
+    fir{
+        apiToken 'fa4ff9122d709c485cb0e3c992a62980'
+        changeLog '1.输入网校带http修复\n2.直播限制时间'
+    }
+
+    //签名
+    signingConfigs {
+        debugConfig {
+            storeFile file("key/edusoho.kuozhi.jks")
+            storePassword "10001000"
+            keyAlias "cn"
+            keyPassword "10001000"
+        }
+    }
+
+    buildTypes {
+        debug {
+            zipAlignEnabled true
+            minifyEnabled false
+            signingConfig signingConfigs.debugConfig
+        }
+
+        release {
+            zipAlignEnabled true
+            minifyEnabled false
+            //proguardFiles 'proguard-rules.txt'
+            signingConfig signingConfigs.debugConfig
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    task copyApk(type: Copy) {
+        from 'build/outputs/apk/kuozhiv2-edusoho-release.apk'
+        into 'outputs'
+    }
+}
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+dependencies {
+    compile project(':edusoho_v3')
+    compile project(':homework')
+    compile project(':liveplayer')
+}

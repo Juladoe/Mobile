@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <include
+        android:id="@+id/view_empty"
+        layout="@layout/empty_list"/>
+
+    <com.edusoho.kuozhi.v3.view.swipemenulistview.SwipeMenuListView
+        android:id="@+id/lv_news_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"/>
+
+    <LinearLayout
+        android:id="@+id/news_progressbar"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ProgressBar
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:indeterminateDrawable="@drawable/load" />
+
+        <TextView
+            android:layout_margin="8dp"
+            android:text="加载动态..."
+            android:textColor="@color/base_black_54"
+            android:textSize="@dimen/base_small_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</FrameLayout>

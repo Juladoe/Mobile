@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_send_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/message_time_bg"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/x_small_font_size"
+            android:visibility="visible" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/tv_send_time"
+            android:gravity="left|center_vertical"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp">
+
+            <ImageView
+                android:id="@+id/ci_send_pic"
+                android:layout_width="@dimen/head_icon_medium"
+                android:layout_height="@dimen/head_icon_medium"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/default_avatar" />
+
+            <TextView
+                android:id="@+id/tv_nickname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/ci_send_pic"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="6dp"
+                android:layout_toRightOf="@+id/ci_send_pic"
+                android:textSize="@dimen/x_small_font_size"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:id="@+id/rl_voice_dialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_nickname"
+                android:layout_toRightOf="@+id/ci_send_pic">
+
+                <ImageView
+                    android:id="@+id/iv_msg_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="6dp"
+                    android:background="@drawable/chat_image_from_layout"
+                    android:clickable="true" />
+
+                <ImageView
+                    android:id="@+id/iv_voice_play_anim"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="12dp"
+                    android:background="@drawable/chat_from_speak_voice" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/iv_msg_image"
+                    android:orientation="vertical"
+                    android:layout_centerVertical="true"
+                    android:paddingTop="2dp">
+
+                    <ProgressBar
+                        android:id="@+id/sendProgressPar"
+                        style="?android:attr/progressBarStyleSmall"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:visibility="gone" />
+
+                    <ImageView
+                        android:id="@+id/msg_status"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:clickable="true"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/msg_state_failed_resend"
+                        android:visibility="visible" />
+
+                    <TextView
+                        android:id="@+id/tv_audio_length"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:gravity="center"
+                        android:text="0&apos;&apos;"
+                        android:textColor="@color/base_black_35"
+                        android:textSize="@dimen/small_font_size"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

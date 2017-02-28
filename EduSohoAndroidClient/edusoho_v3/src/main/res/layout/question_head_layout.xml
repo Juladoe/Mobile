@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+    android:orientation="horizontal"
+    android:background="@drawable/card_bg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/question_type"
+        android:layout_weight="0"
+        android:textSize="@dimen/sys_normal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/question_score"
+        android:paddingLeft="6dp"
+        android:layout_weight="0"
+        android:textSize="@dimen/sys_small_normal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/question_number"
+        android:gravity="right"
+        android:layout_weight="1"
+        android:textSize="@dimen/sys_normal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

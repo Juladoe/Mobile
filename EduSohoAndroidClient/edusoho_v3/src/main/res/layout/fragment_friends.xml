@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <ListView
+        android:id="@+id/friends_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"></ListView>
+
+    <TextView
+        android:id="@+id/dialog"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:background="@drawable/radius_tv_bg"
+        android:gravity="center"
+        android:text="A"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        android:visibility="invisible" />
+
+    <com.edusoho.kuozhi.v3.view.SideBar
+        android:id="@+id/sidebar"
+        android:layout_width="24dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="right|center"
+        android:layout_marginBottom="32dp"
+        android:layout_marginTop="52dp" />
+
+    <include
+        android:layout_gravity="center"
+        android:id="@+id/friend_fragment_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        layout="@layout/load_dig_layout"/>
+</FrameLayout>

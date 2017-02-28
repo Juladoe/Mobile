@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/system_normal_bg"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.edusoho.kuozhi.v3.view.EduSohoButton
+        android:layout_alignParentBottom="true"
+        android:id="@+id/testpaper_card_submit"
+        android:padding="10dp"
+        app:borderWidth="0dp"
+        app:defaultColor="@color/lesson_learn_btn_normal"
+        app:focusColor="@color/lesson_learn_btn_pressed"
+        app:iconPosition="right"
+        app:textSize="@dimen/medium_font_size"
+        app:radius="2dp"
+        app:textStr="提交试卷"
+        app:textColor="#FFFFFF"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_above="@id/testpaper_card_submit"
+        android:background="@color/system_normal_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:background="@color/system_normal_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/testpaper_card_title"
+                android:text="答题卡"
+                android:textSize="@dimen/sys_normal"
+                android:gravity="center"
+                android:padding="18dp"
+                android:orientation="horizontal"
+                android:background="@drawable/card_bg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></TextView>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/testpaper_card_layout"
+                android:layout_below="@id/testpaper_card_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

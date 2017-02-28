@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/lv_catalog"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/common_margin"
+        android:paddingRight="@dimen/common_margin" />
+
+    <com.edusoho.kuozhi.v3.view.InnerLoadView
+        android:id="@+id/il_class_catalog_load"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/ll_course_catalog_empty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/no_add_class"
+        android:drawablePadding="12dp"
+        android:layout_marginBottom="55dp"
+        android:layout_marginTop="60dp"
+        android:visibility="gone"
+        android:drawableTop="@drawable/no_review"
+        android:textColor="@color/secondary2_font_color"
+        android:textSize="@dimen/font_s" />
+
+</RelativeLayout>

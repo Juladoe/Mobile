@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="SinaWeibo">新浪微博</string>
+    <string name="TencentWeibo">腾讯微博</string>
+    <string name="QZone">QQ空间</string>
+    <string name="Wechat">微信</string>
+    <string name="WechatMoments">朋友圈</string>
+    <string name="WechatFavorite">微信收藏</string>
+    <string name="QQ">QQ</string>
+    <string name="shareToUser">发送给校友</string>
+    <string name="shareFavorite">收藏</string>
+
+    <string name="shard_title">分 享</string>
+    <string name="shard_cancel">取  消</string>
+    <string-array name="shard_filter">
+        <item>WechatFavorite</item>
+        <item>shareToUser</item>
+    </string-array>
+</resources>

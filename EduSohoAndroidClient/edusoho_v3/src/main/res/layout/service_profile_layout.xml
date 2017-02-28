@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="10dp">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/sp_icon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:riv_corner_radius="3dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/default_avatar"
+            android:scaleType="fitXY" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/sp_icon"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sp_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/medium_font_size" />
+
+            <TextView
+                android:layout_marginTop="6dp"
+                android:id="@+id/sp_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/small_font_size" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/white">
+
+        <TextView
+            android:id="@+id/tv_do_not_disturb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="false"
+            android:padding="13dp"
+            android:text="@string/message_do_not_disturb"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/medium_font_size" />
+
+        <CheckBox
+            android:id="@+id/sp_icon_do_not_disturb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="12dp"
+            android:layout_weight="0"
+            android:background="@drawable/set_check_bg"
+            android:button="@null" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/sp_icon_clear_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:clickable="true"
+        android:padding="13dp"
+        android:text="@string/clear_service_profile_record"
+        android:textColor="@color/grey"
+        android:textSize="@dimen/medium_font_size" />
+
+</LinearLayout>

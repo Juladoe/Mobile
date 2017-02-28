@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">imserver</string>
+    <!-- ChatSelect -->
+    <string name="chat_select_label">最近聊天</string>
+    <string name="chat_select_create">创建新聊天</string>
+    <string name="group_select_create">选择讨论组</string>
+    <string name="hand_press_and_speak">按住说话</string>
+    <string name="hand_up_and_end">松开结束</string>
+    <string name="hand_move_up_and_send_cancel">手指上滑，取消发送</string>
+    <string name="hand_up_and_exit">手指松开，取消发送</string>
+    <string name="audio_length_too_short">录音时间太短</string>
+
+    <!-- font -->
+    <string name="font_chat_add_media">&#xe611;</string>
+    <string name="font_chat_keyboard">&#xe60d;</string>
+    <string name="font_chat_voice">&#xe641;</string>
+    <string name="font_chat_media_photo">&#xe640;</string>
+    <string name="font_chat_media_camera">&#xe63f;</string>
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 是否是圆角 -->
+    <corners android:radius="8dip" />
+
+    <gradient
+        android:endColor="@color/base_light_red"
+        android:centerColor="@color/base_light_red"
+        android:startColor="@color/base_light_red" />
+
+</shape>

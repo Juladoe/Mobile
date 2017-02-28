@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_unit_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_lesson_chapter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@color/grey_bg"
+            android:paddingBottom="10dp"
+            android:paddingLeft="28dp"
+            android:paddingTop="10dp"
+            android:textSize="@dimen/x_small_font_size" />
+
+        <com.edusoho.kuozhi.v3.view.EduSohoIconView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="24dp"
+            android:text="@string/font_less"
+            android:textColor="@color/green_alpha"
+            android:textSize="@dimen/x_small_font_size"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_lesson_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="32dp"
+            android:background="@drawable/lesson_list_item_bg"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/tv_lesson_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@+id/iv_download_finish"
+                android:textSize="@dimen/small_font_size" />
+
+            <TextView
+                android:id="@+id/iv_download_finish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/download_finish_bg"
+                android:padding="3dp"
+                android:text="已下载"
+                android:textColor="@color/grey_alpha"
+                android:textSize="@dimen/x_small_font_size"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+        <com.edusoho.kuozhi.v3.view.EduSohoNewIconView
+            android:id="@+id/iv_download_selected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="22dp"
+            android:background="@android:color/white"
+            android:text="@string/font_download_unselect"
+            android:textColor="@color/primary_color"
+            android:textSize="@dimen/large_font_size" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="chat_background">#F4F7F9</color>
+    <color name="chat_tool_background">#FAFAFA</color>
+    <color name="text_message_input_bg">#f6f6f6</color>
+
+    <color name="green_feedback">#0e9e5c</color>
+    <color name="grey_666666">#666666</color>
+    <color name="green_alpha">#37b97d</color>
+    <color name="white">#ffffff</color>
+    <color name="white_50">#88ffffff</color>
+    <color name="white_80">#ddffffff</color>
+    <color name="grey_cccccc">#cccccc</color>
+    <color name="background">#ebebeb</color>
+    <color name="grey_feedback">#e5e5e5</color>
+    <color name="grey_alpha">#999999</color>
+    <color name="grey_beta">#97989a</color>
+    <color name="base_black_87">#dd000000</color>
+    <color name="base_black_50">#99ffffff</color>
+    <color name="base_light_red">#ff5822</color>
+    <color name="transparent">@android:color/transparent</color>
+</resources>

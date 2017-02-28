@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/action_bar_dark_bg"
+        android:navigationIcon="@drawable/ic_action_gray_bar_back"
+        app:navigationIcon="@drawable/ic_action_gray_bar_back">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:lines="1"
+            android:text="@string/mine_items_download"
+            android:textColor="@color/primary_font_color"
+            android:textSize="@dimen/base_large_size" />
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:id="@+id/rl_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar">
+
+        <RelativeLayout
+            android:id="@+id/rl_inside_tab"
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
+            android:background="@drawable/action_bar_bg">
+
+            <extensions.PagerSlidingTabStrip
+                android:id="@+id/tab_download"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:background="@color/transparent"
+                android:fillViewport="false"
+                app:dividerColor="@color/transparent"
+                app:indicatorColor="@color/primary_color"
+                app:indicatorHeight="3dp"
+                app:pst_other_color="@color/grey_alpha"
+                app:pst_textColor="@color/primary_color"
+                app:pst_textSize="@dimen/medium_font_size"
+                app:tabPaddingLeftRight="2dip"
+                app:underlineColor="@color/transparent"
+                app:underlineHeight="0dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="7dp"
+                android:layout_below="@id/tab_download"
+                android:background="@drawable/shape_line_shadow" />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager_download"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ll_download_device_info"
+        android:layout_below="@+id/rl_tab" />
+
+    <LinearLayout
+        android:id="@+id/ll_download_device_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:src="@drawable/download_tool_line" />
+
+        <TextView
+            android:id="@+id/download_device_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:textColor="@color/grey_alpha"
+            android:textSize="@dimen/x_small_font_size" />
+
+        <ProgressBar
+            android:id="@+id/pb_download_device_info"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_margin="5dp"
+            android:max="100"
+            android:progress="0"
+            android:progressDrawable="@drawable/download_progress_bar" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_below="@id/toolbar"
+        android:background="@color/action_bar_dark_bg"
+        android:id="@+id/ll_download_load"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            layout="@layout/load_dig_layout" />
+    </FrameLayout>
+</RelativeLayout>

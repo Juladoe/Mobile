@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/base_color_normal" android:state_pressed="false" />
+    <item android:drawable="@color/live_course_button_focus" android:state_pressed="true" />
+</selector>

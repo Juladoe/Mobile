@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <shape android:shape="rectangle">
+            <stroke
+                    android:width="3dp"
+                    android:color="@color/eplayer_pad_title_bg"/>
+        </shape>
+    </item>
+    <item android:state_activated="true">
+        <shape android:shape="rectangle">
+            <stroke
+                    android:width="3dp"
+                    android:color="@color/eplayer_pad_title_bg2"/>
+        </shape>
+    </item>
+    <item android:drawable="@color/transparent"/>
+
+
+</selector>

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="es-im-1.0.2-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/edusoho_v3/build/intermediates/exploded-aar/com.edusoho.imserver/es-im/1.0.2-SNAPSHOT/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/edusoho_v3/build/intermediates/exploded-aar/com.edusoho.imserver/es-im/1.0.2-SNAPSHOT/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

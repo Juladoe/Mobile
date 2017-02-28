@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tdh_label"
+                android:layout_width="30dp"
+                android:layout_height="16dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/thread_type_discuss_label"
+                android:gravity="center"
+                android:text="回答"
+                android:textSize="@dimen/font_size_xx_s" />
+
+            <TextView
+                android:id="@+id/tdh_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="如何进行"
+                android:textColor="@color/base_black_87"
+                android:textSize="@dimen/font_size_s" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/tdh_avatar"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/default_avatar"
+                app:riv_oval="true" />
+
+            <TextView
+                android:id="@+id/tdh_nickname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:textColor="@color/base_black_54"
+                android:textSize="@dimen/font_size_x_s" />
+
+            <TextView
+                android:id="@+id/tdh_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:textColor="@color/base_black_54"
+                android:textSize="@dimen/font_size_x_s" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tdh_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/base_black_87"
+            android:textSize="@dimen/font_size_x_s" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1px"
+        android:layout_below="@+id/rl_msg_notify"
+        android:layout_marginLeft="16dp"
+        android:background="@color/grey_dddddd" />
+
+    <TextView
+        android:id="@+id/tdh_from_course"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/discovery_more"
+        android:ellipsize="end"
+        android:padding="16dp"
+        android:singleLine="true"
+        android:textColor="@color/base_black_54"
+        android:textSize="@dimen/font_size_x_s" />
+</LinearLayout>

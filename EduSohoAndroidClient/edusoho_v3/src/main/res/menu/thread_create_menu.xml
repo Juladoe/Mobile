@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_thread_create"
+        android:orderInCategory="100"
+        android:title="发布"
+        app:showAsAction="ifRoom" />
+
+</menu>

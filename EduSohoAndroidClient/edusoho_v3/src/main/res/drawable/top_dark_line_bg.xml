@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape>
+            <solid android:color="@color/disabled_hint_color" />
+        </shape>
+    </item>
+
+    <item
+        android:top="1px"
+        android:bottom="0px"
+        android:left="0dp"
+        android:right="0dp">
+        <shape>
+            <stroke android:width="0dp" />
+            <solid android:color="#f5f5f5" />
+        </shape>
+    </item>
+
+</layer-list>

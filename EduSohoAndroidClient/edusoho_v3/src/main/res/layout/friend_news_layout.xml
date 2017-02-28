@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/friend_news_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null">
+
+        </ListView>
+
+        <TextView
+            android:id="@+id/empty_new_follower"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/friend_news_list"
+            android:layout_marginTop="152dp"
+            android:gravity="center_horizontal"
+            android:text="您还没有收到任何好友通知"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/notification_load"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <ProgressBar
+            android:layout_width="@dimen/xxx_large_font_size"
+            android:layout_height="@dimen/xxx_large_font_size"
+            android:layout_gravity="center"
+
+            android:indeterminateDrawable="@drawable/load" />
+
+    </FrameLayout>
+
+
+</FrameLayout>

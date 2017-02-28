@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipe_refresh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/lv_discuss"
+            android:divider="@color/disabled_hint_color"
+            android:scrollbars="none"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/ll_discuss_empty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="55dp"
+            android:layout_marginTop="60dp"
+            android:drawablePadding="12dp"
+            android:drawableTop="@drawable/no_review"
+            android:text="@string/discuss_no_data"
+            android:gravity="center"
+            android:visibility="gone"
+            android:textColor="@color/secondary2_font_color"
+            android:textSize="@dimen/font_s" />
+
+        <com.edusoho.kuozhi.v3.view.InnerLoadView
+            android:id="@+id/ll_frame_load"
+            android:background="@color/textIcons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/ll_no_login"
+            android:layout_marginBottom="55dp"
+            android:layout_marginTop="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/discuss_unlogin"
+            android:gravity="center"
+            android:drawablePadding="12dp"
+            android:drawableTop="@drawable/no_review"
+            android:textColor="@color/secondary2_font_color"
+            android:textSize="@dimen/font_s"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+</android.support.v4.widget.SwipeRefreshLayout>

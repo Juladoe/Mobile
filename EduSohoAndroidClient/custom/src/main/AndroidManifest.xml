@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.edusoho"
+    android:versionCode="27"
+    android:versionName="3.3.2">
+
+    <application
+        android:name="com.edusoho.kuozhi.v3.EdusohoApp"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/EdusohoAppTheme">
+        <activity
+            android:name="${startActivity}"
+            android:label="@string/app_name"
+            android:theme="@style/kuozhiV2StartTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".kuozhi.CustomSplashActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme" />
+
+
+
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="550f8dacfd98c56a3200084f" />
+
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="Official" />
+
+        <!-- custom weixin login -->
+        <activity
+            android:name="${wxpkg}.wxapi.WXEntryActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true" />
+
+    </application>
+
+</manifest>

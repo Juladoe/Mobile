@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/li_tab1"
+    android:visibility="gone">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:id="@+id/li_tab1_row1_col1"
+            android:contentDescription="e_ciya">
+
+
+            <ImageView
+                android:id="@+id/img_tab_item_row1_col1"
+                android:layout_width="@dimen/chat_size_with_hight"
+                android:layout_height="@dimen/chat_size_with_hight"
+                android:background="@drawable/e_ciya" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:id="@+id/li_tab1_row1_col2"
+            android:contentDescription="e_jiyan">
+
+
+            <ImageView
+                android:id="@+id/img_tab_item_row1_col2"
+                android:layout_width="@dimen/chat_size_with_hight"
+                android:layout_height="@dimen/chat_size_with_hight"
+                android:background="@drawable/e_jiyan" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:id="@+id/li_tab1_row1_col3"
+            android:contentDescription="e_buding">
+
+
+            <ImageView
+                android:id="@+id/img_tab_item_row1_col3"
+                android:layout_width="@dimen/chat_size_with_hight"
+                android:layout_height="@dimen/chat_size_with_hight"
+                android:background="@drawable/e_buding" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:id="@+id/li_tab1_row1_col4"
+            android:contentDescription="e_shangxin">
+
+
+            <ImageView
+                android:id="@+id/img_tab_item_row1_col4"
+                android:layout_width="@dimen/chat_size_with_hight"
+                android:layout_height="@dimen/chat_size_with_hight"
+                android:background="@drawable/e_shangxin" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:id="@+id/li_tab1_row1_col5"
+            android:contentDescription="e_daxiao">
+
+
+            <ImageView
+                android:id="@+id/img_tab_item_row1_col5"
+                android:layout_width="@dimen/chat_size_with_hight"
+                android:layout_height="@dimen/chat_size_with_hight"
+                android:background="@drawable/e_daxiao" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:id="@+id/li_tab1_row1_col6"
+            android:contentDescription="e_jingya">
+
+
+            <ImageView
+                android:id="@+id/img_tab_item_row1_col6"
+                android:layout_width="@dimen/chat_size_with_hight"
+                android:layout_height="@dimen/chat_size_with_hight"
+                android:background="@drawable/e_jingya" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:id="@+id/li_tab1_row2_col1"
+            android:contentDescription="e_qinqin">
+
+
+            <ImageView
+                android:id="@+id/img_tab_item_row2_col1"
+                android:layout_width="@dimen/chat_size_with_hight"
+                android:layout_height="@dimen/chat_size_with_hight"
+                android:background="@drawable/e_qinqin" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:id="@+id/li_tab1_row2_col2"
+            android:contentDescription="e_weixiao">
+
+
+            <ImageView
+                android:id="@+id/img_tab_item_row2_col2"
+                android:layout_width="@dimen/chat_size_with_hight"
+                android:layout_height="@dimen/chat_size_with_hight"
+                android:background="@drawable/e_weixiao" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:id="@+id/li_tab1_row2_col3"
+            android:contentDescription="e_tushe">
+
+
+            <ImageView
+                android:id="@+id/img_tab_item_row2_col3"
+                android:layout_width="@dimen/chat_size_with_hight"
+                android:layout_height="@dimen/chat_size_with_hight"
+                android:background="@drawable/e_tushe" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:id="@+id/li_tab1_row2_col4"
+            android:contentDescription="e_tianshi">
+
+
+            <ImageView
+                android:id="@+id/img_tab_item_row2_col4"
+                android:layout_width="@dimen/chat_size_with_hight"
+                android:layout_height="@dimen/chat_size_with_hight"
+                android:background="@drawable/e_tianshi" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:id="@+id/li_tab1_row2_col5"
+            android:contentDescription="e_shuaku">
+
+
+            <ImageView
+                android:id="@+id/img_tab_item_row2_col5"
+                android:layout_width="@dimen/chat_size_with_hight"
+                android:layout_height="@dimen/chat_size_with_hight"
+                android:background="@drawable/e_shuaku" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:id="@+id/li_tab1_row2_col6"
+            android:contentDescription="e_daidai">
+
+
+            <ImageView
+                android:id="@+id/img_tab_item_row2_col6"
+                android:layout_width="@dimen/chat_size_with_hight"
+                android:layout_height="@dimen/chat_size_with_hight"
+                android:background="@drawable/e_daidai" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:id="@+id/li_tab1_row3_col1"
+            android:contentDescription="e_daku">
+
+
+            <ImageView
+                android:id="@+id/img_tab_item_row3_col1"
+                android:layout_width="@dimen/chat_size_with_hight"
+                android:layout_height="@dimen/chat_size_with_hight"
+                android:background="@drawable/e_daku" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:id="@+id/li_tab1_row3_col2"
+            android:contentDescription="e_moshu">
+
+
+            <ImageView
+                android:id="@+id/img_tab_item_row3_col2"
+                android:layout_width="@dimen/chat_size_with_hight"
+                android:layout_height="@dimen/chat_size_with_hight"
+                android:background="@drawable/e_moshu" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:id="@+id/li_tab1_row3_col3"
+            android:contentDescription="e_yaoguai">
+
+
+            <ImageView
+                android:id="@+id/img_tab_item_row3_col3"
+                android:layout_width="@dimen/chat_size_with_hight"
+                android:layout_height="@dimen/chat_size_with_hight"
+                android:background="@drawable/e_yaoguai" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:id="@+id/li_tab1_row3_col4"
+            android:contentDescription="e_xingxing">
+
+
+            <ImageView
+                android:id="@+id/img_tab_item_row3_col4"
+                android:layout_width="@dimen/chat_size_with_hight"
+                android:layout_height="@dimen/chat_size_with_hight"
+                android:background="@drawable/e_xingxing" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="@dimen/chat_size_with_hight"
+                android:layout_height="@dimen/chat_size_with_hight" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:id="@+id/li_tab1_row3_col6">
+
+
+            <ImageView
+                android:id="@+id/img_tab_item_row3_col6"
+                android:layout_width="@dimen/chat_size_with_hight"
+                android:layout_height="29dp"
+                android:background="@drawable/item_back" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+

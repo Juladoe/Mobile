@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="D:\Android\stadio\gradle\gradle-2.14.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/bdvideoplayer" />
+            <option value="$PROJECT_DIR$/commonLib" />
+            <option value="$PROJECT_DIR$/commonUtils" />
+            <option value="$PROJECT_DIR$/edusoho_v3" />
+            <option value="$PROJECT_DIR$/homework" />
+            <option value="$PROJECT_DIR$/kuozhiv2" />
+            <option value="$PROJECT_DIR$/liveplayer" />
+            <option value="$PROJECT_DIR$/multi-image-selector" />
+            <option value="$PROJECT_DIR$/shard" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

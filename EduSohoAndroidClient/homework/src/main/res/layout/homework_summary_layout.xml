@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_feedback1"
+    android:gravity="center|top"
+    android:paddingTop="70dp"
+    android:orientation="vertical">
+
+    <include layout="@layout/load_layout" />
+
+    <include layout="@layout/empty_data_page" />
+
+    <TextView
+        android:id="@+id/homework_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:text="作业名称"
+        android:textSize="@dimen/base_size" />
+
+    <TextView
+        android:id="@+id/homework_name_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="12dp"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/base_size" />
+
+    <TextView
+        android:id="@+id/homework_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:text="作业说明"
+        android:textSize="@dimen/base_size" />
+
+    <TextView
+        android:id="@+id/homework_info_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:padding="12dp"
+        android:text="暂无课程说明"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/base_size" />
+
+    <TextView
+        android:id="@+id/homework_belong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:text="所属课程"
+        android:textSize="@dimen/base_size" />
+
+    <TextView
+        android:id="@+id/homework_belong_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="12dp"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/base_size" />
+
+    <Button
+        android:id="@+id/start_homework_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/login_btn_sel"
+        android:text="开始答题"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>

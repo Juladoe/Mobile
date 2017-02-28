@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:background="#ebebeb"
+        android:id="@+id/chat_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+
+    <com.edusoho.kuozhi.v3.view.AlwaysMarqueeTextView
+        android:alpha="0"
+        android:id="@+id/tv_live_notice"
+        android:drawablePadding="15dp"
+        android:gravity="center_vertical"
+        android:drawableLeft="@drawable/icon_live_red_notice"
+        android:background="@color/live_notice_bg"
+        android:text="暂无公告"
+        android:padding="8dp"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:scrollHorizontally="true"
+        android:ellipsize="marquee"
+        android:textColor="@color/white_80"
+        android:layout_width="match_parent"
+        android:layout_height="36dp" />
+
+</FrameLayout>

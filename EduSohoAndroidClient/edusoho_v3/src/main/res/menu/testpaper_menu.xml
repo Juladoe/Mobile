@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title=""
+        android:id="@+id/testpaper_menu_time"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="100" />
+    <item
+        android:icon="@drawable/testpaper_menu_card"
+        android:id="@+id/testpaper_menu_card"
+        app:showAsAction="ifRoom"
+        android:title="@string/testpaper_menu_card"
+        android:orderInCategory="100" />
+</menu>

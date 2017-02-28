@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.edusoho.kuozhi.v3.view.test.ChoiceQuestionWidget xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:paddingTop="28dp"
+    android:paddingBottom="28dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@id/question_stem"
+        android:textColor="@color/question_stem"
+        android:textSize="@dimen/question_stem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RadioGroup
+        android:layout_below="@id/question_stem"
+        android:id="@+id/quetion_choice_group"
+        android:orientation="vertical"
+        android:layout_marginTop="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></RadioGroup>
+
+    <ViewStub
+        android:layout="@layout/question_analysis"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/quetion_choice_group"
+        android:id="@+id/quetion_choice_analysis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</com.edusoho.kuozhi.v3.view.test.ChoiceQuestionWidget>

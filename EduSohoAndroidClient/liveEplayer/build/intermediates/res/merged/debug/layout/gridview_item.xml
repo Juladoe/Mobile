@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="@dimen/gridview_item_fl_width"
+                android:layout_height="171px"
+                android:descendantFocusability="blocksDescendants"
+                android:id="@+id/rl_item_all"
+        >
+
+    <FrameLayout
+            android:layout_width="@dimen/gridview_item_fl_width"
+            android:layout_height="@dimen/gridview_item_fl_height"
+            android:id="@+id/fl_ppt_bg"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            >
+        <com.soooner.widget.ImageViewExt android:layout_width="fill_parent"
+                  android:layout_height="fill_parent"
+                  android:background="@drawable/grid_item_bg"
+                  android:id="@+id/img_pptbg"
+                  android:focusable="false"
+                  android:focusableInTouchMode="false"
+                  android:scaleType="fitXY"/>
+        <TextView android:layout_width="fill_parent"
+                   android:layout_height="fill_parent"
+                   android:background="@android:color/transparent"
+                  android:id="@+id/tv_pptbg_select"
+                  android:focusable="false"
+                  android:focusableInTouchMode="false" />
+
+
+    </FrameLayout>
+
+
+    <!--<FrameLayout-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="fill_parent"-->
+    <!--android:background="@color/eplayer_pad_title_bg"-->
+    <!--android:id="@+id/fl_ppt_bg"-->
+    <!--android:padding="3dp"-->
+    <!--android:layout_marginLeft="3dp"-->
+    <!--android:layout_marginRight="3dp"-->
+    <!-->-->
+    <!--<ImageView android:layout_width="fill_parent"-->
+    <!--android:layout_height="fill_parent"-->
+    <!--android:background="@drawable/grid_item_bg"/>-->
+
+
+    <!--</FrameLayout>-->
+
+        <TextView android:layout_width="fill_parent"
+                  android:layout_height="@dimen/gridview_item_tv_height"
+                  style="@style/gridview_item_tv_style"
+                  android:id="@+id/tv_num"
+                  android:text="1"
+                  android:focusable="false"
+                  android:focusableInTouchMode="false"
+                  android:layout_below="@id/fl_ppt_bg"
+                  android:layout_alignLeft="@id/fl_ppt_bg"
+                  android:layout_alignRight="@id/fl_ppt_bg"
+                android:gravity="center"/>
+
+    </RelativeLayout>
+

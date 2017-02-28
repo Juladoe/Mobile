@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.edusoho.kuozhi.homework">
+
+    <application android:allowBackup="false">
+        <activity
+            android:name=".HomeworkSummaryActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:icon="@drawable/icon_homework_sel"
+            android:label="@string/homework_label"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.LESSON_PLUGIN" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".HomeworkActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".HomeWorkParseActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".ExerciseSummaryActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:icon="@drawable/icon_exercise_sel"
+            android:label="@string/exercise_label"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.LESSON_PLUGIN" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ExerciseActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ExerciseParseActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".HomeworkAnswerCardActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

@@ -1,0 +1,10 @@
+diff a/EduSohoAndroidClient/imserver/src/main/java/com/edusoho/kuozhi/imserver/ui/adapter/MessageRecyclerListAdapter.java b/EduSohoAndroidClient/imserver/src/main/java/com/edusoho/kuozhi/imserver/ui/adapter/MessageRecyclerListAdapter.java	(rejected hunks)
+@@ -659,7 +659,7 @@
+         }
+     }
+ 
+-    class AudioViewHolder extends MessageViewHolder {
++    protected class AudioViewHolder extends MessageViewHolder {
+ 
+         public ImageView mAudioView;
+         public TextView mLengthView;

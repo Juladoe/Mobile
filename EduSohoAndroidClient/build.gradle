@@ -1,0 +1,30 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        mavenLocal()
+        jcenter()
+        maven {
+            url "http://maven.bughd.com/public"
+        }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.2.3'
+        classpath 'im.fir:gradle-fir-publisher:1.0.7'
+        classpath 'com.antfortune.freeline:gradle:0.8.5'
+    }
+}
+
+allprojects {
+    repositories {
+        mavenLocal()
+        jcenter()
+        maven {
+        	credentials {
+	            username 'deployment'
+	            password 'kaifazhe504'
+        	}
+        	url "http://maven.edusoho.cn:8081/nexus/content/repositories/snapshots/"
+        }
+    }
+}

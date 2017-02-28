@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/system_normal_bg"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/pay_course_price_layout"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:paddingLeft="14dp"
+        android:paddingRight="14dp"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@color/system_light_text"
+            android:textSize="@dimen/pay_course_text"
+            android:id="@+id/pay_course_price"
+            android:text="价格:  "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:id="@+id/pay_course_title"
+            android:textColor="@color/system_light_text"
+            android:textSize="@dimen/pay_course_text"
+            android:layout_marginTop="22dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_below="@id/pay_course_price_layout"
+        android:layout_marginTop="11dp"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:paddingLeft="14dp"
+        android:paddingRight="14dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@color/system_light_text"
+            android:textSize="@dimen/pay_course_text"
+            android:gravity="bottom"
+            android:id="@+id/pay_course_card_label"
+            android:text="优惠码:  "
+            android:layout_width="wrap_content"
+            android:layout_height="36dp" />
+
+        <EditText
+            android:textColor="@color/base_black_54"
+            android:id="@+id/pay_course_card_edt"
+            android:paddingBottom="5dp"
+            android:paddingLeft="20dp"
+            android:hint="输入优惠码(选填)"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/login_edt_bg_sel"
+            android:layout_toRightOf="@id/pay_course_card_label"
+            android:layout_width="match_parent"
+            android:layout_height="36dp" />
+
+        <Button
+            android:layout_marginTop="9dp"
+            android:layout_below="@id/pay_course_card_edt"
+            android:layout_alignParentRight="true"
+            android:id="@+id/pay_course_checkcard_btn"
+            android:gravity="center"
+            android:textColor="@color/course_details_btn"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="14dp"
+            android:paddingLeft="14dp"
+            android:text="校验优惠码"
+            android:background="@drawable/login_btn_sel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_below="@id/pay_course_checkcard_btn"
+            android:textColor="@color/system_light_text"
+            android:textSize="@dimen/pay_course_text"
+            android:layout_centerVertical="true"
+            android:gravity="bottom"
+            android:id="@+id/pay_course_card_number"
+            android:text="优惠:  "
+            android:layout_width="wrap_content"
+            android:layout_height="36dp" />
+
+        <TextView
+            android:layout_below="@id/pay_course_card_number"
+            android:textColor="@color/system_light_text"
+            android:textSize="@dimen/pay_course_text"
+            android:layout_centerVertical="true"
+            android:gravity="bottom"
+            android:id="@+id/pay_course_card_end_price"
+            android:text="优惠后价格:  "
+            android:layout_width="wrap_content"
+            android:layout_height="36dp" />
+    </RelativeLayout>
+
+    <Button
+        android:layout_weight="0"
+        android:id="@+id/pay_course_pay_btn"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginBottom="14dp"
+        android:textColor="@color/course_details_btn"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingRight="14dp"
+        android:paddingLeft="14dp"
+        android:text="去支付"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/login_btn_sel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

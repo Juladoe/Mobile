@@ -1,0 +1,95 @@
+# This is a configuration file for ProGuard.
+# http://proguard.sourceforge.net/index.html#manual/usage.html
+
+-dontusemixedcaseclassnames
+-dontskipnonpubliclibraryclasses
+-verbose
+
+# Optimization is turned off by default. Dex does not like code run
+# through the ProGuard optimize and preverify steps (and performs some
+# of these optimizations on its own).
+-dontoptimize
+#-dontobfuscate
+-dontpreverify
+# Note that if you want to enable optimization, you cannot just
+# include optimization flags in your own project configuration file;
+# instead you will need to point to the
+# "proguard-android-optimize.txt" file instead of this one from your
+# project.properties file.
+
+-keep public class com.google.vending.licensing.ILicensingService
+-keep public class com.android.vending.licensing.ILicensingService
+
+# For native methods, see http://proguard.sourceforge.net/manual/examples.html#native
+-keepclasseswithmembernames class * {
+    native <methods>;
+}
+
+# keep setters in Views so that animations can still work.
+# see http://proguard.sourceforge.net/manual/examples.html#beans
+-keepclassmembers public class * extends android.view.View {
+   void set*(***);
+   *** get*();
+}
+
+# We want to keep methods in Activity that could be used in the XML attribute onClick
+-keepclassmembers class * extends android.app.Activity {
+   public void *(android.view.View);
+}
+
+# For enumeration classes, see http://proguard.sourceforge.net/manual/examples.html#enumerations
+-keepclassmembers enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+
+-keep class * implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator *;
+}
+
+# The support library contains references to newer platform versions.
+# Don't warn about those in case this app is linking against an older
+# platform version.  We know about them, and they are safe.
+#-dontwarn android.support.**
+
+#share sdk
+-keep class android.net.http.SslError
+-keep class android.webkit.**{*;}
+-dontwarn cn.sharesdk.**
+-keep class cn.sharesdk.** { *;}
+-keep class m.framework.**{*;}
+
+#gson
+-keepattributes *Annotation*
+#-keep class sun.misc.Unsafe { *; }
+#-keep class com.idea.fifaalarmclock.entity.***
+-keepattributes Signature
+-keep class com.google.gson.** { *; }
+-keep public class * implements java.lang.reflect.Type
+-keep class sun.misc.** { *; }
+
+-dontwarn com.tencent.bugly.**
+-keep class com.tencent.bugly.**{*;}
+
+-dontwarn com.tencent.mm.sdk.**
+-keep class com.tencent.mm.sdk.**{*;}
+
+-dontwarn com.baidu.mobstat.**
+-keep class com.baidu.mobstat.**{*;}
+
+-dontwarn com.androidquery.**
+-keep class com.androidquery.**{*;}
+
+-dontwarn com.cyberplayer.**
+-keep class com.cyberplayer.**{*;}
+
+-keep class com.edusoho.kuozhi.ui.**{*;}
+
+-keep class com.edusoho.kuozhi.model.**{*;}
+-keep class com.edusoho.kuozhi.entity.**{*;}
+-keep class com.edusoho.kuozhi.view.**{*;}
+-keep class com.edusoho.kuozhi.R.**{*;}
+
+-keep class com.nineoldandroids.**{*;}
+-keep class android.animation.**{*;}
+

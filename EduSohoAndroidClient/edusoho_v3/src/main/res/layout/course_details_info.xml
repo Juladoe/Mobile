@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <extensions.PagerSlidingTabStrip
+        android:id="@+id/course_details_info_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        app:pst_textSize="@dimen/course_details_info_tab"
+        app:pst_textColor="@color/system_light_text"
+        app:dividerColor="@color/transparent"
+        app:indicatorColor="@color/action_bar_bg"
+        app:tabPaddingLeftRight="14dip"
+        app:indicatorHeight="2dp"
+        app:underlineHeight="0dp"
+        android:background="@drawable/course_details_tab_bg"
+        app:underlineColor="@color/transparent" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/course_details_info_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/course_details_info_tabs" />
+
+</RelativeLayout>

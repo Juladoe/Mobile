@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.edusoho.kuozhi.v3.view.test.DetermineQuestionWidget xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingTop="28dp"
+    android:paddingBottom="28dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:background="@color/system_normal_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@id/question_stem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/question_stem"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioGroup
+            android:layout_weight="1"
+            android:layout_gravity="right"
+            android:id="@+id/question_result_radio"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:button="@drawable/question_choice_error"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:button="@drawable/question_choice_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RadioGroup>
+
+        <ViewStub
+            android:layout_weight="1"
+            android:layout="@layout/question_analysis"
+            android:layout_marginTop="20dp"
+            android:id="@+id/quetion_choice_analysis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</com.edusoho.kuozhi.v3.view.test.DetermineQuestionWidget>

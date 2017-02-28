@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/homework_menu_card"
+        android:icon="@drawable/testpaper_menu_card"
+        android:orderInCategory="100"
+        android:title="@string/testpaper_menu_card"
+        app:showAsAction="always" />
+</menu>

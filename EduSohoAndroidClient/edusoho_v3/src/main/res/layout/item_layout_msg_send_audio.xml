@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_send_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/message_time_bg"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/x_small_font_size"
+            android:visibility="visible" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tv_send_time"
+            android:gravity="right|center_vertical"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp">
+
+            <!--<de.hdodenhof.circleimageview.CircleImageView-->
+            <!--android:id="@+id/ci_send_pic"-->
+            <!--android:layout_width="@dimen/head_icon_40"-->
+            <!--android:layout_height="@dimen/head_icon_40"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_marginRight="16dp"-->
+            <!--android:layout_marginLeft="8dp"-->
+            <!--android:src="@drawable/myinfo_default_face" />-->
+
+            <ImageView
+                android:id="@+id/ci_send_pic"
+                android:layout_width="@dimen/head_icon_medium"
+                android:layout_height="@dimen/head_icon_medium"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="16dp"
+                android:src="@drawable/default_avatar" />
+
+            <RelativeLayout
+                android:id="@+id/rl_voice_dialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/ci_send_pic">
+
+                <ImageView
+                    android:id="@+id/iv_msg_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/chat_image_to_layout"
+                    android:clickable="true"
+                    android:scaleType="fitCenter" />
+
+                <ImageView
+                    android:id="@+id/iv_voice_play_anim"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="12dp"
+                    android:background="@drawable/chat_to_speak_voice" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="4dp"
+                    android:layout_toLeftOf="@+id/iv_msg_image"
+                    android:orientation="vertical">
+
+                    <ProgressBar
+                        android:id="@+id/sendProgressPar"
+                        style="?android:attr/progressBarStyleSmall"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:visibility="gone" />
+
+                    <ImageView
+                        android:id="@+id/msg_status"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:clickable="true"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/msg_state_failed_resend"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/tv_audio_length"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="top|right"
+                        android:text="12&apos;&apos;"
+                        android:textColor="@color/base_black_35"
+                        android:textSize="@dimen/small_font_size"
+                        android:visibility="gone" />
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

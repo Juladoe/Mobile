@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="44dp"
+    android:paddingLeft="15dp"
+    android:gravity="center_vertical"
+    android:background="@color/text_message_input_bg"
+    android:orientation="horizontal">
+
+    <EditText
+        android:layout_weight="1"
+        android:id="@+id/et_send_content"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/live_chat_send_box_bg"
+        android:gravity="center_vertical"
+        android:hint="跟同学聊聊天吧..."
+        android:paddingLeft="12dp"
+        android:textColor="@color/base_black_87"
+        android:textColorHint="@color/grey_alpha"
+        android:imeOptions="actionSend"
+        android:inputType="text"
+        android:maxLines="4"
+        android:textSize="@dimen/x_small_font_size" />
+
+    <Button
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="12dp"
+        android:layout_weight="0"
+        android:id="@+id/btn_send"
+        android:layout_width="54dp"
+        android:layout_height="30dp"
+        android:background="@drawable/live_send_btn_bg"
+        android:text="发送"
+        android:textColor="@color/white"
+        android:textSize="@dimen/small_font_size" />
+
+    <ImageView
+        android:visibility="gone"
+        android:background="@drawable/live_send_btn_bg"
+        android:src="@drawable/icon_live_unenable_input"
+        android:id="@+id/iv_unsend"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="12dp"
+        android:layout_width="54dp"
+        android:layout_height="30dp" />
+</LinearLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:background="@color/playercontroller_bg_color"
+              android:gravity="center"
+              android:layout_height="match_parent"
+        >
+
+    <LinearLayout android:layout_width="fill_parent"
+                  android:orientation="horizontal"
+                  android:layout_height="wrap_content"
+                  android:gravity="center"
+                  android:layout_marginTop="6dp"
+                  android:layout_marginBottom="2dp"
+            >
+        <ImageView android:layout_width="18dp"
+                   android:layout_height="20dp"
+                   android:background="@drawable/player_pre"
+                   android:id="@+id/img_pre"/>
+
+        <ImageView android:layout_width="18dp"
+                   android:layout_height="20dp"
+                   android:background="@drawable/player_pause"
+                   android:id="@+id/img_player_state"
+                   android:layout_marginLeft="51dp"
+                   android:layout_marginRight="51dp"/>
+
+        <ImageView android:layout_width="18dp"
+                   android:layout_height="20dp"
+                   android:background="@drawable/player_next"
+                   android:id="@+id/img_next"/>
+
+
+    </LinearLayout>
+    <RelativeLayout android:layout_width="fill_parent"
+                    android:layout_height="55dp"
+
+                    android:layout_marginLeft="15dip"
+                    android:layout_marginRight="15dip"
+                    android:layout_marginBottom="3dp">
+
+
+        <com.soooner.EplayerPluginLibary.widget.MySeekbar
+
+
+                android:id="@+id/seekbar"
+                style="@style/MediaController_SeekBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:max="20"
+                android:progress="0"/>
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textColor="@color/text2_normal_color"
+                  android:text="00:00:00"
+                  android:textSize="@dimen/title5_textsize"
+                  android:layout_below="@id/seekbar"
+                  android:layout_alignLeft="@id/seekbar"
+                  android:layout_marginTop="3dp"
+                  android:id="@+id/tv_bar_start"
+                  android:layout_marginLeft="@dimen/phone_seekbar_left_padding"
+                />
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textColor="@color/text2_normal_color"
+                  android:text="00:00:00"
+                  android:textSize="@dimen/title5_textsize"
+                  android:layout_below="@id/seekbar"
+                  android:layout_alignRight="@id/seekbar"
+                  android:layout_marginTop="3dp"
+                  android:id="@+id/tv_bar_end"
+                  android:layout_marginRight="@dimen/phone_seekbar_left_padding"
+                />
+        <AbsoluteLayout android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@id/seekbar"
+                        android:layout_marginBottom="3dp"
+                      android:layout_marginLeft="@dimen/phone_seekbar_left_padding"
+                      android:layout_marginRight="@dimen/phone_seekbar_left_padding">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textColor="@color/white"
+                      android:text="00:00:00"
+                      android:textSize="@dimen/title5_textsize"
+                      android:id="@+id/tv_bar_current"
+                    />
+        </AbsoluteLayout>
+    </RelativeLayout>
+
+</LinearLayout>

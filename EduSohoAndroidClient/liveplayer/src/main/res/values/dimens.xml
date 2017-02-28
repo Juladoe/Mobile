@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="live_video_height">200dp</dimen>
+    <dimen name="live_chat_top">180dp</dimen>
+    <dimen name="live_notice">14sp</dimen>
+    <dimen name="live_notice_time">10sp</dimen>
+    <dimen name="live_role_label">8sp</dimen>
+    <dimen name="live_role_nickname">10sp</dimen>
+</resources>

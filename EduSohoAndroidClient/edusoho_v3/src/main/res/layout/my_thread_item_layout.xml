@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="8dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="8dp">
+
+    <ImageView
+        android:id="@+id/my_thread_item_avatar"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:padding="4dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/default_course" />
+
+    <TextView
+        android:id="@+id/my_thread_item_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_toRightOf="@id/my_thread_item_avatar"
+        android:background="@color/blue_alpha"
+        android:padding="2dp"
+        android:text="问"
+        android:textColor="@color/white"
+        android:textSize="@dimen/x_small_font_size" />
+
+    <TextView
+        android:id="@+id/my_thread_item_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_toRightOf="@id/my_thread_item_type"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/base_black_87"
+        android:textSize="@dimen/small_font_size" />
+
+    <TextView
+        android:id="@+id/my_thread_item_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/my_thread_item_title"
+        android:paddingBottom="2dp"
+        android:textSize="@dimen/x_small_font_size" />
+
+    <TextView
+        android:id="@+id/my_thread_item_course"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/my_thread_item_type"
+        android:layout_toRightOf="@id/my_thread_item_avatar"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:paddingBottom="2dp"
+        android:paddingLeft="6dp"
+        android:textSize="@dimen/x_small_font_size" />
+
+</RelativeLayout>

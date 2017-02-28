@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="chat_media_size">34sp</dimen>
+    <dimen name="small_font_size">12sp</dimen>
+    <dimen name="x_small_font_size">10sp</dimen>
+    <dimen name="chat_btn_size">32sp</dimen>
+    <dimen name="medium_font_size">14sp</dimen>
+
+    <dimen name="head_icon_large">52dp</dimen>
+    <dimen name="head_icon_medium">40dp</dimen>
+    <dimen name="head_icon_small">32dp</dimen>
+</resources>

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="pili-android-qos-0.8.18">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/liveplayer/build/intermediates/exploded-aar/com.qiniu.pili/pili-android-qos/0.8.18/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/liveplayer/build/intermediates/exploded-aar/com.qiniu.pili/pili-android-qos/0.8.18/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base_black_normal">
+
+    <com.edusoho.kuozhi.v3.view.photo.HackyViewPager
+        android:id="@+id/ppt_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <RelativeLayout
+        android:id="@+id/ppt_lesson_tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:id="@+id/ppt_page_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:padding="6dp"
+            android:singleLine="true"
+            android:text="1/17"
+            android:textColor="@color/base_white_normal"
+            android:textSize="@dimen/base_size" />
+
+        <com.edusoho.kuozhi.v3.view.EduSohoNewIconView
+            android:id="@+id/ppt_page_screen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="@string/font_full_screen"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_xxxl" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

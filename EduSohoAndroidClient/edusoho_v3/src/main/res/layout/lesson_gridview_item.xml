@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingBottom="8dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="8dp"
+    android:background="@drawable/homework_icon_bg_sel"
+    android:descendantFocusability="blocksDescendants">
+
+    <TextView
+        android:id="@+id/lesson_gridview_item"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:drawablePadding="5dp"
+        android:gravity="center"
+        android:text="作业"
+        android:textColor="@color/primary_text_sel"
+        android:textSize="@dimen/base_x_small_size" />
+
+    <FrameLayout
+        android:id="@+id/lesson_gridview_load"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:background="@color/white">
+
+        <ProgressBar
+            android:layout_width="@dimen/navBtn"
+            android:layout_height="@dimen/navBtn"
+            android:layout_gravity="center"
+            android:indeterminateDrawable="@drawable/load" />>
+
+    </FrameLayout>
+</FrameLayout>

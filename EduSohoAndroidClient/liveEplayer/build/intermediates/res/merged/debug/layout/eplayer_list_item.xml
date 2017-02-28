@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center_vertical"
+
+        >
+
+  <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/list_item_top_bottom_margin"
+            android:layout_marginBottom="@dimen/list_item_top_bottom_margin"
+            android:layout_marginLeft="@dimen/list_item_padding_left_right"
+            android:singleLine="true"
+            android:id="@+id/tv_nickname"
+            android:textSize="@dimen/title2_textsize"
+            android:textColor="@color/green"
+          />
+    <TextView android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="@dimen/list_item_top_bottom_margin"
+              android:layout_marginLeft="@dimen/list_item_padding_left_right"
+              android:id="@+id/tv_content"
+              android:textSize="@dimen/title2_textsize"
+              android:lineSpacingMultiplier="1.2"
+              android:textColor="@color/black"
+              android:gravity="center_vertical"
+              android:visibility="gone"
+            />
+
+    <ImageView android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/img_animation"
+               android:layout_marginLeft="@dimen/list_item_padding_left_right"
+               android:layout_marginBottom="@dimen/list_item_top_bottom_margin"
+                android:visibility="gone"
+               />
+
+
+
+</LinearLayout>
+

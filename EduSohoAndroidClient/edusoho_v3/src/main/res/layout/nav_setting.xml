@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_bottom_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_gravity="center"
+    android:background="@drawable/nav_layout_bg"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <com.edusoho.kuozhi.v3.view.EduSohoTextBtn
+        android:id="@+id/nav_tab_news"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        app:fontColor="@color/nav_btn_sel"
+        app:iconSizeScale="1.9"
+        app:image="@string/font_news"
+        app:size="@dimen/nav_layout_btn_size"
+        app:text="@string/down_tab_news"
+        app:text_size="@dimen/nav_layout_btn_text_size" />
+
+    <com.edusoho.kuozhi.v3.view.EduSohoTextBtn
+        android:id="@+id/nav_tab_find"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        app:fontColor="@color/nav_btn_sel"
+        app:iconSizeScale="1.9"
+        app:image="@string/font_find"
+        app:size="@dimen/nav_layout_btn_size"
+        app:text="@string/down_tab_find"
+        app:text_size="@dimen/nav_layout_btn_text_size" />
+
+    <com.edusoho.kuozhi.v3.view.EduSohoTextBtn
+        android:id="@+id/nav_tab_friends"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        app:fontColor="@color/nav_btn_sel"
+        app:iconSizeScale="1.9"
+        app:image="@string/font_friends"
+        app:size="@dimen/nav_layout_btn_size"
+        app:text="@string/down_tab_friends"
+        app:text_size="@dimen/nav_layout_btn_text_size" />
+
+    <com.edusoho.kuozhi.v3.view.EduSohoTextBtn
+        android:id="@+id/nav_tab_mine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        app:fontColor="@color/nav_btn_sel"
+        app:iconSizeScale="1.9"
+        app:image="@string/font_mine"
+        app:size="@dimen/nav_layout_btn_size"
+        app:text="@string/down_tab_mine"
+        app:text_size="@dimen/nav_layout_btn_text_size" />
+</LinearLayout>

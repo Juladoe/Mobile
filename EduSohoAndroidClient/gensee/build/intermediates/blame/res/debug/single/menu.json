@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\gensee\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\gensee\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\gensee\\build\\intermediates\\res\\merged\\debug\\menu\\rtmp_source.xml",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\gensee\\build\\intermediates\\exploded-aar\\EduSohoAndroidClient\\genseelib\\unspecified\\res\\menu\\rtmp_source.xml"
+    }
+]

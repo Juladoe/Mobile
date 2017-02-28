@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/menu_copy"
+        android:title="复制"
+        android:alphabeticShortcut="n"
+        />
+    <item
+        android:id="@+id/menu_replay"
+        android:title="转发"
+        android:alphabeticShortcut="o"
+        />
+    <item
+        android:id="@+id/menu_delete"
+        android:title="删除"
+        android:alphabeticShortcut="s"
+        />
+</menu>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">考试60</string>
+
+    <string name="app_host">http://www.kaoshi60.cn</string>
+    <string name="app_code">kaoshi60</string>
+    <string name="about_welcome">关于考试60</string>
+    <string name="channel_name">kaoshi60</string>
+    <string name="splash_num">5</string>
+    <string name="splash_padding">0</string>
+    <string name="app_id">wx2cf6b4bfd6e5ac26</string>
+
+    <string-array
+        name="shard_filter"
+        >
+        <item>TencentWeibo</item>
+        <item>QZone</item>
+
+    </string-array>
+
+</resources>

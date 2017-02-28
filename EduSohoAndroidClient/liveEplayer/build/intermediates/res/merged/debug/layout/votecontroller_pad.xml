@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:gravity="center"
+              android:layout_height="match_parent"
+        >
+
+    <View android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:layout_weight="1"
+          android:id="@+id/view_top"
+          android:background="@android:color/transparent"
+          android:visibility="invisible"/>
+
+    <!--选项-->
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:background="@color/white"
+                  android:id="@+id/li_vote_all"
+            >
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal">
+            <!--右面的提示信息-->
+            <LinearLayout android:layout_width="200dp"
+                          android:layout_height="fill_parent"
+                          android:orientation="horizontal"
+                          android:gravity="center"
+                    >
+
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textColor="@color/black"
+                          android:textSize="@dimen/title2_textsize"
+                          android:text="请作答:"
+                          android:gravity="center"
+                          android:id="@+id/tv_desc"/>
+
+                <TextView android:layout_width="fill_parent"
+                          android:layout_height="40dp"
+                          android:gravity="center"
+                          android:textSize="@dimen/title2_textsize"
+                          android:textColor="@color/black"
+                          android:text="@string/vote_countenmame_hint"
+                          android:id="@+id/tv_count_num_hint"
+                          android:visibility="gone"
+                        />
+
+            </LinearLayout>
+            <!--类型1:abcd和1234-->
+            <LinearLayout android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:orientation="horizontal"
+                          android:gravity="center_horizontal"
+                          android:id="@+id/li_vote_style1"
+                          android:layout_weight="1"
+                    >
+
+                <LinearLayout android:layout_width="@dimen/vote_pad_button_height"
+                              android:layout_height="wrap_content"
+                              android:orientation="vertical"
+                              android:gravity="center_horizontal"
+                              android:layout_marginRight="@dimen/vote_pad_button_space"
+                        >
+                    <TextView
+                            style="@style/vote_pad_small_button_unselect_style"
+                            android:text="A"
+                            android:id="@+id/tv_vote_style1_bt1"
+                            />
+
+
+                    <TextView
+                            style="@style/vote_pad_small_button_desc_style"
+                            android:id="@+id/tv_vote_style1_bt1_desc"
+                            android:text="10%"
+                            />
+
+                </LinearLayout>
+
+
+                <LinearLayout android:layout_width="@dimen/vote_pad_button_height"
+                              android:layout_height="wrap_content"
+                              android:orientation="vertical"
+                              android:gravity="center_horizontal"
+                              android:layout_marginRight="@dimen/vote_pad_button_space">
+                    <TextView
+                            style="@style/vote_pad_small_button_unselect_style"
+                            android:text="B"
+                            android:id="@+id/tv_vote_style1_bt2"
+                            />
+
+
+                    <TextView
+                            style="@style/vote_pad_small_button_desc_style"
+                            android:id="@+id/tv_vote_style1_bt2_desc"
+                            android:text="10%"
+                            />
+
+                </LinearLayout>
+                <LinearLayout android:layout_width="@dimen/vote_pad_button_height"
+                              android:layout_height="wrap_content"
+                              android:orientation="vertical"
+                              android:gravity="center_horizontal"
+                              android:layout_marginRight="@dimen/vote_pad_button_space">
+                    <TextView
+                            style="@style/vote_pad_small_button_unselect_style"
+                            android:text="C"
+                            android:id="@+id/tv_vote_style1_bt3"
+                            />
+
+
+                    <TextView
+                            style="@style/vote_pad_small_button_desc_style"
+                            android:id="@+id/tv_vote_style1_bt3_desc"
+                            android:text="10%"
+                            />
+
+                </LinearLayout>
+                <LinearLayout android:layout_width="@dimen/vote_pad_button_height"
+                              android:layout_height="wrap_content"
+                              android:orientation="vertical"
+                              android:gravity="center_horizontal"
+                              android:layout_marginRight="@dimen/vote_pad_button_space">
+
+                    <TextView
+                            style="@style/vote_pad_small_button_unselect_style"
+                            android:text="D"
+                            android:id="@+id/tv_vote_style1_bt4"
+                            />
+
+
+                    <TextView
+                            style="@style/vote_pad_small_button_desc_style"
+                            android:id="@+id/tv_vote_style1_bt4_desc"
+                            android:text="10%"
+                            />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <!--类型2:对、错-->
+            <LinearLayout android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:orientation="horizontal"
+                          android:gravity="center_horizontal"
+                          android:id="@+id/li_vote_style2"
+                          android:visibility="gone"
+                          android:layout_weight="1">
+
+                <LinearLayout android:layout_width="@dimen/vote_pad_big_button_height"
+                              android:layout_height="wrap_content"
+                              android:orientation="vertical"
+                              android:gravity="center_horizontal"
+                              android:layout_marginRight="@dimen/vote_pad_button_doublespace"
+                        >
+
+                    <TextView
+                            style="@style/vote_pad_big_button_unselect_style"
+                            android:text="A"
+                            android:id="@+id/tv_vote_style2_bt1"
+                            />
+
+
+                    <TextView
+                            style="@style/vote_pad_small_button_desc_style"
+                            android:id="@+id/tv_vote_style2_bt1_desc"
+                            android:text="10%"
+                            />
+
+                </LinearLayout>
+
+                <LinearLayout android:layout_width="@dimen/vote_pad_big_button_height"
+                              android:layout_height="wrap_content"
+                              android:orientation="vertical"
+                              android:gravity="center_horizontal">
+
+                    <TextView
+                            style="@style/vote_pad_big_button_unselect_style"
+                            android:text="B"
+                            android:id="@+id/tv_vote_style2_bt2"
+                            />
+
+
+                    <TextView
+                            style="@style/vote_pad_small_button_desc_style"
+                            android:id="@+id/tv_vote_style2_bt2_desc"
+                            android:text="10%"
+                            />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="250dp"
+                          android:layout_height="fill_parent"
+                          android:orientation="horizontal"
+                          android:gravity="center">
+
+                <TextView android:layout_width="@dimen/vote_pad_button_height"
+                          android:layout_height="@dimen/vote_pad_button_height"
+                        android:background="@drawable/pad_vote_enter"
+                         android:id="@+id/tv_enter"
+                         android:layout_marginRight="@dimen/vote_pad_button_doublespace"/>
+                <TextView android:layout_width="@dimen/vote_pad_button_height"
+                          android:layout_height="@dimen/vote_pad_button_height"
+                          android:background="@drawable/pad_vote_cancel"
+                          android:id="@+id/tv_cancel"
+                        />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

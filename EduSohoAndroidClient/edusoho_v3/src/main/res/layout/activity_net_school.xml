@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/system_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/material_green">
+
+        <com.edusoho.kuozhi.v3.view.EdusohoAutoCompleteTextView
+            android:id="@+id/school_url_edit"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_toLeftOf="@+id/net_school_cancel_search_btn"
+            android:background="@drawable/search_friend_bg"
+            android:drawableLeft="@drawable/icon_edittext_search"
+            android:drawablePadding="11dp"
+            android:hint="输入网校地址"
+            android:imeOptions="actionSearch"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:singleLine="true"
+            android:textColor="#CCCCCC"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/net_school_cancel_search_btn"
+            android:layout_width="34dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="14dp"
+            android:background="#00000000"
+            android:includeFontPadding="false"
+            android:text="取消"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/net_school_tv"
+        android:layout_width="103dp"
+        android:layout_height="17dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:includeFontPadding="false"
+        android:text="近期登录网校"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        android:background="#efeff4"></View>
+
+    <ListView
+        android:id="@+id/net_school_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#00000000"
+        android:verticalSpacing="16dp"></ListView>
+
+</LinearLayout>

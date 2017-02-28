@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_send_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/message_time_bg"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/x_small_font_size"
+        android:text="12:00"
+        android:visibility="visible"
+        android:layout_marginTop="8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/ll_news_course_item"
+        android:background="@drawable/news_course_item_bg"
+        android:layout_margin="8dp"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_lesson_type"
+            android:textColor="@color/base_black_54"
+            android:textSize="@dimen/small_font_size"
+            android:text="课时名字"
+            android:layout_marginLeft="2dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="10dp"
+            android:background="@color/grey_dddddd" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginLeft="4dp">
+
+            <com.edusoho.kuozhi.v3.view.EduSohoIconView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/xx_large_font_size"
+                android:layout_alignParentLeft="true"
+                android:id="@+id/iv_lesson_type"
+                android:textColor="@color/white"
+                android:layout_centerVertical="true"
+                android:padding="5dp"
+                android:background="@color/blue_alpha" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_lesson_content"
+                android:textSize="@dimen/medium_font_size"
+                android:layout_centerVertical="true"
+                android:textColor="@color/base_black_87"
+                android:layout_toRightOf="@+id/iv_lesson_type"
+                android:text="课时7:PPT课程学习\n\n课时7:PPT课程学习"
+                android:maxLines="3"
+                android:ellipsize="end"
+                android:layout_marginLeft="12dp" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="10dp"
+            android:background="@color/grey_dddddd" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_action"
+                android:textColor="@color/base_black_54"
+                android:gravity="center_vertical"
+                android:layout_alignParentLeft="true"
+                android:textSize="@dimen/small_font_size"
+                android:text="进入学习"
+                android:layout_marginLeft="2dp" />
+
+            <com.edusoho.kuozhi.v3.view.EduSohoIconView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/large_font_size"
+                android:layout_alignParentRight="true"
+                android:layout_alignBaseline="@+id/tv_action"
+                android:text="@string/lesson_next" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

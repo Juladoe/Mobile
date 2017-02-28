@@ -1,0 +1,30 @@
+apply plugin: 'com.android.library'
+
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion '22.0.1'
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 22
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+}
+
+dependencies {
+    compile files('libs/mframework.jar')
+    compile files('libs/ShareSDK-Wechat-2.6.0.jar')
+    compile files('libs/ShareSDK-Wechat-Core-2.6.0.jar')
+    compile files('libs/ShareSDK-Wechat-Favorite-2.6.0.jar')
+    compile files('libs/ShareSDK-Wechat-Moments-2.6.0.jar')
+    compile files('libs/ShareSDK-Core-2.6.0.jar')
+    compile files('libs/ShareSDK-QQ-2.6.0.jar')
+    compile files('libs/ShareSDK-QZone-2.6.0.jar')
+    compile files('libs/ShareSDK-SinaWeibo-2.6.0.jar')
+    compile files('libs/MobTools.jar')
+}

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_chat_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/grey_cccccc" />
+
+    <LinearLayout
+        android:id="@+id/rl_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/chat_tool_background"
+        android:orientation="horizontal"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp">
+
+        <!--语音切换按钮-->
+        <com.edusoho.kuozhi.imserver.ui.view.ESIconView
+            android:id="@+id/btn_voice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/chat_btn_bg"
+            android:text="@string/font_chat_voice"
+            android:textSize="@dimen/chat_btn_size" />
+
+        <!--keyboard按钮-->
+        <com.edusoho.kuozhi.imserver.ui.view.ESIconView
+            android:id="@+id/btn_set_mode_keyboard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/chat_btn_bg"
+            android:text="@string/font_chat_keyboard"
+            android:textSize="@dimen/chat_btn_size"
+            android:visibility="gone" />
+
+        <!--按住说话按钮-->
+        <LinearLayout
+            android:id="@+id/rl_btn_press_to_speak"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/chat_press_speak_btn"
+            android:descendantFocusability="blocksDescendants"
+            android:gravity="center"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv_speak"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:gravity="center_vertical"
+                android:text="@string/hand_press_and_speak"
+                android:textColor="@color/grey_666666"
+                android:textSize="@dimen/medium_font_size" />
+
+        </LinearLayout>
+
+        <!--文字输入框-->
+        <RelativeLayout
+            android:id="@+id/rl_msg_input"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/chat_send_box_bg"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+            <EditText
+                android:id="@+id/et_send_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:inputType="text"
+                android:maxLines="4"
+                android:imeOptions="actionSend"
+                android:textSize="@dimen/medium_font_size" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <!--弹出media_layout 十字按钮-->
+            <com.edusoho.kuozhi.imserver.ui.view.ESIconView
+                android:id="@+id/iv_show_media_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/chat_btn_bg"
+                android:text="@string/font_chat_add_media"
+                android:textSize="@dimen/chat_btn_size" />
+
+            <!--发送文字按钮-->
+            <Button
+                android:id="@+id/btn_send"
+                android:layout_width="42dp"
+                android:layout_height="32dp"
+                android:background="@drawable/sms_send_btn_bg"
+                android:text="发送"
+                android:textColor="@color/white"
+                android:textSize="@dimen/small_font_size"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/grey_cccccc" />
+
+    <LinearLayout
+        android:id="@+id/ll_media_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:paddingBottom="6dp"
+        android:paddingTop="6dp"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="6dp"
+            android:paddingBottom="16dp"
+            android:paddingLeft="6dp"
+            android:paddingTop="16dp"
+            android:weightSum="4">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/chat_media_stroke_bg"
+                    android:orientation="horizontal">
+
+                    <com.edusoho.kuozhi.imserver.ui.view.ESIconView
+                        android:id="@+id/iv_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/chat_media_bg"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="@string/font_chat_media_photo"
+                        android:textSize="@dimen/chat_media_size" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="4dp"
+                    android:text="图片"
+                    android:textSize="@dimen/x_small_font_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/chat_media_stroke_bg"
+                    android:orientation="horizontal">
+
+                    <com.edusoho.kuozhi.imserver.ui.view.ESIconView
+                        android:id="@+id/iv_camera"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/chat_media_bg"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="@string/font_chat_media_camera"
+                        android:textSize="@dimen/chat_media_size" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="4dp"
+                    android:text="拍照"
+                    android:textSize="@dimen/x_small_font_size" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

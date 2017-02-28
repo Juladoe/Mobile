@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="ultra-ptr-1.0.9">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/edusoho_v3/build/intermediates/exploded-aar/in.srain.cube/ultra-ptr/1.0.9/res" />
+      <root url="jar://$PROJECT_DIR$/edusoho_v3/build/intermediates/exploded-aar/in.srain.cube/ultra-ptr/1.0.9/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/in.srain.cube/ultra-ptr/1.0.9/ecf5b85fdfe476639cc42b07a443aa8540296f45/ultra-ptr-1.0.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

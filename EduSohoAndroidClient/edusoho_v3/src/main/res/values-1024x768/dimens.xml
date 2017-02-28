@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="chat_media_size">38sp</dimen>
+
+    <dimen name="head_icon_large">60dp</dimen>
+    <dimen name="head_icon_medium">40dp</dimen>
+    <dimen name="head_icon_small">32dp</dimen>
+
+    <dimen name="new_item_title_size">16sp</dimen>
+    <dimen name="new_item_time_size">13sp</dimen>
+    <dimen name="chat_item_content_size">16sp</dimen>
+
+    <dimen name="empty_list_icon">80sp</dimen>
+
+    <dimen name="discovery_classroom_card_height">236dp</dimen>
+    <dimen name="discovert_course_card_height">216dp</dimen>
+</resources>

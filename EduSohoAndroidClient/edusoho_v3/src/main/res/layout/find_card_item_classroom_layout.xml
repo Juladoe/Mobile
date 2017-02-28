@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/card_cover"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/discovery_classroom_card_height"
+            android:scaleType="centerCrop"
+            android:src="@drawable/default_classroom"
+            app:riv_corner_radius="3dp" />
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/find_card_classroom_label_bg"
+            android:gravity="center"
+            android:text="班级"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size_xxx_s" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/card_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textColor="@color/base_black_87"
+        android:textSize="@dimen/font_size_x_s" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp">
+
+        <TextView
+            android:id="@+id/card_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/grey_666666"
+            android:textSize="@dimen/font_size_xx_s" />
+
+        <TextView
+            android:id="@+id/card_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/grey_666666"
+            android:textSize="@dimen/font_size_xx_s" />
+
+    </RelativeLayout>
+</LinearLayout>

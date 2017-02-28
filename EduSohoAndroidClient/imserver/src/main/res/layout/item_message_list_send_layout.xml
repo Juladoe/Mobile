@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="8dp"
+    android:paddingTop="8dp">
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/message_time_bg"
+        android:clickable="true"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/x_small_font_size"
+        android:visibility="gone"
+        tools:text="18:00" />
+
+    <ImageView
+        android:id="@+id/tv_avatar"
+        android:layout_width="@dimen/head_icon_small"
+        android:layout_height="@dimen/head_icon_small"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tv_time"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="16dp"
+        android:clickable="true"
+        android:src="@drawable/default_avatar" />
+
+    <FrameLayout
+        android:id="@+id/tv_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_time"
+        android:layout_toLeftOf="@id/tv_avatar"
+        android:clickable="true"></FrameLayout>
+
+    <ProgressBar
+
+        android:src="@drawable/msg_state_failed_resend"
+        android:id="@+id/tv_status_pbar"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_alignTop="@id/tv_container"
+        android:layout_toLeftOf="@id/tv_container"
+        android:visibility="gone" />
+
+    <com.edusoho.kuozhi.imserver.ui.view.MessageStatusView
+        android:id="@+id/tv_error_status"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_alignTop="@id/tv_container"
+        android:layout_toLeftOf="@id/tv_container"
+        android:clickable="true"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+
+</RelativeLayout>

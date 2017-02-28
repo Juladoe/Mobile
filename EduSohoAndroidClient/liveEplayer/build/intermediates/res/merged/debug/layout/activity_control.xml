@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:background="@color/red"
+              android:gravity="center"
+              android:layout_height="match_parent">
+
+    <LinearLayout android:layout_width="wrap_content"
+                  android:orientation="horizontal"
+                  android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+        <Button android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:background="@drawable/eplayer_bt_bg"
+                android:text="前一页"
+                android:textColor="@color/white"
+                android:textSize="@dimen/title1_textsize"
+                android:gravity="center"
+                android:id="@+id/control_pre"
+                android:focusable="true"
+                android:focusableInTouchMode="true"/>
+
+        <Button android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/eplayer_bt_bg"
+                android:text="暂停"
+                android:textColor="@color/white"
+                android:textSize="@dimen/title1_textsize"
+                android:gravity="center"
+                android:id="@+id/control_state"
+                android:focusable="true"
+                android:focusableInTouchMode="true"/>
+
+        <Button android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/eplayer_bt_bg"
+                android:text="下一页"
+                android:textColor="@color/white"
+                android:textSize="@dimen/title1_textsize"
+                android:gravity="center"
+                android:id="@+id/control_next"
+                android:focusable="true"
+                android:focusableInTouchMode="true"/>
+
+    </LinearLayout>
+
+    <SeekBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:focusable="true"
+            android:focusableInTouchMode="true"/>
+
+</LinearLayout>

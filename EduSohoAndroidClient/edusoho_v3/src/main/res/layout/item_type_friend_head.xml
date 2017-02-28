@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_bg"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/material_grey" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background"
+        android:paddingBottom="8dp">
+
+        <TextView
+            android:id="@+id/search_friend_btn"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/search_friend_bg"
+            android:drawableLeft="@drawable/icon_edittext_search"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="96dp"
+            android:text="搜索昵称/手机/QQ号"
+            android:textColor="@color/gray"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/background" />
+
+    <LinearLayout
+        android:id="@+id/discussion_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp">
+
+        <com.edusoho.kuozhi.v3.view.EduSohoRoundCornerImage
+            android:id="@+id/discussion_group_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="16dp"
+            android:gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/icon_discussion_group"
+            android:text="@string/font_group"
+            android:textColor="@color/white"
+            android:textSize="@dimen/xxx_large_font_size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/discussion_group_icon"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@id/discussion_group_icon"
+            android:text="讨论组"
+            android:textColor="@color/grey"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="16dp"
+        android:background="@color/background" />
+
+    <LinearLayout
+        android:id="@+id/service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp">
+
+        <com.edusoho.kuozhi.v3.view.EduSohoRoundCornerImage
+            android:id="@+id/service_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="16dp"
+            android:gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/icon_service"
+            android:text="@string/font_service"
+            android:textColor="@color/white"
+            android:textSize="@dimen/xxx_large_font_size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@id/service_icon"
+            android:text="服务号"
+            android:textColor="@color/grey"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/background" />
+
+
+</LinearLayout>

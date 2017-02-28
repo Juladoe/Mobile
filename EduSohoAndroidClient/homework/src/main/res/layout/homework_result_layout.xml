@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/system_normal_bg"
+    android:orientation="vertical">
+
+    <include layout="@layout/load_layout"/>
+
+    <LinearLayout
+        android:layout_marginTop="70dp"
+        android:id="@+id/hw_result_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/card_bg">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="12dp"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            android:paddingTop="12dp"
+            android:text="答对"
+            android:textColor="@color/system_light_text"
+            android:textSize="@dimen/base_large_size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="12dp"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            android:paddingTop="12dp"
+            android:text="题型"
+            android:textColor="@color/system_light_text"
+            android:textSize="@dimen/base_large_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/hw_result_btn_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <com.edusoho.kuozhi.v3.view.EduSohoButton
+            android:id="@+id/hw_result_redo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            app:borderWidth="0dp"
+            app:defaultColor="@color/primary"
+            app:focusColor="@color/primary_fb"
+            app:iconPosition="right"
+            app:radius="3dp"
+            app:textColor="#FFFFFF"
+            app:textSize="@dimen/medium_font_size"
+            app:textStr="再做一次" />
+
+        <com.edusoho.kuozhi.v3.view.EduSohoButton
+            android:id="@+id/hw_result_parse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            app:borderWidth="0dp"
+            app:defaultColor="@color/btn_bg"
+            app:focusColor="@color/base_light_red"
+            app:iconPosition="right"
+            app:radius="3dp"
+            app:textColor="#FFFFFF"
+            app:textSize="@dimen/medium_font_size"
+            app:textStr="查看解析" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/hw_result_total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/hw_result_btn_layout"
+        android:gravity="center"
+        android:padding="12dp"
+        android:textColor="@color/primary_color"
+        android:textSize="@dimen/large_font_size" />
+
+    <ListView
+        android:id="@+id/hw_result_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/hw_result_total"
+        android:layout_below="@id/hw_result_head"
+        android:dividerHeight="0px" />
+</RelativeLayout>

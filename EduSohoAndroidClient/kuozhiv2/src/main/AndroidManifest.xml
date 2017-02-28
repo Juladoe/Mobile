@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.edusoho">
+
+    <uses-sdk android:minSdkVersion="16" />
+
+    <application
+        android:name="com.edusoho.kuozhi.v3.EdusohoApp"
+        android:allowBackup="false"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/EdusohoAppTheme">
+        <activity
+            android:name="com.edusoho.kuozhi.KuozhiActivity"
+            android:label="@string/app_name"
+            android:theme="@style/kuozhiV2StartTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".kuozhi.KuozhiSplashActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme" />
+
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="550f8dacfd98c56a3200084f" />
+
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="Official" />
+
+        <meta-data
+            android:name="BUG_HD_SDK_GENERAL_KEY"
+            android:value="a3e42ce859bdc5b6017ba67a5e23fa44" />
+    </application>
+
+</manifest>

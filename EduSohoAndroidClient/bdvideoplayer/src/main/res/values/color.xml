@@ -1,0 +1,25 @@
+<resources>
+
+    <color name="video_sk_bg_gradient">#808080</color>
+    <color name="video_sk_bg_2_gradient">#4d4d4d</color>
+    <color name="video_sk_gradient">#38bf6c</color>
+    <color name="video_thum_gradient">#38bf6c</color>
+    <color name="video_thum_gradient_pressed">#9938bf6c</color>
+    <color name="white">#ffffff</color>
+    <color name="bg_video_player_title_status">#dd000000</color>
+    <color name="black_80">#bb000000</color>
+    <color name="black_50">#80000000</color>
+    <color name="grey">#bbbbbb</color>
+
+    <color name="set_check_bg_stroke">#cccccc</color>
+    <color name="set_check_bg_sel_gradient">#cccccc</color>
+    <color name="set_check_bg_gradient">#ffffff</color>
+    <color name="set_check_bg_stroke_pressed">@color/base_color_normal</color>
+    <color name="set_check_bg_sel_gradient_pressed">@color/base_color_normal</color>
+    <color name="set_check_bg_gradient_pressed">#ffffff</color>
+
+    <color name="base_color_normal">#2ec368</color>
+    <color name="video_checked">#46C37B</color>
+    <color name="base_list_background_color">#e5e5e5</color>
+    <color name="player_progressbar">#EEEEEE</color>
+</resources>

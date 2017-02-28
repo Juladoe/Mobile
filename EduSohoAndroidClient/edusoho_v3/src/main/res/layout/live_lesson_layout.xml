@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/base_bg_color">
+
+    <TextView
+        android:layout_marginTop="44dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="直播时间:"
+        android:textColor="@color/base_color_normal"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:paddingLeft="20dp"
+        android:id="@+id/live_time"
+        android:text="2014-01-15 20:40~21:40"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="32dp"
+        android:text="直播说明:"
+        android:textColor="@color/base_color_normal"
+        android:textSize="20sp" />
+
+    <com.edusoho.kuozhi.v3.view.ESExpandableTextView
+        android:id="@+id/live_introduction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="16dp"
+        android:paddingLeft="20dp"
+        android:textSize="16sp"
+        app:maxCollapsedLines="1"
+        app:expandText="全文"
+        app:collapseText="收起">
+
+        <TextView
+            android:background="@android:color/white"
+            android:textSize="@dimen/medium_font_size"
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:id="@+id/expandable_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@id/expand_collapse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="16dp"
+            android:layout_gravity="left|bottom"
+            android:textColor="@color/base_color_normal"
+            android:background="@android:color/transparent"
+            android:textSize="20sp" />
+    </com.edusoho.kuozhi.v3.view.ESExpandableTextView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="10px"
+        android:paddingTop="16dp"
+        android:src="@drawable/list_divider_color" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/live_count_down"
+        android:textSize="20sp"
+        android:textColor="@color/base_light_red" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/live_course_click"
+        android:text="进入直播教室"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:background="@drawable/live_course_button_focus" />
+
+</LinearLayout>

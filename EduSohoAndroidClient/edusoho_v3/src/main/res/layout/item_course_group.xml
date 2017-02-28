@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/grey_bg">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_group"
+        android:text="第一章"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/iv_indicator"
+        android:textSize="@dimen/medium_font_size"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="15dp" />
+
+    <com.edusoho.kuozhi.v3.view.EduSohoIconView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="24dp"
+        android:id="@+id/iv_indicator"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textColor="@color/green_alpha"
+        android:text="@string/font_more"
+        android:textSize="@dimen/x_small_font_size" />
+
+</RelativeLayout>

@@ -1,0 +1,419 @@
+TASK com.edusoho.kuozhi id=143
+  ACTIVITY com.edusoho.kuozhi/.v3.ui.ClassroomActivity 443a5830 pid=18302
+    Local FragmentActivity 431c8278 State:
+      mCreated=truemResumed=true mStopped=false mReallyStopped=false
+      mLoadersStarted=true
+    Active Fragments in 431aac58:
+      #0: ClassroomDetailFragment{4333ccb0 #0 id=0x7f0f0128 android:switcher:2131689768:0}
+        mFragmentId=#7f0f0128 mContainerId=#7f0f0128 mTag=android:switcher:2131689768:0
+        mState=5 mIndex=0 mWho=android:fragment:0 mBackStackNesting=0
+        mAdded=true mRemoving=false mResumed=true mFromLayout=false mInLayout=false
+        mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+        mRetainInstance=false mRetaining=false mUserVisibleHint=true
+        mFragmentManager=FragmentManager{431aac58 in HostCallbacks{432bb898}}
+        mHost=android.support.v4.app.FragmentActivity$HostCallbacks@432bb898
+        mArguments=Bundle[{Classroom_id=1}]
+        mContainer=android.support.v4.view.ViewPager{435cadc8 VFED.... .......D 0,804-1080,2049 #7f0f0128 app:id/container}
+        mView=android.support.v4.widget.NestedScrollView{432cf2e8 VFED.... .......D 0,0-1080,1245}
+        mInnerView=android.support.v4.widget.NestedScrollView{432cf2e8 VFED.... .......D 0,0-1080,1245}
+        Child FragmentManager{451ef2c0 in ClassroomDetailFragment{4333ccb0}}:
+          FragmentManager misc state:
+            mHost=android.support.v4.app.FragmentActivity$HostCallbacks@432bb898
+            mContainer=android.support.v4.app.Fragment$1@43546990
+            mParent=ClassroomDetailFragment{4333ccb0 #0 id=0x7f0f0128 android:switcher:2131689768:0}
+            mCurState=5 mStateSaved=false mDestroyed=false
+      #1: ClassCatalogFragment{4515bf50 #1 id=0x7f0f0128 android:switcher:2131689768:1}
+        mFragmentId=#7f0f0128 mContainerId=#7f0f0128 mTag=android:switcher:2131689768:1
+        mState=5 mIndex=1 mWho=android:fragment:1 mBackStackNesting=0
+        mAdded=true mRemoving=false mResumed=true mFromLayout=false mInLayout=false
+        mHidden=false mDetached=false mMenuVisible=false mHasMenu=false
+        mRetainInstance=false mRetaining=false mUserVisibleHint=false
+        mFragmentManager=FragmentManager{431aac58 in HostCallbacks{432bb898}}
+        mHost=android.support.v4.app.FragmentActivity$HostCallbacks@432bb898
+        mArguments=Bundle[{Classroom_id=1}]
+        mContainer=android.support.v4.view.ViewPager{435cadc8 VFED.... .......D 0,804-1080,2049 #7f0f0128 app:id/container}
+        mView=android.widget.RelativeLayout{4356d508 V.E..... ........ 1080,0-2160,1245}
+        mInnerView=android.widget.RelativeLayout{4356d508 V.E..... ........ 1080,0-2160,1245}
+        Child FragmentManager{43190880 in ClassCatalogFragment{4515bf50}}:
+          FragmentManager misc state:
+            mHost=android.support.v4.app.FragmentActivity$HostCallbacks@432bb898
+            mContainer=android.support.v4.app.Fragment$1@4354baf8
+            mParent=ClassCatalogFragment{4515bf50 #1 id=0x7f0f0128 android:switcher:2131689768:1}
+            mCurState=5 mStateSaved=false mDestroyed=false
+      #2: CourseDiscussFragment{4323ee00 #2 id=0x7f0f0128 android:switcher:2131689768:2}
+        mFragmentId=#7f0f0128 mContainerId=#7f0f0128 mTag=android:switcher:2131689768:2
+        mState=5 mIndex=2 mWho=android:fragment:2 mBackStackNesting=0
+        mAdded=true mRemoving=false mResumed=true mFromLayout=false mInLayout=false
+        mHidden=false mDetached=false mMenuVisible=false mHasMenu=false
+        mRetainInstance=false mRetaining=false mUserVisibleHint=false
+        mFragmentManager=FragmentManager{431aac58 in HostCallbacks{432bb898}}
+        mHost=android.support.v4.app.FragmentActivity$HostCallbacks@432bb898
+        mArguments=Bundle[{Classroom_id=1}]
+        mContainer=android.support.v4.view.ViewPager{435cadc8 VFED.... .......D 0,804-1080,2049 #7f0f0128 app:id/container}
+        mView=android.support.v4.widget.SwipeRefreshLayout{431d4c90 V..D.... ........ 2160,0-3240,1245 #7f0f0280 app:id/swipe_refresh}
+        mInnerView=android.support.v4.widget.SwipeRefreshLayout{431d4c90 V..D.... ........ 2160,0-3240,1245 #7f0f0280 app:id/swipe_refresh}
+        Child FragmentManager{45107760 in CourseDiscussFragment{4323ee00}}:
+          FragmentManager misc state:
+            mHost=android.support.v4.app.FragmentActivity$HostCallbacks@432bb898
+            mContainer=android.support.v4.app.Fragment$1@451047b8
+            mParent=CourseDiscussFragment{4323ee00 #2 id=0x7f0f0128 android:switcher:2131689768:2}
+            mCurState=5 mStateSaved=false mDestroyed=false
+    Added Fragments:
+      #0: ClassroomDetailFragment{4333ccb0 #0 id=0x7f0f0128 android:switcher:2131689768:0}
+      #1: ClassCatalogFragment{4515bf50 #1 id=0x7f0f0128 android:switcher:2131689768:1}
+      #2: CourseDiscussFragment{4323ee00 #2 id=0x7f0f0128 android:switcher:2131689768:2}
+    FragmentManager misc state:
+      mHost=android.support.v4.app.FragmentActivity$HostCallbacks@432bb898
+      mContainer=android.support.v4.app.FragmentActivity$HostCallbacks@432bb898
+      mCurState=5 mStateSaved=false mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.impl.PhoneWindow$DecorView{432ac4a0 V.E..... ... 0,0-1080,1776}
+        android.widget.LinearLayout{432e71b8 V.E..... ... 0,0-1080,1776}
+          android.view.ViewStub{431dcb38 G.E..... ... 0,0-0,0 #102030e}
+          android.widget.FrameLayout{43540020 V.E..... ... 0,0-1080,1776}
+            android.support.v7.internal.widget.FitWindowsLinearLayout{432f5360 V.E..... ... 0,0-1080,1776 #7f0f00af app:id/action_bar_root}
+              android.support.v7.internal.widget.ViewStubCompat{431fe820 G.E..... ... 0,0-0,0 #7f0f00b0 app:id/action_mode_bar_stub}
+              android.support.v7.internal.widget.ContentFrameLayout{4337a280 V.E..... ... 0,0-1080,1776 #1020002 android:id/content}
+                android.support.design.widget.CoordinatorLayout{4515dbe0 V.E..... ... 0,0-1080,1776 #7f0f00fe app:id/parent_rlayout}
+                  com.edusoho.kuozhi.v3.view.ScrollableAppBarLayout{432fe4a0 V.E..... ... 0,0-1080,804 #7f0f0124 app:id/app_bar}
+                    android.support.design.widget.CollapsingToolbarLayout{43190d70 V.ED.... ... 0,0-1080,630 #7f0f0125 app:id/toolbar_layout}
+                      android.widget.RelativeLayout{44ef0b30 V.E..... ... 0,0-1080,630 #7f0f00ff app:id/media_rlayout}
+                        android.widget.ImageView{431ad1f8 V.ED.... ... 0,0-1080,630 #7f0f0100 app:id/iv_media_background}
+                        android.widget.RelativeLayout{45031db8 G.E..... ... 0,0-0,0 #7f0f0101 app:id/layout_play_button}
+                          android.widget.LinearLayout{43532228 G.E..... ... 0,0-0,0 #7f0f0102 app:id/layout_play_last}
+                            android.support.v7.widget.AppCompatTextView{451079c8 V.ED.... ... 0,0-0,0}
+                            android.support.v7.widget.AppCompatTextView{431c5b88 V.ED.... ... 0,0-0,0 #7f0f0103 app:id/tv_last_title}
+                          android.widget.LinearLayout{4358eca8 V.E...C. ... 0,0-0,0 #7f0f0104 app:id/play_layout}
+                            com.edusoho.kuozhi.v3.view.EduSohoNewIconView{453793e8 V.ED.... ... 0,0-0,0}
+                            android.support.v7.widget.AppCompatTextView{45390f58 V.ED.... ... 0,0-0,0 #7f0f0105 app:id/tv_play}
+                        android.widget.FrameLayout{4324f6b0 V.E..... ... 0,0-1080,630 #7f0f0106 app:id/fl_header_container}
+                      android.support.v7.widget.Toolbar{4510eda0 V.E..... ... 0,0-1080,207 #7f0f0126 app:id/toolbar}
+                        android.widget.RelativeLayout{43377d70 V.E..... ... 48,75-1080,207}
+                          com.edusoho.kuozhi.v3.view.EduSohoNewIconView{43601940 V.ED..C. ... 0,0-96,132 #7f0f00d6 app:id/back}
+                          android.widget.LinearLayout{451fe370 G.E...C. ... 0,0-0,0 #7f0f0116 app:id/play_layout2}
+                            com.edusoho.kuozhi.v3.view.EduSohoNewIconView{4512d228 V.ED.... ... 0,0-0,0}
+                            android.support.v7.widget.AppCompatTextView{451ea808 V.ED.... ... 0,0-0,0 #7f0f0117 app:id/tv_play2}
+                          com.edusoho.kuozhi.v3.view.EduSohoNewIconView{43305110 V.ED..C. ... 900,0-1032,132 #7f0f0113 app:id/iv_share}
+                          com.edusoho.kuozhi.v3.view.EduSohoNewIconView{43363dd8 G.ED..C. ... 0,0-0,0 #7f0f0111 app:id/iv_grade}
+                          com.edusoho.kuozhi.v3.view.EduSohoNewIconView{4351cb10 G.ED..C. ... 0,0-0,0 #7f0f0112 app:id/layout_menu}
+                        android.widget.TextView{45313628 V.ED.... ... 48,120-48,195}
+                        android.view.View{43280750 V.ED.... ... 48,75-48,207}
+                        android.support.v7.widget.ActionMenuView{451551e8 V.E..... ... 1080,75-1080,207}
+                    android.widget.RelativeLayout{431df0a8 V.E..... ... 0,630-1080,804}
+                      extensions.PagerSlidingTabStrip{43506c50 VFED.... ... 0,0-1080,153 #7f0f0127 app:id/tabs}
+                        android.widget.LinearLayout{45336b20 V.E..... ... 0,0-1080,153}
+                          android.widget.TextView{45314028 VFED..C. ... 156,0-264,153}
+                          android.widget.TextView{4338a778 VFED..C. ... 486,0-594,153}
+                          android.widget.TextView{4322bb60 VFED..C. ... 816,0-924,153}
+                      android.view.View{431fd4c8 V.ED.... ... 0,153-1080,174}
+                  android.support.v4.view.ViewPager{435cadc8 VFED.... ... 0,804-1080,2049 #7f0f0128 app:id/container}
+                    android.support.v4.widget.NestedScrollView{432cf2e8 VFED.... ... 0,0-1080,1245}
+                      android.widget.FrameLayout{434feb08 V.E..... ... 0,0-1080,2152}
+                        android.widget.LinearLayout{432dbea0 V.E..... ... 45,0-1080,2152 #7f0f025a app:id/ll_detail_container}
+                          android.widget.RelativeLayout{43514538 VFE..... F.. 0,0-1035,192 #7f0f025b app:id/price_rlayout}
+                            android.support.v7.widget.AppCompatTextView{43259b28 G.ED.... ... 0,81-27,144 #7f0f025c app:id/tv_price1}
+                            android.support.v7.widget.AppCompatTextView{43267730 V.ED.... ... 9,60-117,135 #7f0f025d app:id/tv_price_now}
+                            android.support.v7.widget.AppCompatTextView{435d66f0 G.ED.... ... 81,87-81,150 #7f0f025e app:id/tv_price_old}
+                            android.view.View{432868e0 V.ED.... ... 0,190-990,192}
+                          android.widget.RelativeLayout{4351fa78 V.E..... ... 0,192-1035,791 #7f0f01d1 app:id/title_rlayout}
+                            android.support.v7.widget.AppCompatTextView{450fa010 V.ED.... ... 0,75-702,244 #7f0f012c app:id/tv_title}
+                            com.edusoho.kuozhi.v3.view.ReviewStarView{43515608 V.E..... ... 747,78-966,118 #7f0f025f app:id/review_star}
+                              android.widget.LinearLayout{4536a7f8 V.E..... ... 0,0-219,40}
+                                com.edusoho.kuozhi.v3.view.EduSohoNewIconView{45105ac0 V.ED.... ... 0,0-39,40}
+                                com.edusoho.kuozhi.v3.view.EduSohoNewIconView{43372d30 V.ED.... ... 45,0-84,40}
+                                com.edusoho.kuozhi.v3.view.EduSohoNewIconView{435ca0f8 V.ED.... ... 90,0-129,40}
+                                com.edusoho.kuozhi.v3.view.EduSohoNewIconView{43236938 V.ED.... ... 135,0-174,40}
+                                com.edusoho.kuozhi.v3.view.EduSohoNewIconView{43591868 V.ED.... ... 180,0-219,40}
+                            android.support.v7.widget.AppCompatTextView{435f5168 V.ED.... ... 0,289-148,339 #7f0f0260 app:id/tv_title_student_num}
+                            android.support.v7.widget.AppCompatTextView{45088f98 V.ED..C. ... 0,384-954,483 #7f0f0261 app:id/tv_title_desc}
+                            com.edusoho.kuozhi.v3.view.EduSohoNewIconView{45089300 V.ED..C. ... 468,498-567,598 #7f0f0262 app:id/tv_title_full}
+                            android.view.View{43374a78 V.ED.... ... 0,597-990,599 #7f0f0263 app:id/v_title_line}
+                          android.widget.RelativeLayout{44ed0e28 G.E...C. ... 0,0-0,0 #7f0f0264 app:id/vip_rlayout}
+                            android.widget.ImageView{4331af30 V.ED.... ... 0,0-0,0 #7f0f0265 app:id/iv_vip}
+                            android.support.v7.widget.AppCompatTextView{4521d3e8 V.ED.... ... 0,0-0,0 #7f0f0266 app:id/tv_vip_desc}
+                            com.edusoho.kuozhi.v3.view.EduSohoNewIconView{435bce08 V.ED.... ... 0,0-0,0}
+                            android.view.View{45156ca0 V.ED.... ... 0,0-0,0}
+                          android.widget.RelativeLayout{45317b48 G.E..... ... 0,601-1035,2289 #7f0f0267 app:id/people_rlayout}
+                            android.support.v7.widget.AppCompatTextView{431e58a8 V.ED.... ... 0,75-180,138 #7f0f0268 app:id/tv_people1}
+                            android.support.v7.widget.AppCompatTextView{431f74c0 V.ED.... ... 0,183-0,250 #7f0f0269 app:id/tv_people_desc}
+                            android.view.View{4350db50 V.ED.... ... 0,325-990,1688}
+                          android.widget.RelativeLayout{43308c98 V.E..... ... 0,791-1035,1201 #7f0f026a app:id/teacher_rlayout}
+                            android.support.v7.widget.AppCompatTextView{43224b08 V.ED.... ... 0,75-135,138 #7f0f026b app:id/tv_teacher1}
+                            com.edusoho.kuozhi.v3.view.circleImageView.CircularImageView{432279c0 V.ED..C. ... 0,183-150,333 #7f0f026c app:id/iv_teacher_icon}
+                            android.support.v7.widget.AppCompatTextView{43274750 V.ED.... ... 180,192-276,246 #7f0f026d app:id/tv_teacher_name}
+                            android.support.v7.widget.AppCompatTextView{43287cc0 V.ED.... ... 180,276-288,322 #7f0f026e app:id/tv_teacher_desc}
+                            android.view.View{43346908 V.ED.... ... 0,408-990,410}
+                          android.widget.RelativeLayout{431cedf0 V.E..... ... 0,1201-1035,1645 #7f0f026f app:id/student_rlayout}
+                            android.support.v7.widget.AppCompatTextView{4332b628 V.ED.... ... 0,75-180,138 #7f0f0270 app:id/tv_student1}
+                            android.support.v7.widget.AppCompatTextView{43358048 V.ED.... ... 195,78-265,132 #7f0f0271 app:id/tv_student_num}
+                            com.edusoho.kuozhi.v3.view.EduSohoNewIconView{43386bf8 V.ED..C. ... 906,54-1035,154 #7f0f0272 app:id/tv_student_more}
+                            android.widget.LinearLayout{433566a0 V.E..... ... 0,180-990,399 #7f0f0273 app:id/student_icon_llayout}
+                              android.support.v7.widget.AppCompatTextView{4351b588 G.ED.... ... 280,0-709,54 #7f0f0274 app:id/tv_student_none}
+                              android.widget.LinearLayout{431c58c8 V.E..... ... 0,0-198,219}
+                                com.edusoho.kuozhi.v3.view.circleImageView.CircularImageView{432ab058 V.ED..C. ... 24,0-174,150 #7f0f02fa app:id/iv_avatar_icon}
+                                android.support.v7.widget.AppCompatTextView{431fbac8 V.ED.... ... 29,165-169,219 #7f0f02fb app:id/tv_avatar_name}
+                              android.widget.LinearLayout{44f75cf0 V.E..... ... 198,0-396,219}
+                                com.edusoho.kuozhi.v3.view.circleImageView.CircularImageView{43353030 V.ED..C. ... 24,0-174,150 #7f0f02fa app:id/iv_avatar_icon}
+                                android.support.v7.widget.AppCompatTextView{433655f0 V.ED.... ... 50,165-148,219 #7f0f02fb app:id/tv_avatar_name}
+                              android.widget.LinearLayout{435245d0 V.E..... ... 396,0-594,219}
+                                com.edusoho.kuozhi.v3.view.circleImageView.CircularImageView{44ed0b88 V.ED..C. ... 24,0-174,150 #7f0f02fa app:id/iv_avatar_icon}
+                                android.support.v7.widget.AppCompatTextView{43382ee0 V.ED.... ... 50,165-148,219 #7f0f02fb app:id/tv_avatar_name}
+                              android.widget.LinearLayout{43359ce0 V.E..... ... 594,0-792,219}
+                                com.edusoho.kuozhi.v3.view.circleImageView.CircularImageView{45031808 V.ED..C. ... 24,0-174,150 #7f0f02fa app:id/iv_avatar_icon}
+                                android.support.v7.widget.AppCompatTextView{45090168 V.ED.... ... 50,165-148,219 #7f0f02fb app:id/tv_avatar_name}
+                              android.widget.LinearLayout{450d8e28 V.E..... ... 792,0-990,219}
+                                com.edusoho.kuozhi.v3.view.circleImageView.CircularImageView{43233900 V.ED..C. ... 24,0-174,150 #7f0f02fa app:id/iv_avatar_icon}
+                                android.support.v7.widget.AppCompatTextView{451509a8 V.ED.... ... 42,165-156,219 #7f0f02fb app:id/tv_avatar_name}
+                            android.view.View{4514fed8 V.ED.... ... 0,442-990,444}
+                          android.widget.RelativeLayout{431e99d0 V.E..... ... 0,1645-1035,2152 #7f0f010d app:id/review_rlayout}
+                            android.support.v7.widget.AppCompatTextView{435a0160 V.ED.... ... 0,75-180,138 #7f0f0275 app:id/tv_review1}
+                            android.support.v7.widget.AppCompatTextView{45173c10 V.ED.... ... 195,78-243,132 #7f0f0276 app:id/tv_review_num}
+                            com.edusoho.kuozhi.v3.view.ChildListView{45148eb8 VFED.VC. ... 0,138-990,477 #7f0f0277 app:id/lv_review}
+                              android.widget.RelativeLayout{43554ed8 V.E..... ... 0,0-990,339}
+                                com.edusoho.kuozhi.v3.view.circleImageView.CircularImageView{435552c0 V.ED..C. ... 0,45-90,135 #7f0f02fc app:id/iv_review_icon}
+                                android.support.v7.widget.AppCompatTextView{435bdc78 V.ED.... ... 120,45-315,99 #7f0f02fd app:id/tv_review_name}
+                                android.support.v7.widget.AppCompatTextView{45126888 V.ED.... ... 120,120-313,162 #7f0f02fe app:id/tv_review_time}
+                                android.support.v7.widget.AppCompatTextView{4517f000 V.ED.... ... 120,192-276,292 #7f0f02ff app:id/tv_review_desc}
+                                android.view.View{45187b00 V.ED.... ... 120,337-945,339}
+                                com.edusoho.kuozhi.v3.view.ReviewStarView{45201930 V.E..... ... 726,45-945,85 #7f0f0300 app:id/v_review_star}
+                                  android.widget.LinearLayout{45202100 V.E..... ... 0,0-219,40}
+                                    com.edusoho.kuozhi.v3.view.EduSohoNewIconView{45202348 V.ED.... ... 0,0-39,40}
+                                    com.edusoho.kuozhi.v3.view.EduSohoNewIconView{43370868 V.ED.... ... 45,0-84,40}
+                                    com.edusoho.kuozhi.v3.view.EduSohoNewIconView{44f2c8c8 V.ED.... ... 90,0-129,40}
+                                    com.edusoho.kuozhi.v3.view.EduSohoNewIconView{4516f9d8 V.ED.... ... 135,0-174,40}
+                                    com.edusoho.kuozhi.v3.view.EduSohoNewIconView{44f64898 V.ED.... ... 180,0-219,40}
+                            android.support.v7.widget.AppCompatTextView{45173f80 G.ED..C. ... 427,-16776988-607,0 #7f0f0278 app:id/tv_review_more}
+                            android.widget.LinearLayout{432e9988 G.E..... ... 0,0-0,0 #7f0f0279 app:id/layout_review_none}
+                              android.widget.ImageView{43510588 V.ED.... ... 0,0-0,0}
+                              android.support.v7.widget.AppCompatTextView{451ab360 V.ED.... ... 0,0-0,0}
+                        android.widget.LinearLayout{4353ca10 G.E..... ... 45,0-1080,2289 #7f0f027a app:id/ll_detail_load}
+                          android.widget.ProgressBar{432426f8 V.ED.... ... 480,1066-555,1141 #7f0f0385 app:id/load_progress}
+                          android.support.v7.widget.AppCompatTextView{45140508 V.ED.... ... 426,1156-609,1223 #7f0f0123 app:id/loading_txt}
+                    android.widget.RelativeLayout{4356d508 V.E..... ... 1080,0-2160,1245}
+                      android.support.v7.widget.RecyclerView{45140878 VFED.... ... 0,0-1080,1245 #7f0f0255 app:id/lv_catalog}
+                        android.widget.RelativeLayout{452e0930 V.E...C. ... 30,0-1050,309}
+                          android.widget.LinearLayout{452e0df8 V.E..... ... 0,0-1020,309}
+                            android.widget.ImageView{451e8c88 V.ED.... ... 0,45-390,264 #7f0f02f5 app:id/iv_class}
+                            android.widget.RelativeLayout{431f9568 V.E..... ... 435,86-960,222}
+                              android.support.v7.widget.AppCompatTextView{431f9a10 V.ED.... ... 0,0-465,63 #7f0f012c app:id/tv_title}
+                              android.widget.LinearLayout{4538d7b8 V.E..... ... 0,90-525,136}
+                                android.support.v7.widget.AppCompatTextView{451efd78 V.ED.... ... 0,0-66,46 #7f0f02f6 app:id/tv_free_price}
+                                android.support.v7.widget.AppCompatTextView{43567c00 V.ED.... ... 96,0-214,46 #7f0f02f7 app:id/tv_people_num}
+                          android.widget.ImageView{452d6200 V.ED.... ... 0,306-1020,309}
+                        android.widget.RelativeLayout{44eea0c8 V.E...C. ... 30,309-1050,618}
+                          android.widget.LinearLayout{44eea3d8 V.E..... ... 0,0-1020,309}
+                            android.widget.ImageView{44eea988 V.ED.... ... 0,45-390,264 #7f0f02f5 app:id/iv_class}
+                            android.widget.RelativeLayout{45189208 V.E..... ... 435,86-960,222}
+                              android.support.v7.widget.AppCompatTextView{45189668 V.ED.... ... 0,0-465,63 #7f0f012c app:id/tv_title}
+                              android.widget.LinearLayout{4332d248 V.E..... ... 0,90-525,136}
+                                android.support.v7.widget.AppCompatTextView{431fb0b8 V.ED.... ... 0,0-66,46 #7f0f02f6 app:id/tv_free_price}
+                                android.support.v7.widget.AppCompatTextView{43335818 V.ED.... ... 96,0-214,46 #7f0f02f7 app:id/tv_people_num}
+                          android.widget.ImageView{435e98e0 V.ED.... ... 0,306-1020,309}
+                        android.widget.RelativeLayout{43360fe8 V.E...C. ... 30,618-1050,927}
+                          android.widget.LinearLayout{433614f0 V.E..... ... 0,0-1020,309}
+                            android.widget.ImageView{450077f0 V.ED.... ... 0,45-390,264 #7f0f02f5 app:id/iv_class}
+                            android.widget.RelativeLayout{453722d0 V.E..... ... 435,86-960,222}
+                              android.support.v7.widget.AppCompatTextView{45372548 V.ED.... ... 0,0-465,63 #7f0f012c app:id/tv_title}
+                              android.widget.LinearLayout{44f68710 V.E..... ... 0,90-525,136}
+                                android.support.v7.widget.AppCompatTextView{44f3fc50 V.ED.... ... 0,0-86,46 #7f0f02f6 app:id/tv_free_price}
+                                android.support.v7.widget.AppCompatTextView{451b6948 V.ED.... ... 116,0-234,46 #7f0f02f7 app:id/tv_people_num}
+                          android.widget.ImageView{451b7ba8 V.ED.... ... 0,306-1020,309}
+                        android.widget.RelativeLayout{44ed44d0 V.E...C. ... 30,927-1050,1236}
+                          android.widget.LinearLayout{435af5b0 V.E..... ... 0,0-1020,309}
+                            android.widget.ImageView{435af938 V.ED.... ... 0,45-390,264 #7f0f02f5 app:id/iv_class}
+                            android.widget.RelativeLayout{435b0418 V.E..... ... 435,86-960,222}
+                              android.support.v7.widget.AppCompatTextView{435b0878 V.ED.... ... 0,0-465,63 #7f0f012c app:id/tv_title}
+                              android.widget.LinearLayout{452d35e0 V.E..... ... 0,90-525,136}
+                                android.support.v7.widget.AppCompatTextView{452d3978 V.ED.... ... 0,0-66,46 #7f0f02f6 app:id/tv_free_price}
+                                android.support.v7.widget.AppCompatTextView{452d4798 V.ED.... ... 96,0-214,46 #7f0f02f7 app:id/tv_people_num}
+                          android.widget.ImageView{45040478 V.ED.... ... 0,306-1020,309}
+                        android.widget.RelativeLayout{4530df48 V.E...C. ... 30,1236-1050,1545}
+                          android.widget.LinearLayout{4530e4d8 V.E..... ... 0,0-1020,309}
+                            android.widget.ImageView{4530eab8 V.ED.... ... 0,45-390,264 #7f0f02f5 app:id/iv_class}
+                            android.widget.RelativeLayout{44e91790 V.E..... ... 435,86-960,222}
+                              android.support.v7.widget.AppCompatTextView{44e91a08 V.ED.... ... 0,0-465,63 #7f0f012c app:id/tv_title}
+                              android.widget.LinearLayout{44e928f8 V.E..... ... 0,90-525,136}
+                                android.support.v7.widget.AppCompatTextView{44e92cd8 V.ED.... ... 0,0-66,46 #7f0f02f6 app:id/tv_free_price}
+                                android.support.v7.widget.AppCompatTextView{45014f68 V.ED.... ... 96,0-233,46 #7f0f02f7 app:id/tv_people_num}
+                          android.widget.ImageView{45015e80 V.ED.... ... 0,306-1020,309}
+                      com.edusoho.kuozhi.v3.view.InnerLoadView{43606740 G.E..... ... 0,0-1080,247 #7f0f0256 app:id/il_class_catalog_load}
+                        android.widget.LinearLayout{45176b58 V.E..... ... 388,0-691,247 #7f0f0241 app:id/load_layout}
+                          android.widget.ProgressBar{432e48c8 V.ED.... ... 114,45-189,120 #7f0f0385 app:id/load_progress}
+                          android.support.v7.widget.AppCompatTextView{4521d020 V.ED.... ... 60,135-243,202 #7f0f0123 app:id/loading_txt}
+                      android.support.v7.widget.AppCompatTextView{43333598 G.ED.... ... 0,0-0,0 #7f0f0257 app:id/ll_course_catalog_empty}
+                    android.support.v4.widget.SwipeRefreshLayout{431d4c90 V..D.... ... 2160,0-3240,1245 #7f0f0280 app:id/swipe_refresh}
+                      android.support.v4.widget.CircleImageView{4538e038 G.ED.... ... 470,-140-610,0}
+                      android.widget.RelativeLayout{4517d140 V.E..... ... 0,0-1080,1245}
+                        android.support.v7.widget.RecyclerView{43335098 VFED.... ... 0,0-1080,1245 #7f0f0198 app:id/lv_discuss}
+                          android.widget.LinearLayout{431fd188 G.E..... ... 45,0-1035,120 #7f0f0253 app:id/ll_load}
+                            android.widget.ProgressBar{4329a2a8 V.ED.... ... 289,15-379,105}
+                            android.support.v7.widget.AppCompatTextView{451744f0 V.ED.... ... 394,28-700,91 #7f0f0254 app:id/tv_load}
+                        android.support.v7.widget.AppCompatTextView{451fb598 G.ED.... ... 0,0-0,0 #7f0f0281 app:id/ll_discuss_empty}
+                        com.edusoho.kuozhi.v3.view.InnerLoadView{43505d18 G.E..... ... 0,0-0,0 #7f0f0122 app:id/ll_frame_load}
+                          android.widget.LinearLayout{4516f5c0 V.E..... ... 0,0-0,0 #7f0f0241 app:id/load_layout}
+                            android.widget.ProgressBar{435bb2f0 V.ED.... ... 0,0-0,0 #7f0f0385 app:id/load_progress}
+                            android.support.v7.widget.AppCompatTextView{43308718 V.ED.... ... 0,0-0,0 #7f0f0123 app:id/loading_txt}
+                        android.support.v7.widget.AppCompatTextView{4510cdf8 V.ED.... ... 0,180-1080,453 #7f0f0282 app:id/ll_no_login}
+                  android.widget.RelativeLayout{432d71a8 V.E..... ... 0,1626-1080,1776 #7f0f00fd app:id/bottom_layout}
+                    android.widget.LinearLayout{4352c9e0 V.E..... ... 0,0-1080,150 #7f0f011a app:id/bottom_add_layout}
+                      android.widget.LinearLayout{435e1340 V.E...C. ... 0,0-165,150 #7f0f011b app:id/consult_layout}
+                        com.edusoho.kuozhi.v3.view.EduSohoNewIconView{451f6cb0 V.ED.... ... 61,23-103,66}
+                        android.support.v7.widget.AppCompatTextView{44f65ac0 V.ED.... ... 52,84-112,126}
+                      android.widget.LinearLayout{44f660e0 G.E...C. ... 0,0-0,0 #7f0f011c app:id/collect_layout}
+                        com.edusoho.kuozhi.v3.view.EduSohoNewIconView{44f61148 V.ED.... ... 0,0-0,0 #7f0f011d app:id/tv_collect}
+                        android.support.v7.widget.AppCompatTextView{4536a448 V.ED.... ... 0,0-0,0 #7f0f011e app:id/tv_collect_txt}
+                      android.support.v7.widget.AppCompatTextView{431fda68 V.ED..C. ... 165,0-1080,150 #7f0f011f app:id/tv_add}
+                    android.support.v7.widget.AppCompatTextView{45217948 G.ED..C. ... 0,0-1080,150 #7f0f0120 app:id/tv_inclass}
+                  com.edusoho.kuozhi.v3.view.EduSohoNewIconView{4537a340 G.ED..C. ... 873,1422-1035,1584 #7f0f0121 app:id/tv_edit_topic}
+                  android.widget.LinearLayout{44f75aa0 G.E..... ... 0,0-1080,1776 #7f0f0122 app:id/ll_frame_load}
+                    android.widget.ProgressBar{431c8028 V.ED.... ... 502,809-577,884}
+                    android.support.v7.widget.AppCompatTextView{450dc458 V.ED.... ... 455,899-625,966 #7f0f0123 app:id/loading_txt}
+        android.view.View{43266f68 V.ED.... ... 0,0-1080,75}
+
+  ACTIVITY com.edusoho.kuozhi/.v3.ui.DefaultPageActivity 444cd7e8 pid=18302
+    Local FragmentActivity 4328bad0 State:
+      mCreated=truemResumed=false mStopped=true mReallyStopped=true
+      mLoadersStarted=true
+    Active Fragments in 4328bdf8:
+      #0: FindFragment{43225758 #0 id=0x7f0f012f FindFragment}
+        mFragmentId=#7f0f012f mContainerId=#7f0f012f mTag=FindFragment
+        mState=2 mIndex=0 mWho=android:fragment:0 mBackStackNesting=0
+        mAdded=true mRemoving=false mResumed=false mFromLayout=false mInLayout=false
+        mHidden=false mDetached=false mMenuVisible=true mHasMenu=true
+        mRetainInstance=false mRetaining=false mUserVisibleHint=true
+        mFragmentManager=FragmentManager{4328bdf8 in HostCallbacks{4328bdc0}}
+        mHost=android.support.v4.app.FragmentActivity$HostCallbacks@4328bdc0
+        mContainer=android.widget.FrameLayout{43362250 V.E..... ........ 0,207-1080,1633 #7f0f012f app:id/fragment_container}
+        mView=android.widget.FrameLayout{434f6c58 V.E..... ........ 0,0-1080,1426}
+        mInnerView=android.widget.FrameLayout{434f6c58 V.E..... ........ 0,0-1080,1426}
+        Child FragmentManager{434f6668 in FindFragment{43225758}}:
+          FragmentManager misc state:
+            mHost=android.support.v4.app.FragmentActivity$HostCallbacks@4328bdc0
+            mContainer=android.support.v4.app.Fragment$1@434f69b8
+            mParent=FindFragment{43225758 #0 id=0x7f0f012f FindFragment}
+            mCurState=2 mStateSaved=true mDestroyed=false
+    Added Fragments:
+      #0: FindFragment{43225758 #0 id=0x7f0f012f FindFragment}
+    Fragments Created Menus:
+      #0: FindFragment{43225758 #0 id=0x7f0f012f FindFragment}
+    FragmentManager misc state:
+      mHost=android.support.v4.app.FragmentActivity$HostCallbacks@4328bdc0
+      mContainer=android.support.v4.app.FragmentActivity$HostCallbacks@4328bdc0
+      mCurState=2 mStateSaved=true mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.impl.PhoneWindow$DecorView{4328c9e8 I.E..... ... 0,0-1080,1776}
+        android.widget.LinearLayout{4328d900 V.E..... ... 0,0-1080,1776}
+          android.view.ViewStub{4328dbe8 G.E..... ... 0,0-0,0 #102030e}
+          android.widget.FrameLayout{4328df48 V.E..... ... 0,0-1080,1776}
+            android.support.v7.internal.widget.FitWindowsLinearLayout{4337c1e0 V.E..... ... 0,0-1080,1776 #7f0f00af app:id/action_bar_root}
+              android.support.v7.internal.widget.ViewStubCompat{4337c430 G.E..... ... 0,0-0,0 #7f0f00b0 app:id/action_mode_bar_stub}
+              android.support.v7.internal.widget.ContentFrameLayout{4337c8c0 V.E..... ... 0,0-1080,1776 #1020002 android:id/content}
+                android.widget.RelativeLayout{4337de38 V.E..... ... 0,0-1080,1776}
+                  android.support.v7.widget.Toolbar{4337f5c8 V.E..... ... 0,75-1080,207 #7f0f0129 app:id/tb_action_bar}
+                    android.widget.LinearLayout{4331bda8 G.E..... ... 0,0-0,0 #7f0f012a app:id/ll_title_loading}
+                      android.widget.ProgressBar{4331c900 V.ED.... ... 0,0-0,0}
+                      android.support.v7.widget.AppCompatTextView{433221a8 V.ED.... ... 0,0-0,0 #7f0f012b app:id/tv_loading}
+                    android.support.v7.widget.AppCompatTextView{43323038 V.ED.... ... 350,32-731,99 #7f0f012c app:id/tv_title}
+                    android.support.v7.widget.ActionMenuView{4353bc00 V.E..... ... 936,0-1080,132}
+                      android.support.v7.internal.view.menu.ActionMenuItemView{43553150 VFED..CL ... 0,0-144,132 #7f0f0421 app:id/find_search}
+                  com.edusoho.kuozhi.v3.view.EduSohoNewIconView{4335e2f8 G.ED..C. ... 0,0-0,0 #7f0f012d app:id/tv_sitting}
+                  android.view.View{43361d10 G.ED.... ... 0,0-0,0 #7f0f012e app:id/v_line}
+                  android.widget.FrameLayout{43362250 V.E..... ... 0,207-1080,1633 #7f0f012f app:id/fragment_container}
+                    android.widget.FrameLayout{434f6c58 V.E..... ... 0,0-1080,1426}
+                      com.edusoho.kuozhi.v3.view.FixPtrClassicFrameLayout{434f9360 V.E..... ... 0,0-1080,1426 #7f0f0287 app:id/find_content}
+                        android.widget.ListView{4350b460 VFED..C. F.. 0,0-1080,1426 #7f0f0142 app:id/listview}
+                          com.edusoho.kuozhi.v3.view.FindCardView{431a1948 V.E..... ... 0,-344-1080,883}
+                            android.widget.RelativeLayout{431a65b0 V.E..... ... 48,48-1032,135}
+                              android.widget.TextView{431be800 V.ED.... ... 0,6-860,81 #7f0f024c app:id/card_title}
+                              android.widget.LinearLayout{432432f8 V.E..... ... 860,18-984,68 #7f0f040c app:id/ll_discovery_more}
+                                android.widget.TextView{432351b8 V.ED..C. ... 12,0-84,50 #7f0f014d app:id/tv_more}
+                                android.widget.ImageView{4350fdc0 V.ED.... ... 96,11-124,39 #7f0f040d app:id/iv_discovery_card_more}
+                            android.widget.GridView{4318f1e8 VFED..C. ... 48,135-1032,1179}
+                              android.widget.LinearLayout{4327cc88 V.E...C. ... 0,0-492,522}
+                                android.widget.FrameLayout{431af678 V.E..... ... 0,30-468,348}
+                                  com.makeramen.roundedimageview.RoundedImageView{431aa2f0 V.ED.... ... 0,0-468,318 #7f0f024b app:id/card_cover}
+                                  android.widget.TextView{43552800 V.ED.... ... 30,30-120,75}
+                                android.widget.TextView{435fc138 V.ED.... ... 0,366-468,424 #7f0f024c app:id/card_title}
+                                android.widget.RelativeLayout{431b0c88 V.E..... ... 0,442-468,492}
+                                  android.widget.TextView{43514d90 V.ED.... ... 0,0-72,50 #7f0f024d app:id/card_price}
+                                  android.widget.TextView{43517610 V.ED.... ... 331,0-468,50 #7f0f024e app:id/card_num}
+                              android.widget.LinearLayout{432cd990 V.E...C. ... 492,0-984,522}
+                                android.widget.FrameLayout{432273f8 V.E..... ... 24,30-492,348}
+                                  com.makeramen.roundedimageview.RoundedImageView{431ac518 V.ED.... ... 0,0-468,318 #7f0f024b app:id/card_cover}
+                                  android.widget.TextView{4354a5a8 V.ED.... ... 30,30-120,75}
+                                android.widget.TextView{4354d3e8 V.ED.... ... 24,366-492,424 #7f0f024c app:id/card_title}
+                                android.widget.RelativeLayout{4327e268 V.E..... ... 24,442-492,492}
+                                  android.widget.TextView{43591218 V.ED.... ... 0,0-72,50 #7f0f024d app:id/card_price}
+                                  android.widget.TextView{43265cd0 V.ED.... ... 331,0-468,50 #7f0f024e app:id/card_num}
+                              android.widget.LinearLayout{432dcd60 V.E...C. ... 0,522-492,1044}
+                                android.widget.FrameLayout{4352e8d0 V.E..... ... 0,30-468,348}
+                                  com.makeramen.roundedimageview.RoundedImageView{431e0bf8 V.ED.... ... 0,0-468,318 #7f0f024b app:id/card_cover}
+                                  android.widget.TextView{43354d90 V.ED.... ... 30,30-120,75}
+                                android.widget.TextView{431bbd90 V.ED.... ... 0,366-468,424 #7f0f024c app:id/card_title}
+                                android.widget.RelativeLayout{43545428 V.E..... ... 0,442-468,492}
+                                  android.widget.TextView{431d23b0 V.ED.... ... 0,0-105,50 #7f0f024d app:id/card_price}
+                                  android.widget.TextView{431ec3a0 V.ED.... ... 331,0-468,50 #7f0f024e app:id/card_num}
+                              android.widget.LinearLayout{432defc0 V.E...C. ... 492,522-984,1044}
+                                android.widget.FrameLayout{431e4490 V.E..... ... 24,30-492,348}
+                                  com.makeramen.roundedimageview.RoundedImageView{43226e70 V.ED.... ... 0,0-468,318 #7f0f024b app:id/card_cover}
+                                  android.widget.TextView{431efd40 V.ED.... ... 30,30-120,75}
+                                android.widget.TextView{4322fe58 V.ED.... ... 24,366-492,424 #7f0f024c app:id/card_title}
+                                android.widget.RelativeLayout{431a3b98 V.E..... ... 24,442-492,492}
+                                  android.widget.TextView{43302c48 V.ED.... ... 0,0-72,50 #7f0f024d app:id/card_price}
+                                  android.widget.TextView{4331a340 V.ED.... ... 311,0-468,50 #7f0f024e app:id/card_num}
+                          com.edusoho.kuozhi.v3.view.FindCardView{45081ad8 V.E..... ... 0,913-1080,2038}
+                            android.widget.RelativeLayout{45082068 V.E..... ... 48,48-1032,135}
+                              android.widget.TextView{450824d0 V.ED.... ... 0,6-860,81 #7f0f024c app:id/card_title}
+                              android.widget.LinearLayout{450834a8 V.E..... ... 860,18-984,68 #7f0f040c app:id/ll_discovery_more}
+                                android.widget.TextView{45083888 V.ED..C. ... 12,0-84,50 #7f0f014d app:id/tv_more}
+                                android.widget.ImageView{45084658 V.ED.... ... 96,11-124,39 #7f0f040d app:id/iv_discovery_card_more}
+                            android.widget.GridView{450851a0 VFED..C. ... 48,135-1032,1077}
+                              android.widget.LinearLayout{431d5250 V.E...C. ... 0,0-492,471}
+                                com.makeramen.roundedimageview.RoundedImageView{431a4aa0 V.ED.... ... 0,30-468,294 #7f0f024b app:id/card_cover}
+                                android.widget.TextView{4353f7a8 V.ED.... ... 0,318-468,376 #7f0f024c app:id/card_title}
+                                android.widget.LinearLayout{431dd0c8 V.E..... ... 0,391-468,441}
+                                  android.widget.TextView{44f663d8 V.ED.... ... 0,0-311,50 #7f0f024d app:id/card_price}
+                                  android.widget.TextView{453617a0 V.ED.... ... 311,0-468,50 #7f0f024e app:id/card_num}
+                              android.widget.LinearLayout{432de568 V.E...C. ... 492,0-984,471}
+                                com.makeramen.roundedimageview.RoundedImageView{431bdb28 V.ED.... ... 24,30-492,294 #7f0f024b app:id/card_cover}
+                                android.widget.TextView{433027c0 V.ED.... ... 24,318-492,376 #7f0f024c app:id/card_title}
+                                android.widget.LinearLayout{4351baf8 V.E..... ... 24,391-492,441}
+                                  android.widget.TextView{4336ad00 V.ED.... ... 0,0-311,50 #7f0f024d app:id/card_price}
+                                  android.widget.TextView{43555588 V.ED.... ... 311,0-468,50 #7f0f024e app:id/card_num}
+                              android.widget.LinearLayout{4351f718 V.E...C. ... 0,471-492,942}
+                                com.makeramen.roundedimageview.RoundedImageView{4321ec00 V.ED.... ... 0,30-468,294 #7f0f024b app:id/card_cover}
+                                android.widget.TextView{435ca850 V.ED.... ... 0,318-468,376 #7f0f024c app:id/card_title}
+                                android.widget.LinearLayout{43524f78 V.E..... ... 0,391-468,441}
+                                  android.widget.TextView{4514eaf8 V.ED.... ... 0,0-331,50 #7f0f024d app:id/card_price}
+                                  android.widget.TextView{4520c498 V.ED.... ... 331,0-468,50 #7f0f024e app:id/card_num}
+                              android.widget.LinearLayout{43538408 V.E..... ... 492,471-984,942}
+                        in.srain.cube.views.ptr.PtrClassicDefaultHeader{434fb498 V.E..... ... 0,-180-1080,0}
+                          android.widget.LinearLayout{434fce78 V.E..... ... 0,0-1080,180}
+                            android.widget.RelativeLayout{434fd5d8 V.E..... ... 0,0-1080,180}
+                              android.widget.LinearLayout{434fe1a0 V.E..... ... 315,41-765,139 #7f0f0220 app:id/ptr_classic_header_rotate_view_header_text}
+                                android.support.v7.widget.AppCompatTextView{434fe718 V.ED.... ... 225,0-225,50 #7f0f0221 app:id/ptr_classic_header_rotate_view_header_title}
+                                android.support.v7.widget.AppCompatTextView{434ffe78 V.ED.... ... 225,56-225,98 #7f0f0222 app:id/ptr_classic_header_rotate_view_header_last_update}
+                              android.widget.FrameLayout{43500cf0 V.E..... ... 225,60-285,120}
+                                android.widget.ImageView{43501178 I.ED.... ... 0,0-60,60 #7f0f0223 app:id/ptr_classic_header_rotate_view}
+                                android.widget.ProgressBar{43505758 I.ED.... ... 6,6-54,54 #7f0f0224 app:id/ptr_classic_header_rotate_view_progressbar}
+                      android.widget.LinearLayout{4350ffa8 G.E..... ... 388,589-691,836 #7f0f0288 app:id/find_load_layout}
+                        android.widget.ProgressBar{435102d0 V.ED.... ... 114,45-189,120 #7f0f0385 app:id/load_progress}
+                        android.support.v7.widget.AppCompatTextView{43510c78 V.ED.... ... 60,135-243,202 #7f0f0123 app:id/loading_txt}
+                  android.widget.LinearLayout{43362d28 V.E..... ... 0,1633-1080,1776 #7f0f0130 app:id/nav_bottom_layout}
+                    com.edusoho.kuozhi.v3.view.EduSohoTextBtn{433659d8 V.E...C. ... 15,15-281,128 #7f0f0395 app:id/nav_tab_news}
+                      android.widget.FrameLayout{4336b7d0 V.E..... ... 0,0-266,63}
+                        com.edusoho.kuozhi.v3.view.EduSohoIconView{4336bdf8 V.ED.... ... 0,0-266,63}
+                      android.widget.TextView{4336dc70 V.ED.... ... 0,63-266,113}
+                    com.edusoho.kuozhi.v3.view.EduSohoTextBtn{4336ea78 V.....C. ... 281,15-547,128 #7f0f0396 app:id/nav_tab_find}
+                      android.widget.FrameLayout{4336ef30 V.E..... ... 0,0-266,63}
+                        com.edusoho.kuozhi.v3.view.EduSohoIconView{4336f230 V..D.... ... 0,0-266,63}
+                      android.widget.TextView{43371058 V..D.... ... 0,63-266,113}
+                    com.edusoho.kuozhi.v3.view.EduSohoTextBtn{43371de8 V.E...C. ... 547,15-813,128 #7f0f0397 app:id/nav_tab_friends}
+                      android.widget.FrameLayout{433722a0 V.E..... ... 0,0-266,63}
+                        com.edusoho.kuozhi.v3.view.EduSohoIconView{433725a0 V.ED.... ... 0,0-266,63}
+                      android.widget.TextView{433743c8 V.ED.... ... 0,63-266,113}
+                    com.edusoho.kuozhi.v3.view.EduSohoTextBtn{43375158 V.E...C. ... 813,15-1065,128 #7f0f0398 app:id/nav_tab_mine}
+                      android.widget.FrameLayout{43375610 V.E..... ... 0,0-252,63}
+                        com.edusoho.kuozhi.v3.view.EduSohoIconView{43375910 V.ED.... ... 0,0-252,63}
+                      android.widget.TextView{43377738 V.ED.... ... 0,63-252,113}
+        android.view.View{4320fa28 V.ED.... ... 0,0-1080,75 #7f0f0005 app:id/custom_status_view}

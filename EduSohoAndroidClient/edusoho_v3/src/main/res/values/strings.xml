@@ -1,0 +1,422 @@
+<resources>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="app_host"></string>
+    <string name="app_name">阔知学堂</string>
+    <string name="app_title">将学校装进口袋</string>
+    <string name="api_version">3.0.0</string>
+    <string name="apk_version">3.89.0</string>
+    <string name="encrypt_version">7.3.6</string>
+    <string name="apk_code">42</string>
+    <string name="splash_num">0</string>
+    <string name="splash_padding">0</string>
+    <string name="image_cache_path">ImageLoaderCache</string>
+    <string name="find_password_via_mail_success">请前往该邮箱验证信息，验证成功即可登录</string>
+    <string name="find_password_then_login">去登录</string>
+    <string name="img_code_cannot_null">图形验证码不能为空</string>
+    <!--Button-->
+    <string name="down_tab_news">动态</string>
+    <string name="down_tab_find">发现</string>
+    <string name="down_tab_friends">校友</string>
+    <string name="down_tab_mine">我</string>
+    <string name="toolbar_title">分类</string>
+    <string name="login">登录</string>
+    <string name="login_loading">正在登录...</string>
+    <string name="login_success">登录成功</string>
+    <string name="register">注册</string>
+    <string name="register_resend">后重新获取验证码</string>
+    <string name="register_next">下一步</string>
+    <string name="register_confirm">确定</string>
+    <string name="register_login">登录</string>
+    <string name="register_loading">正在注册...</string>
+    <string name="register_success">注册成功</string>
+    <string name="complete_info">完善信息</string>
+    <string name="complete_info_registered">当前手机号已被注册，请直接登录</string>
+    <string name="course_study_entrance">进入学习</string>
+    <string name="study">学习</string>
+    <string name="discuss">讨论</string>
+    <string name="class_catalog">目录</string>
+
+    <!--TextView-->
+    <string name="testpaper_menu_card">答题卡</string>
+    <string name="setting_scan">扫一扫</string>
+    <string name="setting_search_school">搜索网校</string>
+    <string name="setting_scan_second">扫描进入网校</string>
+    <string name="setting_new_msg_notify">新消息提醒</string>
+    <string name="setting_online_duration">在线时段</string>
+    <string name="setting_wifi_download">允许使用4G网络观看或缓存视频</string>
+    <string name="setting_receive_msg">消息免打扰</string>
+    <string name="setting_mediacodec_type">默认视频解码方式:[%s]</string>
+    <string name="setting_clean_cache">清理缓存</string>
+    <string name="setting_about">关于</string>
+    <string name="msg_reminder_new_msg">接收新消息通知</string>
+    <string name="msg_reminder_sound">声音</string>
+    <string name="msg_reminder_vibrate">振动</string>
+    <string name="online_duration_content">设置消息接收时，会发出提醒的时间段。</string>
+    <string name="online_duration_start">开始时间</string>
+    <string name="online_duration_end">结束时间</string>
+    <string name="about_welcome">关于网校</string>
+    <string name="about_feedback">意见反馈</string>
+    <string name="about_check_update">检查新版本</string>
+    <string name="login_forget_password">忘记密码?</string>
+    <string name="mine_nickname">立即登录</string>
+    <string name="chat_profile">聊天信息</string>
+    <string name="login_register">注册</string>
+    <string name="login_register2">注册账号</string>
+    <string name="news_course_profile">课程信息</string>
+    <string name="news_course_share">分享</string>
+    <string name="study_entrance">进入学习</string>
+    <string name="message_do_not_disturb">消息免打扰</string>
+    <string name="clear_message_record">清空课程历史记录</string>
+    <string name="success_add_course">成功加入课程</string>
+    <string name="add_error_close">该课程限制加入，请联系管理员</string>
+    <string name="fail_add_course">加入课程失败</string>
+    <string name="success_add_classroom">成功加入班级</string>
+    <string name="clear_service_profile_record">清空历史记录</string>
+    <string name="classroom_all_members">全体成员</string>
+    <string name="classroom_announcement">班级公告</string>
+    <string name="entry_classroom_course">进入班级课程</string>
+    <string name="clear_classroom_record">清除聊天记录</string>
+    <string name="course_announcement">课程公告</string>
+    <string name="entry_course">进入课程</string>
+    <string name="login_more">更多</string>
+    <string name="player_4g_info">您正在使用4G网络观看视频，该操作会消耗较多流量，确认要开启吗？</string>
+    <string name="notification">提示</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="find_password">找回密码</string>
+    <string name="input_phone_or_mail">请输入手机号／邮箱号</string>
+    <string name="input_img_code">请输入图形验证码</string>
+    <string name="change_img_code">换一换</string>
+    <string name="reset_password_hint">请输入密码</string>
+    <string name="find_password_next">下一步</string>
+    <string name="find_password_submit">确定</string>
+    <string name="find_password_text_not_null">手机号或邮箱不能为空</string>
+    <string name="phone_or_mail_format_error">手机号或邮箱格式不正确</string>
+    <string name="phone_code_input_hint">验证码已经发送到:</string>
+    <string name="phone_sms_code_hint">请输入短信验证码</string>
+    <string name="sms_code_not_null">验证码不能为空</string>
+    <string name="reset_password_not_null">重置密码不能为空</string>
+    <string name="password_more_than_six_digit_number">密码是由5-20位英文、数字、符号组成</string>
+    <string name="retrieve_phone_code">重新获取验证码</string>
+    <string name="after_retrieve_phone_code">后重新获取验证码</string>
+    <string name="reg_set_password">请设置密码</string>
+    <string name="reset_password_success">密码重置成功</string>
+    <string name="sms_code_success">验证码发送成功</string>
+    <string name="resend_sms_code">操作过于频繁，请重新获取</string>
+    <string name="txt_login">账号登录</string>
+    <string name="txt_three">第三方登录</string>
+    <string name="netclass">选择网校 ></string>
+    <string name="txt_search">请输入网校网址或名称</string>
+    <string name="txt_search_school">搜索网校</string>
+    <string name="txt_help">使用帮助</string>
+    <string name="txt_login_near">近期登录</string>
+    <string name="txt_free">免费</string>
+    <string name="txt_vip_desc">加入会员，免费学习更多课程</string>
+    <string name="txt_suit_people">适宜人群</string>
+    <string name="txt_provision_services">提供服务</string>
+    <string name="txt_services_homeworkreview">24小时作业批改</string>
+    <string name="txt_services_testpaper">24小时阅卷点评</string>
+    <string name="txt_services_teacheranswer">提问必答</string>
+    <string name="txt_services_liveanswer">一对一在线答疑</string>
+    <string name="txt_services_event">班级活动</string>
+    <string name="txt_services_workadvise">就业指导</string>
+    <string name="txt_talk_teacher">讲师</string>
+    <string name="txt_course_student">课程学员</string>
+    <string name="txt_classroom_student">班级学员</string>
+    <string name="txt_student_none">暂无学员，赶紧加入吧！</string>
+    <string name="txt_course_review">课程评价</string>
+    <string name="txt_vip_free">免费加入</string>
+    <string name="txt_classroom_review">班级评价</string>
+    <string name="txt_more_review">更多评价</string>
+    <string name="txt_review_none">没有评价</string>
+    <string name="txt_add_class">加入班级</string>
+    <string name="txt_add_course">加入课程</string>
+    <string name="txt_study_try">开始试学</string>
+    <string name="txt_study_start">开始学习</string>
+    <string name="txt_study_continue">继续学习</string>
+    <string name="txt_study_finish">学习完成</string>
+
+    <!--EditText-->
+    <string name="login_username_hint">手机号/邮箱/昵称</string>
+    <string name="login_password_hint">密码</string>
+    <string name="login_line_text">其他方式登录</string>
+    <string name="reg_phone_hint">请输入手机号</string>
+    <string name="reg_mail_hint">请输入邮箱地址</string>
+    <string name="reg_code_hint">请输入验证码</string>
+    <string name="reg_username_hint">请输入手机号／邮箱号／用户名</string>
+    <string name="reg_password_hint">请输入密码</string>
+    <string name="phone_registered">该手机号已被绑定</string>
+    <string name="register_password_hint">密码不能为空</string>
+
+    <!--Button-->
+    <string name="reg_account_reg">账号注册</string>
+    <string name="reg_phone_reg">手机注册</string>
+    <string name="reg_mail_reg">邮箱注册</string>
+    <string name="reg_send_code">重新获取验证码</string>
+    <string name="del_record_and_quit_classroom">删除并退出班级</string>
+    <string name="del_record_and_quit_course">删除并退出学习</string>
+
+    <!--system-->
+    <string name="network_does_not_work">您网络暂时无法连接，请稍后重试</string>
+    <string name="cache_audio_does_not_exist">缓存音频文件不存在</string>
+    <string name="cache_image_does_not_exist">缓存图片文件不存在</string>
+    <string name="request_fail_text">网络连接不可用或请求失败</string>
+    <string name="request_failed">请求失败</string>
+    <string name="authorize_cancelled">取消授权</string>
+    <string name="user_not_exist">账号或密码错误!</string>
+    <string name="phone_code_error">验证码发送失败!</string>
+    <string name="mail_reg_failed">邮箱注册失败!</string>
+    <string name="school_info_error">"无法获取网校信息"</string>
+    <string name="lesson_default_title">课程简介</string>
+    <string name="course_params_error">课程参数不正确</string>
+    <string name="player_exit_dialog_title">提醒</string>
+    <string name="player_exit_dialog_msg">是否退出播放</string>
+    <string name="register_hint">当前账号已被注册，请直接登录</string>
+    <string name="registered_hint">该手机号码已被其他用户绑定</string>
+    <string name="phone_error">你输入的手机号格式有误</string>
+    <string name="register_modify_phone">请更换手机号码</string>
+    <string name="complete_phone_empty">手机号不能为空</string>
+    <string name="img_code_hint">图形验证码不能为空</string>
+    <string name="img_code_input">请输入图形验证码</string>
+    <string name="register_error">你输入的手机号格式有误</string>
+    <string name="complete_success">恭喜你，绑定成功</string>
+    <string name="class_catalog_hint">该班级没有课程</string>
+    <string name="class_catalog_join">请先加入班级</string>
+    <string name="class_catalog_free">免费</string>
+    <string name="course_catalog_space">可用空间:</string>
+    <string name="class_catalog_people">%d人参与</string>
+
+    <!--ttf-->
+    <string name="font_my_study">&#xe63d;</string>
+    <string name="font_my_download">&#xe63e;</string>
+    <string name="font_my_vip">&#xe62e;</string>
+    <string name="font_my_collection">&#xe661;</string>
+    <string name="font_my_question">&#xe66a;</string>
+    <string name="font_my_setting">&#xe60e;</string>
+    <string name="font_friends">&#xe628;</string>
+    <string name="font_friends_pressed">&#xe609;</string>
+    <string name="font_news">&#xe66c;</string>
+    <string name="font_news_pressed">&#xe647;</string>
+    <string name="font_find">&#xe646;</string>
+    <string name="font_find_pressed">&#xe645;</string>
+    <string name="font_mine">&#xe66d;</string>
+    <string name="font_mine_pressed">&#xe64b;</string>
+    <string name="font_lock">&#xe60e;</string>
+    <string name="font_person">&#xe601;</string>
+    <string name="font_downloading">&#xe614;</string>
+    <string name="font_stop_downloading">&#xe612;</string>
+    <string name="font_wait_downloading">&#xe60f;</string>
+    <string name="font_download_select">&#xe69a;</string>
+    <string name="font_download_unselect">&#xe699;</string>
+    <string name="font_less">&#xe625;</string>
+    <string name="font_more">&#xe624;</string>
+    <string name="font_wrong">&#xe655;</string>
+    <string name="font_scan_code">&#xe608;</string>
+    <string name="font_search">&#xe603;</string>
+    <string name="font_back">&#xe618;</string>
+
+    <string name="font_chat_add_media">&#xe611;</string>
+    <string name="font_chat_keyboard">&#xe60d;</string>
+    <string name="font_chat_voice">&#xe641;</string>
+    <string name="font_chat_media_photo">&#xe640;</string>
+    <string name="font_chat_media_camera">&#xe63f;</string>
+
+    <string name="font_mine_setting">&#xe60e;</string>
+    <string name="font_favorite">&#xe605;</string>
+    <string name="font_favorited">&#xe62a;</string>
+    <string name="font_announcement">&#xe629;</string>
+    <string name="font_lesson_live_start_notify">&#xe660;</string>
+    <string name="font_login_username">&#xe619;</string>
+    <string name="font_login_password">&#xe616;</string>
+    <string name="font_right_arrow">&#xe66f;</string>
+    <string name="font_shrink_screen">&#xe695;</string>
+    <string name="font_full_screen">&#xe67c;</string>
+
+    <string name="learned_status">&#xe639;</string>
+    <string name="learning_status">&#xe638;</string>
+    <string name="lesson_next">&#xe63b;</string>
+    <string name="lesson_previous">&#xe63a;</string>
+    <string name="lesson_thread">&#xe66a;</string>
+
+    <string name="font_group">&#xe643;</string>
+    <string name="font_service">&#xe60c;</string>
+
+    <string name="font_homework">&#xe659;</string>
+    <string name="font_exercise">&#xe658;</string>
+
+    <string name="catalog_cache">&#xe672;</string>
+    <string name="catalog_lesson_audio">&#xe674;</string>
+    <string name="catalog_lesson_video">&#xe673;</string>
+    <string name="catalog_lesson_testPaper">&#xe680;</string>
+    <string name="catalog_lesson_doucument">&#xe690;</string>
+    <string name="catalog_lesson_live">&#xe691;</string>
+    <string name="catalog_lesson_ppt">&#xe68f;</string>
+    <string name="catalog_lesson_text">&#xe682;</string>
+    <string name="catalog_lesson_flash">&#xe689;</string>
+    <string name="discuss_comment">&#xe698;</string>
+    <string name="discuss_publish">&#xe697;</string>
+    <string name="discuss_close">&#xe671;</string>
+    <string name="cache_course">缓存课程</string>
+    <string name="cache_hint">本地剩余空间不足，无法缓存</string>
+    <string name="unjoin_course_hint">加入课程后才能开始学习</string>
+    <string name="unjoin_class_course_hint">加入班级后才能学习</string>
+    <string name="lesson_loading">课时内容转码中，再给我一点时间吧>_&#060; </string>
+    <string name="lesson_loading_fail">课程获取失败</string>
+    <string name="course_loading_fail">课时获取失败</string>
+    <string name="live_state_finish">已结束</string>
+    <string name="live_state_replay">回放</string>
+    <string name="live_state_ing">直播中</string>
+    <string name="discuss_join_hint">请先加入</string>
+    <string name="discuss_join_look_hint">请先加入学习</string>
+    <string name="discuss_load_data_finish">已加载完</string>
+    <string name="discuss_load_data_success">加载成功</string>
+    <string name="discuss_no_data">还没有问答</string>
+    <string name="discuss_unlogin">还没有登录</string>
+
+    <string name="new_font_share">&#xe6a0;</string>
+    <string name="new_font_back">&#xe668;</string>
+    <string name="new_font_play">&#xe669;</string>
+    <string name="new_font_collect">&#xe66a;</string>
+    <string name="new_font_consult">&#xe696;</string>
+    <string name="new_font_star_grade">&#xe66c;</string>
+    <string name="new_font_unfold">&#xe66d;</string>
+    <string name="new_font_fold">&#xe66e;</string>
+    <string name="new_font_more">&#xe66f;</string>
+    <string name="new_font_close">&#xe671;</string>
+    <string name="new_font_cache">&#xe672;</string>
+    <string name="new_font_video">&#xe673;</string>
+    <string name="new_font_audio">&#xe674;</string>
+    <string name="new_font_more_oper">&#xe678;</string>
+    <string name="new_font_grade">&#xe69f;</string>
+    <string name="new_font_collected">&#xe679;</string>
+
+    <string name="title_news">动态</string>
+    <string name="title_find">发现</string>
+    <string name="title_friends">校友</string>
+    <string name="title_mine">我</string>
+
+    <string name="exercise">练习</string>
+    <string name="homework">作业</string>
+
+    <string name="select_all">全选</string>
+    <string name="select_all_cancel">取消</string>
+    <string name="download_finish">已缓存</string>
+    <string name="downloading">正在缓存</string>
+    <string name="wait_download">等待缓存</string>
+
+    <string name="app_exit_msg">再按一次退出应用</string>
+    <string name="hand_press_and_speak">按住说话</string>
+    <string name="hand_up_and_end">松开结束</string>
+    <string name="hand_move_up_and_send_cancel">手指上滑，取消发送</string>
+    <string name="hand_up_and_exit">手指松开，取消发送</string>
+    <string name="audio_length_too_short">录音时间太短</string>
+    <string name="news_empty_text">暂无动态消息哦~</string>
+    <string name="announcement_empty_text">暂无公告消息哦~</string>
+
+    <string name="app_id">wx91c11946311906a3</string>
+    <!-- 网校提示字符 -->
+    <string name="testpaper_reviewing">请耐心等待老师批阅，老师批阅后可查看全部考试结果</string>
+    <string name="course_no_teacher">该课程尚未设置教师</string>
+    <string name="course_no_review">还没有评价哦~</string>
+    <string name="course_expired">该课时已过期</string>
+    <string name="app_code">edusohov3</string>
+
+    <string name="show_live_in_school_room">0</string>
+
+    <string name="mine_open">Open navigation mine</string>
+    <string name="mine_close">Close navigation mine</string>
+
+    <string-array name="mine_items">
+        <item>我的学习</item>
+        <item>我的收藏</item>
+        <item>我发表的</item>
+        <item>设置</item>
+    </string-array>
+
+    <string-array name="exitcourse_array">
+        <item>老师服务态度不好</item>
+        <item>课程内容质量差</item>
+        <item>其他</item>
+    </string-array>
+
+    <string-array name="offline_array">
+        <item>仅wifi</item>
+        <item>仅wifi,3G/4G</item>
+        <item>从不</item>
+    </string-array>
+
+    <string-array name="mediacoder_array">
+        <item>软件解码</item>
+        <item>硬件解码</item>
+    </string-array>
+
+    <string name="mine_items_learn">我的学习</string>
+    <string name="mine_items_download">课程缓存</string>
+    <string name="mine_items_buy_vip">开通会员</string>
+    <string name="mine_items_collection">我的收藏</string>
+    <string name="mine_items_setting">我的设置</string>
+    <string name="mine_items_question">我的问答</string>
+    <string name="lesson_cache">缓存课时</string>
+
+    <string name="qr_search_notice">将二维码放入框内，即可自动扫描</string>
+
+    <!-- ChatSelect -->
+    <string name="chat_select_label">最近聊天</string>
+    <string name="chat_select_create">创建新聊天</string>
+    <string name="group_select_create">选择讨论组</string>
+
+    <!-- error notice -->
+    <string name="token_lose_notice">账号登录失效，或已在别处登录\n请重新登录</string>
+    <string name="find_card_student_num"> 人参与</string>
+
+    <string name="label_classroom">班级</string>
+    <string name="label_course">课程</string>
+    <string name="label_teacher">教师</string>
+
+    <string name="register_cancel">取消</string>
+
+    <!-- lesson -->
+    <string name="lesson_not_exist">课时信息不存在</string>
+    <string name="lesson_unexit">课程不存在</string>
+    <string name="lesson_join_confirm">确定</string>
+    <string name="lesson_join_cancel">取消</string>
+    <string name="lesson_join_hint">提醒</string>
+    <string name="lesson_quit_fail">退出失败</string>
+    <string name="lesson_has_past_hint">课程已过期，是否重新加入?</string>
+    <string name="lesson_had_reached_hint">该课时学习时长已达上限</string>
+    <string name="lesson_no_teacher">课程目前没有老师</string>
+
+    <!-- download -->
+    <string name="no_lesson_cache">暂无缓存</string>
+    <string name="no_study_record">暂无学习</string>
+    <string name="no_collection_record">暂无收藏</string>
+    <string name="no_question_record">暂无回答</string>
+    <string name="download_no_complete_lesson">没有已缓存的课时</string>
+    <string name="download_no_task">没有课时下载任务</string>
+    <string name="download_no_network">网络不太好,不能继续下载</string>
+    <string name="download_size_label">&#xe672;</string>
+    <string name="download_size_cached">已缓存%d课</string>
+    <string name="download_size_course_source">来自班级 | </string>
+    <string name="download_course_expird">课程已过期,请重新加入后学习</string>
+    <string name="download_course_expird_timeout">课程已过期,请续费后继续学习</string>
+    <string name="delete_classroom">退出班级将删除该班级下所有离线缓存内容?</string>
+    <string name="delete_course">退出课程将删除该课程下所有离线缓存内容?</string>
+
+    <!-- video -->
+    <string name="video_no_meidaurl">多媒体资源不能播放!</string>
+    <string name="video_replay_title">直播回看</string>
+    <string name="lesson_living">直播中</string>
+    <string name="no_add_course">还没有添加课时</string>
+    <string name="no_add_class">还没有添加班级</string>
+
+    <string name="filter_type_latest">最近</string>
+    <string name="filter_type_course">课程</string>
+    <string name="filter_type_live">直播</string>
+    <string name="filter_type_classroom">班级</string>
+    <string name="question_post">发起</string>
+    <string name="question_answer">回复</string>
+    <string name="classroom_teacher_txt">班主任</string>
+
+</resources>

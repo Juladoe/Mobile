@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.soooner.EplayerPluginLibary"
+    android:versionCode="1"
+    android:versionName="1.0.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.soooner.EplayerPluginLibary.LivePlayerActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.soooner.EplayerPluginLibary.EplayerPluginActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:process=":live"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.soooner.EplayerPluginLibary.EplayerPluginPadActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:process=":live"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustResize" />
+    </application>
+
+</manifest>

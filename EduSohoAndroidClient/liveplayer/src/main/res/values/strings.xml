@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">livePlayer</string>
+    <string name="live_buffering">正在获取直播...</string>
+    <string name="live_chat_load">正在加载聊天群信息...</string>
+    <string name="live_uri_error">直播地址不正确</string>
+    <string name="live_no_start">直播尚未开始</string>
+    <string name="live_no_pause">休息时间</string>
+    <string name="live_end">直播已结束</string>
+    <string name="live_load_error">加载失败,请点击重试</string>
+
+    <string name="live_notice_empty">还未发布过公告</string>
+    <string name="live_notice_title">公告</string>
+</resources>

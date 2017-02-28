@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/disabled1_hint_color"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/catelog_chapter_height"
+    android:paddingLeft="@dimen/catalog_margin_left"
+    android:gravity="center_vertical"
+    android:minHeight="@dimen/catelog_chapter_height" >
+
+    <TextView
+        android:id="@+id/chapter_title"
+        android:text="第一章   构图和色彩的融合"
+        android:textColor="@color/primary_font_color"
+        android:textSize="@dimen/font_m"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

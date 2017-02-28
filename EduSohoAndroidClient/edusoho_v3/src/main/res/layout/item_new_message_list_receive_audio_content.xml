@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:paddingTop="@dimen/common_maring0"
+    android:paddingBottom="@dimen/common_maring0"
+    android:paddingRight="@dimen/common_height_xl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/tv_avatar"
+        android:layout_width="@dimen/common_dimen_xl"
+        android:layout_height="@dimen/common_dimen_xl"
+        android:layout_marginLeft="@dimen/common_maring0"
+        android:layout_marginRight="@dimen/common_marginl"
+        android:scaleType="centerCrop"
+        app:riv_oval="true"/>
+    <TextView
+        android:id="@+id/tv_nickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tv_avatar"
+        android:layout_marginLeft="@dimen/common_marginl"
+        android:text="测试中"
+        android:textSize="@dimen/font_s"
+        android:textColor="@color/secondary_font_color"/>
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="显示时间"
+        android:textSize="@dimen/font_xxs"
+        android:textColor="@color/secondary2_font_color"
+        android:layout_toRightOf="@id/tv_avatar"
+        android:layout_marginLeft="@dimen/common_marginl"
+        android:layout_alignBottom="@id/tv_avatar"/>
+
+    <LinearLayout
+        android:clickable="true"
+        android:id="@+id/tv_container"
+        android:layout_below="@+id/tv_time"
+        android:layout_alignLeft="@id/tv_time"
+        android:layout_toRightOf="@id/tv_avatar"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/common_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_voice_play_anim"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:background="@drawable/chat_text_from_layout"
+            android:minWidth="80dp"
+            android:layout_gravity="center_vertical"
+            android:scaleType="fitStart"
+            android:src="@drawable/chat_from_speak_voice" />
+
+        <TextView
+            android:id="@+id/tv_audio_length"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:padding="6dp"
+            android:textColor="@color/grey_666666"
+            android:textSize="@dimen/x_small_font_size" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/tv_unread_view"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:layout_alignTop="@id/tv_container"
+        android:layout_marginLeft="6dp"
+        android:layout_toRightOf="@id/tv_container"
+        android:src="@drawable/message_unread_tag"
+        android:visibility="gone" />
+
+    <com.edusoho.kuozhi.imserver.ui.view.MessageStatusView
+        android:id="@+id/tv_error_status"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:paddingTop="0dp"
+        android:paddingBottom="12dp"
+        android:paddingRight="0dp"
+        android:paddingLeft="12dp"
+        android:layout_alignTop="@id/tv_container"
+        android:layout_toRightOf="@id/tv_container"
+        android:clickable="true"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+
+</RelativeLayout>

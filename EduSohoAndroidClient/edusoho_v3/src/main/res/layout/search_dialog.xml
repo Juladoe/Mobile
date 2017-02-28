@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="@color/base_gray"
+        >
+
+        <EditText
+            android:layout_weight="1"
+            android:id="@+id/search_dialog_frame"
+            android:hint="搜索昵称/手机/QQ号"
+            android:singleLine="true"
+            android:background="@drawable/search_friend_bg"
+            android:textColor="@color/gray"
+            android:textSize="14sp"
+            android:drawableLeft="@drawable/icon_edittext_search"
+            android:drawablePadding="8dp"
+            android:imeOptions="actionSearch"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:gravity="center_vertical"
+            />
+
+        <TextView
+            android:layout_weight="5"
+            android:id="@+id/cancel_search_btn"
+            android:text="取消"
+            android:gravity="center"
+            android:textColor="@color/material_green"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            />
+
+        </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/material_grey"
+        />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/search_friend_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@null">
+
+            </ListView>
+
+            <TextView
+                android:id="@+id/search_friend_empty"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="未能搜索到相关用户"
+                android:textSize="18sp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/search_friend_loading"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:visibility="gone">
+
+            <ProgressBar
+                android:layout_width="@dimen/xxx_large_font_size"
+                android:layout_height="@dimen/xxx_large_font_size"
+                android:layout_gravity="center"
+
+                android:indeterminateDrawable="@drawable/load" />
+
+        </FrameLayout>
+
+        </FrameLayout>
+
+
+</LinearLayout>

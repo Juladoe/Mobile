@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ViewStub xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/homework_material_stem"
+    android:layout="@layout/homework_material_stem_view"
+    android:layout_width="match_parent"
+    android:inflatedId="@id/homework_material_stem"
+    android:layout_height="wrap_content" />

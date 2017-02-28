@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@color/image_view_bg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/images_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/viewpager_index_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"></LinearLayout>
+
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:id="@+id/enter_sch_btn"
+        android:clickable="true"
+        android:layout_alignParentRight="true"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:textColor="@color/enter_sch"
+        android:background="@color/splash_ok_bg"
+        android:gravity="center"
+        android:textSize="@dimen/enter_sch_size"
+        android:text="进入网校"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@drawable/question_analysis_bg"
+    android:layout_height="wrap_content">
+
+    <com.edusoho.kuozhi.v3.view.EduSohoTextBtn
+        android:padding="9dp"
+        android:orientation="vertical"
+        app:iconSizeScale="2.4"
+        android:id="@+id/question_favorite"
+        android:layout_alignParentRight="true"
+        app:fontColor="@color/base_black_normal"
+        app:size="@dimen/nav_layout_btn"
+        app:image="@string/font_favorite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:padding="9dp"
+        android:layout_toLeftOf="@id/question_favorite"
+        android:id="@+id/question_my_anwer"
+        android:text="你的答案:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_toLeftOf="@id/question_favorite"
+        android:padding="9dp"
+        android:layout_below="@id/question_my_anwer"
+        android:id="@+id/question_right_anwer"
+        android:text="正确答案:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:padding="6dp"
+        android:layout_margin="9dp"
+        android:visibility="gone"
+        android:background="@drawable/card_bg"
+        android:layout_below="@id/question_right_anwer"
+        android:id="@+id/question_read_label"
+        android:text="老师正在批阅"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_below="@id/question_read_label"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:background="@drawable/question_analysis_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:padding="9dp"
+            android:textColor="@color/testpaper_result_analysis"
+            android:id="@+id/question_analysis_label"
+            android:text="解析"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:padding="9dp"
+            android:id="@+id/question_analysis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</RelativeLayout>

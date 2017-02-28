@@ -1,0 +1,326 @@
+[
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\emotion_rb.gif",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\emotion_rb.gif"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\emotion_ll.gif",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\emotion_ll.gif"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\emotion_kb.gif",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\emotion_kb.gif"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\brow_nh.gif",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\brow_nh.gif"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\freepen_ex.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\freepen_ex.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\brow_zj.gif",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\brow_zj.gif"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\emotion_yun.gif",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\emotion_yun.gif"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable\\abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\selector_checkbox.xml",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\selector_checkbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\vote_progress_style_green.xml",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\vote_progress_style_green.xml"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable\\abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\as2.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\as2.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\brow_fd.gif",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\brow_fd.gif"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\emotion_qd.gif",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\emotion_qd.gif"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ic_pulltorefresh_arrow.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\ic_pulltorefresh_arrow.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\selector_vote_btn_commit.xml",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\selector_vote_btn_commit.xml"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\selector_ly_pop.xml",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\selector_ly_pop.xml"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\loading_x60.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\loading_x60.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\brow_gx.gif",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\brow_gx.gif"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\selector_chat_select_switch.xml",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\selector_chat_select_switch.xml"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\selector_chat_select_self_switch.xml",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\selector_chat_select_self_switch.xml"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\brow_zt.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\brow_zt.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\emotion_jk.gif",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\emotion_jk.gif"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\brow_sx.gif",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\brow_sx.gif"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\vote_result_gray.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\vote_result_gray.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\emotion_kl.gif",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\emotion_kl.gif"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\brow_tml.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\brow_tml.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\emotion_gz.gif",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\emotion_gz.gif"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\brow_yw.gif",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\brow_yw.gif"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\selector_radio.xml",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\selector_radio.xml"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\emotion_hx.gif",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\emotion_hx.gif"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable\\abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\emotion_se.gif",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\emotion_se.gif"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\vote_progress_style_blue.xml",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\vote_progress_style_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\emotion_xu.gif",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\emotion_xu.gif"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\brow_gz.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\brow_gz.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\pop_right_bg.9.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\pop_right_bg.9.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\brow_xh.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\brow_xh.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\brow_bs.gif",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\brow_bs.gif"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\as4.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\as4.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\emotion_jy.gif",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\emotion_jy.gif"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\vote_result_blue.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\vote_result_blue.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\gs_qa_dash.xml",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\gs_qa_dash.xml"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\brow_dx.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\brow_dx.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\selector_vote_select_switch.xml",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\selector_vote_select_switch.xml"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\anno_pointer.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\anno_pointer.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\anno_arrow.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\anno_arrow.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\brow_wl.gif",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\brow_wl.gif"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\emotion_qq.gif",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\emotion_qq.gif"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\emotion_tx.gif",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\emotion_tx.gif"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\vote_result_green.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\vote_result_green.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\loading_progressbar.xml",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\loading_progressbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\brow_lh.gif",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\brow_lh.gif"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\emotion_qh.gif",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\emotion_qh.gif"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\brow_fn.gif",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\brow_fn.gif"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\as3.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\as3.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\as1.jpg",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\as1.jpg"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\emotion_fd.gif",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\emotion_fd.gif"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\emotion_gg.gif",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\emotion_gg.gif"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\brow_lw.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\brow_lw.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\imga.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\imga.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\emotion_bz.gif",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\emotion_bz.gif"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\brow_tkl.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\brow_tkl.png"
+    },
+    {
+        "merged": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\brow_zdsk.png",
+        "source": "C:\\Users\\DF\\Desktop\\edusohomobile\\EduSohoAndroidClient\\genseelib\\build\\intermediates\\bundles\\debug\\res\\drawable\\brow_zdsk.png"
+    }
+]

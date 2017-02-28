@@ -1,0 +1,38 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.edusoho.kuozhi.imserver">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="false"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+
+        <receiver android:name=".broadcast.IMBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.edusoho.kuozhi.push.action.IM_MESSAGE"/>
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".ImService"
+            android:process=":imserver">
+            <intent-filter>
+                <!--  指定调用AIDL服务的ID  -->
+                <action android:name="com.edusoho.kuozhi.imserver.IImServerAidlInterface"/>
+            </intent-filter>
+        </service>
+
+        <service
+            android:name=".MemIMService"
+            android:process=":im_mem_server">
+            <intent-filter>
+                <!--  指定调用AIDL服务的ID  -->
+                <action android:name="com.edusoho.kuozhi.imserver.IImMemServerAidlInterface"/>
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

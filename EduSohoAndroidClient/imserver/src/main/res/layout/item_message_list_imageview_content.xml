@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.edusoho.kuozhi.imserver.ui.view.ChatImageView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/iv_msg_image"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:maxHeight="150dp"
+    android:maxWidth="150dp"
+    android:minHeight="48dp"
+    android:minWidth="48dp"
+    android:layout_toLeftOf="@+id/ci_send_pic"
+    android:scaleType="fitCenter" />

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="8dp"
+    android:paddingRight="16dp"
+    android:paddingTop="8dp">
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/message_time_bg"
+        android:clickable="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/x_small_font_size"
+        android:visibility="visible" />
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        app:riv_corner_radius="5dp"
+        android:id="@+id/tv_avatar"
+        android:layout_width="@dimen/head_icon_medium"
+        android:layout_height="@dimen/head_icon_medium"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tv_time"
+        android:layout_marginLeft="8dp"
+        android:clickable="true"
+        android:src="@drawable/default_avatar" />
+
+    <LinearLayout
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="3dp"
+        android:gravity="center_vertical"
+        android:id="@+id/ll_nickname_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_time"
+        android:layout_toLeftOf="@id/tv_avatar">
+
+        <TextView
+            android:visibility="visible"
+            android:id="@+id/tv_role_label"
+            android:layout_width="wrap_content"
+            android:layout_height="12dp"
+            android:layout_marginRight="7dp"
+            android:background="@drawable/chat_role_label_bg"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/live_role_label" />
+
+        <TextView
+            android:id="@+id/tv_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:lineSpacingExtra="0dp"
+            android:text="nickname"
+            android:textColor="@color/live_role_nickname"
+            android:textSize="@dimen/live_role_nickname"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/tv_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_nickname_layout"
+        android:layout_toLeftOf="@id/tv_avatar"
+        android:clickable="true">
+
+        <TextView
+            android:id="@+id/tv_send_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/chat_text_to_press"
+            android:gravity="left|center_vertical"
+            android:lineSpacingExtra="1dp"
+            android:lineSpacingMultiplier="1.1"
+            android:maxWidth="250dip"
+            android:textColor="@color/white"
+            android:textSize="@dimen/x_small_font_size" />
+    </FrameLayout>
+
+    <com.edusoho.kuozhi.imserver.ui.view.MessageStatusView
+        android:id="@+id/tv_error_status"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignTop="@id/tv_container"
+        android:layout_toLeftOf="@id/tv_container"
+        android:clickable="true"
+        android:paddingBottom="12dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="12dp"
+        android:paddingTop="0dp"
+        android:scaleType="centerCrop"
+        android:visibility="gone" />
+
+</RelativeLayout>

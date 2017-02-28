@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+                android:layout_width="fill_parent"
+                android:layout_height="56dp"
+                android:background="@color/eplayer_title_bg"
+        >
+
+    <LinearLayout android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="5dp"
+                  android:layout_marginLeft="@dimen/title_margin_left_right"
+                  android:layout_centerVertical="true"
+                  android:layout_alignParentLeft="true"
+                  android:id="@+id/li_top_title_left">
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@drawable/eplay_title_left"
+              android:id="@+id/top_title_left"
+            />
+    </LinearLayout>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentRight="true"
+              android:layout_marginRight="@dimen/title_margin_left_right"
+              android:layout_centerVertical="true"
+              android:id="@+id/top_title_right"
+              android:text="@string/textview_hint_question"
+              android:textColor="@color/white"
+              android:textSize="@dimen/title1_textsize"
+            />
+
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_centerInParent="true"
+              android:id="@+id/top_title_title"
+              android:text="直播"
+              android:textSize="@dimen/top_textsize"
+              android:textColor="@color/white"
+              android:layout_toRightOf="@id/li_top_title_left"
+              android:layout_toLeftOf="@id/top_title_right"
+              android:singleLine="true"
+              android:layout_marginLeft="15dp"
+              android:layout_marginRight="15dp"
+              android:gravity="center"
+            />
+
+
+</RelativeLayout>
+

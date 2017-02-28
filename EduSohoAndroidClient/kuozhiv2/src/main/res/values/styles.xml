@@ -1,0 +1,9 @@
+<resources>
+    <style name="kuozhiV2StartTheme" parent="EdusohoAppTheme">
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:textColor">@color/system_text</item>
+    </style>
+</resources>

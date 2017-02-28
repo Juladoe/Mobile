@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="homework_stem">#666</color>
+    <color name="homework_fill_edt_hit">#ddd</color>
+    <color name="homework_fill_edt_text">#666</color>
+</resources>

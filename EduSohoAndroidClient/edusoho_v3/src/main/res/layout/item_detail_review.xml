@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <com.edusoho.kuozhi.v3.view.circleImageView.CircularImageView
+            android:id="@+id/iv_review_icon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:scaleType="fitXY"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/icon_default_avatar"
+            />
+
+        <TextView
+            android:id="@+id/tv_review_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/iv_review_icon"
+            android:textSize="@dimen/font_s"
+            android:textColor="@color/secondary_font_color"
+            android:layout_toRightOf="@+id/iv_review_icon"
+            android:layout_marginLeft="10dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_review_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tv_review_name"
+            android:layout_below="@+id/tv_review_name"
+            android:layout_marginTop="7dp"
+            android:textSize="@dimen/font_xxs"
+            android:textColor="@color/secondary2_font_color"
+            />
+
+        <TextView
+            android:id="@+id/tv_review_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tv_review_time"
+            android:layout_below="@+id/tv_review_time"
+            android:layout_marginTop="10dp"
+            android:textSize="@dimen/font_s"
+            android:layout_marginRight="15dp"
+            android:textColor="@color/primary_font_color"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginRight="15dp"
+            android:layout_alignLeft="@+id/tv_review_desc"
+            android:layout_below="@+id/tv_review_desc"
+            android:layout_marginTop="15dp"
+            android:background="@color/disabled_hint_color"
+            />
+
+        <com.edusoho.kuozhi.v3.view.ReviewStarView
+            android:id="@+id/v_review_star"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/tv_review_name"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            />
+</RelativeLayout>

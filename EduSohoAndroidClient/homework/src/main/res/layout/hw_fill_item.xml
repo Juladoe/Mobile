@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.edusoho.kuozhi.homework.view.test.FillHomeworkQuestionWidget xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="28dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="28dp">
+
+        <include layout="@layout/homework_material_stem_include" />
+
+        <TextView
+            android:id="@+id/homework_question_stem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/homework_question_stem"
+            android:lineSpacingMultiplier="1.1"
+            android:textColor="@color/homework_stem" />
+
+        <LinearLayout
+            android:id="@+id/hw_question_fill_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/homework_question_content_top"
+            android:orientation="vertical">
+        </LinearLayout>
+    </LinearLayout>
+
+    <ViewStub
+        android:id="@+id/hw_quetion_analysis"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout="@layout/homework_question_analysis" />
+</com.edusoho.kuozhi.homework.view.test.FillHomeworkQuestionWidget>

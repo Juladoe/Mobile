@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/system_normal_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:gravity="center"
+        android:id="@+id/testpaper_tools_layout"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/course_details_btn_layout_bg"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/testpaper_tool_height">
+
+        <com.edusoho.kuozhi.v3.view.EduSohoButton
+            android:visibility="gone"
+            android:layout_weight="1"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/testpaper_redo_btn"
+            android:padding="10dp"
+            app:borderWidth="0px"
+            app:defaultColor="@color/testpaper_enter_btn_normal"
+            app:focusColor="@color/testpaper_enter_btn_pressed"
+            app:iconPosition="right"
+            app:textSize="@dimen/medium_font_size"
+            app:radius="3dp"
+            app:textStr="重考一次"
+            app:textColor="#FFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.edusoho.kuozhi.v3.view.EduSohoButton
+            android:visibility="gone"
+            android:layout_weight="1"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/testpaper_show_btn"
+            android:padding="10dp"
+            app:borderWidth="0px"
+            app:defaultColor="@color/testpaper_enter_btn_normal"
+            app:focusColor="@color/testpaper_enter_btn_pressed"
+            app:iconPosition="right"
+            app:textSize="@dimen/medium_font_size"
+            app:radius="3dp"
+            app:textStr="查看结果"
+            app:textColor="#FFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.edusoho.kuozhi.v3.view.EduSohoButton
+            android:layout_weight="1"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/testpaper_do_btn"
+            android:padding="10dp"
+            app:borderWidth="0px"
+            app:defaultColor="@color/testpaper_enter_btn_normal"
+            app:focusColor="@color/testpaper_enter_btn_pressed"
+            app:iconPosition="right"
+            app:textSize="@dimen/medium_font_size"
+            app:radius="3dp"
+            app:textStr="进入考试"
+            app:textColor="#FFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <ListView
+        android:layout_marginTop="44dp"
+        android:id="@+id/testpaper_listview"
+        android:layout_above="@id/testpaper_tools_layout"
+        android:dividerHeight="1px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>
